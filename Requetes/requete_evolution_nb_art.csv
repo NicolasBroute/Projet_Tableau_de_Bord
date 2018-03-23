@@ -1,5 +1,5 @@
 Social,2004,1
-cyclone,2009,86
+cyclone,2009,78
 Sports,2014,2
 Societe,2002,2
 innondation,2017,117
@@ -8,10 +8,10 @@ Fiscalite,2016,1
 Achat/Vente,2012,2
 Faits divers,2018,1
 Justice,2017,1
-ouragan,2009,63
-ouragan,2003,45
-Monde,2007,70
 Monde,2001,8
+ouragan,2003,44
+ouragan,2009,57
+Monde,2007,70
 Monde,2015,41
 Politique,2011,1
 L enquete de l Obs,2012,1
@@ -26,33 +26,30 @@ Bien Bien,2015,1
 Politique,2017,6
 L histoire du soir,2017,3
 Assurances,2016,1
-typhon,2011,130
+typhon,2011,125
 Societe,2014,65
 typhon,2005,7
 Societe,2008,3
 Culture,2014,2
-cyclone,2012,217
+cyclone,2012,203
 Justice,2014,2
-ouragan,2012,328
-typhon,2002,16
-typhon,,121
+ouragan,2012,326
+typhon,2002,15
 Economie,2017,2
 tremblement de terre,2005,2
 Politique,2003,1
-NULL,,1
 cyclone,2006,17
 Photo,2013,1
 Economie,2006,3
 inondation,2004,31
 L Amerique selon Trump,2017,13
 innondation,2014,102
-ouragan,2006,29
- NULL,,2
+ouragan,2006,27
 Monde,2004,34
 Logement Social,2015,1
 Si vous avez manque le de,2012,2
-typhon,2014,206
-ouragan,2000,71
+typhon,2014,200
+ouragan,2000,65
 Social,2013,2
 Economie,2014,4
 Logement,2013,2
@@ -61,45 +58,44 @@ seisme,2011,319
 Societe,2005,5
 Les internets,2009,1
 seisme,2005,18
-typhon,2008,75
+typhon,2008,73
 Societe,2011,7
 Politique,2014,1
 Monde,2003,16
 Justice,2015,1
 typhon,2003,7
-ouragan,2015,102
+ouragan,2015,100
 seisme,2014,64
 Monde,2009,35
 Planete,2011,35
-cyclone,2015,307
+cyclone,2015,293
 innondation,2015,80
 Economie,2005,2
 inondation,2005,32
-ouragan,2007,88
+ouragan,2007,85
 Sports,2005,1
 Edito,2017,1
 Nos vies intimes,2017,1
 En moins de 3 minutes,2012,1
 Elections 2007,2007,1
-ouragan,2001,92
+ouragan,2001,87
 Les internets,2016,4
-typhon,2017,117
+typhon,2017,113
 Le 11 Septembre,2011,1
 L histoire du soir,2013,2
 Attentats terroristes a P,2015,2
-Tsunami,2012,1
 ouragan,2018,13
 Societe,2006,3
 Les internets,2010,3
 seisme,2006,38
 Tech,2017,1
-typhon,2009,103
+typhon,2009,95
+innondation,2012,68
 Faits divers,2013,1
 Culture,2016,2
-innondation,2012,68
 Assurances,2014,3
 Chroniques,2017,1
-typhon,2000,12
+typhon,2000,11
 Justice,2012,2
 Sports,2013,4
 seisme,2017,106
@@ -107,13 +103,13 @@ cyclone,2018,48
 innondation,2018,23
 Planete,2014,28
 Brexit,2016,2
-Monde,2000,8
 Monde,2006,38
-ouragan,2004,60
+Monde,2000,8
+ouragan,2004,59
 Planete,2008,6
 Les internets,2013,5
-Planete,2017,86
 Culture,2005,2
+Planete,2017,86
 Monde,2012,111
 Infos Aix-en-Provence,2012,1
 cyclone,2004,5
@@ -130,14 +126,14 @@ Reforme du code du travai,2016,1
 typhon,2006,8
 Societe,2009,5
 seisme,2003,1
-cyclone,2013,218
+cyclone,2013,208
 Faits divers,2014,2
 Sante,2014,1
 ouragan,2013,115
-typhon,2001,36
+typhon,2001,31
 Retrospective 2007,2007,2
-seisme,2012,140
 seisme,2018,9
+seisme,2012,140
 cyclone,2007,6
 Monde,2011,52
 L Amerique selon Trump,2016,1
@@ -146,7 +142,7 @@ inondation,2003,9
 Monde,2005,166
 innondation,2013,121
 Sciences,2017,6
-typhon,2015,182
+typhon,2015,181
 Economie,2007,2
 La presidentielle america,2008,1
 Le reveil politique,2017,2
@@ -162,12 +158,12 @@ Vie urbaine,2016,1
 Societe,2012,4
 Politique,2013,2
 Photo,2017,1
-ouragan,2010,173
+ouragan,2010,166
 Assurances,2012,2
+cyclone,2010,213
 Ne le dis a personne,2017,1
-cyclone,2010,226
 Societe,2001,2
-ouragan,2016,178
+ouragan,2016,177
 seisme,2015,67
 Sante,2017,1
 Planete,2012,13
@@ -176,39 +172,39 @@ Monde,2008,80
 Histoire,2017,1
 innondation,2016,164
 innondation,2010,161
-ouragan,2002,61
+ouragan,2002,57
 Medias,2015,1
 En moins de 3 minutes,2013,1
-cyclone,2016,246
-inondation,2006,37
+cyclone,2016,233
 Si vous avez manque le de,2013,8
+inondation,2006,37
 Presidentielle US 2012,2012,6
 Medias,2012,1
 tremblement de terre,2012,1
-typhon,2012,139
+typhon,2012,137
 Sports,2004,1
-Culture,2007,1
 Les internets,2011,2
+Culture,2007,1
 Planete,2015,2
-typhon,2018,4
 Monde,2014,70
+typhon,2018,3
 Economie,2016,3
 Societe,2015,5
-cyclone,,434
 typhon,2004,23
 Tech,2016,1
 seisme,2016,161
-cyclone,2011,212
-ouragan,2011,157
+cyclone,2011,195
+ouragan,2011,155
 tremblement de terre,2004,1
 L Obs du soir,2015,2
-ouragan,2017,628
+ouragan,2017,626
+Tsunami  un an apres,2012,1
 Monde,1999,1
 Social,2012,2
-cyclone,2017,554
-Faits divers,2012,4
 innondation,2011,121
-ouragan,2005,204
+cyclone,2017,538
+Faits divers,2012,4
+ouragan,2005,194
 L Amerique selon Trump,2018,2
 seisme,2004,4
 tremblement de terre,2013,1
@@ -216,7 +212,7 @@ COP21,2015,7
 Planete,2018,1
 Les internets,2014,1
 Culture,2006,1
-typhon,2013,418
+typhon,2013,413
 Coupe du monde,2014,1
 Sports,2003,2
 Sciences,2015,1
@@ -228,25 +224,25 @@ L histoire du soir,2015,1
 Attaque de Nice,2016,1
 Societe,2016,9
 Le conflit en Ukraine,2014,1
-typhon,2007,15
+typhon,2007,13
 Societe,2010,11
 Le tweet presidentielle a,2012,1
 Infos Paris 14e arrondiss,2012,1
 Municipales 2014,2014,1
 Sports,2015,1
 seisme,2013,122
-ouragan,2014,100
-cyclone,2008,334
+ouragan,2014,97
+cyclone,2008,321
 Monde,2010,71
 Publicite,2017,1
-ouragan,2008,124
+ouragan,2008,117
 Planete,2010,33
-cyclone,2014,259
+cyclone,2014,246
 Monde,2002,8
 Presidentielle 2017,2017,3
 Le Good Morning,2012,3
 Economie,2012,1
-typhon,2016,78
+typhon,2016,76
 Culture,2003,1
 Les internets,2017,1
 Monde,2016,50
@@ -258,7 +254,7 @@ Politique,2006,1
 Marche Immobilier,2012,3
 seisme,2007,4
 tremblement de terre,2010,2
-typhon,2010,75
+typhon,2010,70
 Societe,2013,23
 Societe,2007,13
 Culture,2015,4
