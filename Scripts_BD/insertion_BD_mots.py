@@ -20,9 +20,10 @@ fichier_mots = csv.reader(f, delimiter=',', quotechar='"')
 
 # Pour chaque mot on insère les informations dans la  base de données
 for mot in fichier_mots:
+    a = mot[3].split('_')
+    type_mot = "'" + a[0] + "'"    
     m = "'" + mot[1] + "'"
     entite = "'" + mot[2] + "'"
-    type_mot = "'" + mot[3] + "'"
     cursor.execute("exec dbo.INSERTION_MOTS @pid_mot = " + mot[0] +
                    ", @pmot = " + m + ", @ptype_mot = " + type_mot +
                    ", @pentite = " + entite)
