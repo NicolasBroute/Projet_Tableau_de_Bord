@@ -11,11 +11,11 @@ inondation,2003,9
 ouragan,2004,59
 cyclone,2004,5
 typhon,2004,23
-tremblement de terre,2004,1
-inondation,2004,31
 seisme,2004,4
-ouragan,2005,194
+inondation,2004,31
+tremblement de terre,2004,1
 cyclone,2005,47
+ouragan,2005,194
 tremblement de terre,2005,2
 typhon,2005,7
 seisme,2005,18
@@ -28,8 +28,8 @@ tremblement de terre,2006,4
 typhon,2006,8
 cyclone,2007,6
 ouragan,2007,85
-typhon,2007,13
 seisme,2007,4
+typhon,2007,13
 cyclone,2008,321
 ouragan,2008,117
 typhon,2008,73
@@ -39,50 +39,50 @@ ouragan,2009,57
 tremblement de terre,2009,2
 ouragan,2010,166
 cyclone,2010,213
+inondation,2010,161
 tremblement de terre,2010,2
 typhon,2010,70
 seisme,2010,38
-innondation,2010,161
-innondation,2011,121
-cyclone,2011,195
-ouragan,2011,155
 tremblement de terre,2011,2
 typhon,2011,125
 seisme,2011,319
-cyclone,2012,203
-ouragan,2012,326
-innondation,2012,68
+inondation,2011,121
+cyclone,2011,195
+ouragan,2011,155
 tremblement de terre,2012,1
 typhon,2012,137
 seisme,2012,140
-innondation,2013,121
+cyclone,2012,203
+ouragan,2012,326
+inondation,2012,68
+seisme,2013,122
+inondation,2013,121
 cyclone,2013,208
 ouragan,2013,115
 tremblement de terre,2013,1
 typhon,2013,413
-seisme,2013,122
+inondation,2014,102
+typhon,2014,200
+seisme,2014,64
 ouragan,2014,97
 cyclone,2014,246
-seisme,2014,64
-typhon,2014,200
-innondation,2014,102
 cyclone,2015,293
-innondation,2015,80
 ouragan,2015,100
-typhon,2015,181
 seisme,2015,67
-innondation,2016,164
-cyclone,2016,233
-seisme,2016,161
+inondation,2015,80
+typhon,2015,181
 ouragan,2016,177
+seisme,2016,161
+cyclone,2016,233
+inondation,2016,164
 typhon,2016,76
-cyclone,2017,538
 ouragan,2017,626
-typhon,2017,113
+cyclone,2017,538
 seisme,2017,106
-innondation,2017,117
-cyclone,2018,48
-innondation,2018,23
-ouragan,2018,13
-typhon,2018,3
+typhon,2017,113
+inondation,2017,117
 seisme,2018,9
+typhon,2018,3
+ouragan,2018,13
+cyclone,2018,48
+inondation,2018,23
