@@ -427,4 +427,26 @@ while row:
 name = "requete_correlation_cyclone.csv"
 export_csv(link, name, result)
 
+# Requete 17 : nombre articles par thème et par mois
+cursor.execute("SELECT theme, month(date_article) as Mois, " +
+               "count(id_article) as Nombre_article FROM Articles " +
+               "WHERE theme = 'seisme' or theme = 'ouragan' or theme " +
+               "= 'inondation' or theme = 'tremblement de terre' or " +
+               "theme = 'cyclone' or theme = 'typhon' GROUP BY theme, " +
+               "month(date_article) ORDER BY month(date_article);")
+
+result = []
+row = cursor.fetchone()
+while row:
+    line_result = []
+    line_result.append(row[0])
+    line_result.append(row[1])
+    line_result.append(row[2])
+    result.append(line_result)
+    row = cursor.fetchone()
+
+name = "requete_nb_articles_theme_mois.csv"
+export_csv(link, name, result)
+
+
 conn.close()
