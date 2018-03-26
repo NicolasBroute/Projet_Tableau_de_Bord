@@ -8,7 +8,7 @@ Created on Fri Feb  2 10:43:21 2018
 from bs4 import BeautifulSoup
 import requests
 import re
-import g4_utils_v40 as utils
+import utils_v40 as utils
 import datetime as date
 
 

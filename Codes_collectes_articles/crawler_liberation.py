@@ -6,7 +6,7 @@ Created on Mon Jan 29 15:39:16 2018
 """
 
 import time
-import g4_utils_v40 as utils
+import utils_v40 as utils
 import datetime as date
 from bs4 import BeautifulSoup
 import re
