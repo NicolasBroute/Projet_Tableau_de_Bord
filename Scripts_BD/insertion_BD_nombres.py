@@ -15,10 +15,10 @@ cursor = conn.cursor()
 
 # Ouverture et lecture du fichier csv contenant tous les différents nombres présents dans les articles
 f = open('Fichier_csv_insertion/nombres.csv', 'r', encoding="utf8")
-fichier_nombres = csv.reader(f, delimiter=',', quotechar='"')
+file_numbers = csv.reader(f, delimiter=',', quotechar='"')
 
 # Pour chaque nombre on insère les informations dans la  base de données
-for nb in fichier_nombres:
+for nb in file_numbers:
     if nb[2] == 'km2':
         nb[2] = 'NULL'
     if nb[2] == 'Richter':
