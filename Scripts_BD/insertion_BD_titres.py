@@ -15,14 +15,14 @@ cursor = conn.cursor()
 
 # Ouverture et lecture du fichier csv contenant les mots clés des titres des articles
 f = open('Fichier_csv_insertion/titres.csv', 'r', encoding="utf8")
-fichier_titres = csv.reader(f, delimiter=',', quotechar='"')
+file_titles = csv.reader(f, delimiter=',', quotechar='"')
 
 # Pour chaque mot clé du titre on insère les informations dans la  base de données
-for titre in fichier_titres:
-    cursor.execute("exec dbo.INSERTION_TITRE @pid_titre = " + titre[0] +
-                   ", @pposition_mot = " + titre[1] + ", @pscore_tf_idf = " +
-                   titre[2] + ", @pid_article = " + titre[3] +
-                   ", @pid_mot = " + titre[4] + ", @pid_nombre = " + titre[5])
+for title in file_titles:
+    cursor.execute("exec dbo.INSERTION_TITRE @pid_titre = " + title[0] +
+                   ", @pposition_mot = " + title[1] + ", @pscore_tf_idf = " +
+                   title[2] + ", @pid_article = " + title[3] +
+                   ", @pid_mot = " + title[4] + ", @pid_nombre = " + title[5])
 
     # On enregistre l'ajout de la ligne qu'on vient de faire
     cursor.commit()

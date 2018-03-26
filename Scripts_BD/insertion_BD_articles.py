@@ -38,13 +38,13 @@ for article in file_articles:
     else:
         theme = "'" + article[4] + "'"
     
-    journal = "'" + article[1] + "'"
+    newspaper = "'" + article[1] + "'"
     
     if article[3] == '':
         article[3] = 'NULL'
 
     cursor.execute("exec dbo.INSERTION_ARTICLE @pid_article = " + article[0] +
-                   ", @pjournal = " + journal + ", @pauteur = " +
+                   ", @pjournal = " + newspaper + ", @pauteur = " +
                    author + ", @pdate_article = " + article[3] +
                    ", @ptheme = " + theme)
     # On enregistre l'ajout de la ligne qu'on vient de faire

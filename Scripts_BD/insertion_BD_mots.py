@@ -16,17 +16,17 @@ cursor = conn.cursor()
 # Ouverture et lecture du fichier csv contenant tous les différents mots présents dans les articles
 # (mots qui ont un tf*idf supérieur à un certain score)
 f = open('Fichier_csv_insertion/mots.csv', 'r', encoding="utf8")
-fichier_mots = csv.reader(f, delimiter=',', quotechar='"')
+file_words = csv.reader(f, delimiter=',', quotechar='"')
 
 # Pour chaque mot on insère les informations dans la  base de données
-for mot in fichier_mots:
-    a = mot[3].split('_')
-    type_mot = "'" + a[0] + "'"    
-    m = "'" + mot[1] + "'"
-    entite = "'" + mot[2] + "'"
-    cursor.execute("exec dbo.INSERTION_MOTS @pid_mot = " + mot[0] +
-                   ", @pmot = " + m + ", @ptype_mot = " + type_mot +
-                   ", @pentite = " + entite)
+for word in file_words:
+    a = word[3].split('_')
+    type_word = "'" + a[0] + "'"    
+    m = "'" + word[1] + "'"
+    entity = "'" + word[2] + "'"
+    cursor.execute("exec dbo.INSERTION_MOTS @pid_mot = " + word[0] +
+                   ", @pmot = " + m + ", @ptype_mot = " + type_word +
+                   ", @pentite = " + entity)
 
     # On enregistre l'ajout de la ligne qu'on vient de faire
     cursor.commit()
