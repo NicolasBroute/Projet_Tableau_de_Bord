@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 from unidecode import unidecode
-import g4_utils_v40 as utils
+import utils_v40 as utils
 import time
 
 
