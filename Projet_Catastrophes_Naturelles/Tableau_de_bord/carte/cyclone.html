@@ -1,0 +1,2869 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_6a5bdf91f33644b69415d4e59ce3ff97 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6a5bdf91f33644b69415d4e59ce3ff97" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_6a5bdf91f33644b69415d4e59ce3ff97 = L.map(
+                                  'map_6a5bdf91f33644b69415d4e59ce3ff97',
+                                  {center: [18,0],
+                                  zoom: 3,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_039dbeb8f52b42319043c4dfc26f0b7e = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+        
+    
+            var circle_marker_67d0a1077230409b929d5d209143fd43 = L.circleMarker(
+                [33.93911,67.709953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.3,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_85eea04e4a4f4cdeb589e571067001b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_1427a06663714099b63a264fd0e52d30 = $('<div id="html_1427a06663714099b63a264fd0e52d30" style="width: 100.0%; height: 100.0%;">------------------------------afghanistan----------------------------- -------------- moyenne de morts par cyclone : 1704 -------------- nombre d article paru : 11</div>')[0];
+                popup_85eea04e4a4f4cdeb589e571067001b0.setContent(html_1427a06663714099b63a264fd0e52d30);
+            
+
+            circle_marker_67d0a1077230409b929d5d209143fd43.bindPopup(popup_85eea04e4a4f4cdeb589e571067001b0);
+
+            
+        
+    
+            var circle_marker_86736b0e6e4b4ec7976e7be317987123 = L.circleMarker(
+                [28.033886,1.659626],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7999999999999998,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_877252e21e49446ba51733625ebaa902 = L.popup({maxWidth: '300'});
+
+            
+                var html_732e7aec592445f39529afb299cb293b = $('<div id="html_732e7aec592445f39529afb299cb293b" style="width: 100.0%; height: 100.0%;">------------------------------algerie----------------------------- -------------- moyenne de morts par cyclone : 118 -------------- nombre d article paru : 6</div>')[0];
+                popup_877252e21e49446ba51733625ebaa902.setContent(html_732e7aec592445f39529afb299cb293b);
+            
+
+            circle_marker_86736b0e6e4b4ec7976e7be317987123.bindPopup(popup_877252e21e49446ba51733625ebaa902);
+
+            
+        
+    
+            var circle_marker_ad3991393b8a4ed8bb57d1a6ee6b3897 = L.circleMarker(
+                [51.165691,10.451526],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_54fe2a00321a4802ab91e5e757cc2c89 = L.popup({maxWidth: '300'});
+
+            
+                var html_624ddb2811044b50960ae9578408e637 = $('<div id="html_624ddb2811044b50960ae9578408e637" style="width: 100.0%; height: 100.0%;">------------------------------allemagne----------------------------- -------------- moyenne de morts par cyclone : 1150 -------------- nombre d article paru : 44</div>')[0];
+                popup_54fe2a00321a4802ab91e5e757cc2c89.setContent(html_624ddb2811044b50960ae9578408e637);
+            
+
+            circle_marker_ad3991393b8a4ed8bb57d1a6ee6b3897.bindPopup(popup_54fe2a00321a4802ab91e5e757cc2c89);
+
+            
+        
+    
+            var circle_marker_07eb019a3d19414c921fec4cb4b07691 = L.circleMarker(
+                [-38.416097,-63.616672],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_6355242590d74a919e59110f91b5f3cd = L.popup({maxWidth: '300'});
+
+            
+                var html_93ba91d97aff4fb58436cb0e2b9c8111 = $('<div id="html_93ba91d97aff4fb58436cb0e2b9c8111" style="width: 100.0%; height: 100.0%;">------------------------------argentine----------------------------- -------------- moyenne de morts par cyclone : 287 -------------- nombre d article paru : 2</div>')[0];
+                popup_6355242590d74a919e59110f91b5f3cd.setContent(html_93ba91d97aff4fb58436cb0e2b9c8111);
+            
+
+            circle_marker_07eb019a3d19414c921fec4cb4b07691.bindPopup(popup_6355242590d74a919e59110f91b5f3cd);
+
+            
+        
+    
+            var circle_marker_344f52805e254ef5a20f7e2d9a8942a5 = L.circleMarker(
+                [-25.274398,133.775136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 52.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_98d8f645cc144722abd28e61cfd9d331 = L.popup({maxWidth: '300'});
+
+            
+                var html_1010d7b6a95f431fad0f381e175f0ec9 = $('<div id="html_1010d7b6a95f431fad0f381e175f0ec9" style="width: 100.0%; height: 100.0%;">------------------------------australie----------------------------- -------------- moyenne de morts par cyclone : 1117 -------------- nombre d article paru : 175</div>')[0];
+                popup_98d8f645cc144722abd28e61cfd9d331.setContent(html_1010d7b6a95f431fad0f381e175f0ec9);
+            
+
+            circle_marker_344f52805e254ef5a20f7e2d9a8942a5.bindPopup(popup_98d8f645cc144722abd28e61cfd9d331);
+
+            
+        
+    
+            var circle_marker_a995a3d9b26946d88c38670ac6cd019f = L.circleMarker(
+                [47.516231,14.550072],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.3,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_afac5214f1554128934dcbbe9e464d03 = L.popup({maxWidth: '300'});
+
+            
+                var html_a8a352794e984fb5857e21532d278f04 = $('<div id="html_a8a352794e984fb5857e21532d278f04" style="width: 100.0%; height: 100.0%;">------------------------------autriche----------------------------- -------------- moyenne de morts par cyclone : 30 -------------- nombre d article paru : 1</div>')[0];
+                popup_afac5214f1554128934dcbbe9e464d03.setContent(html_a8a352794e984fb5857e21532d278f04);
+            
+
+            circle_marker_a995a3d9b26946d88c38670ac6cd019f.bindPopup(popup_afac5214f1554128934dcbbe9e464d03);
+
+            
+        
+    
+            var circle_marker_53211e875b9f4eb58e2e42d90f67922e = L.circleMarker(
+                [25.03428,-77.39628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.9,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_c4c9eedb134d43cb960e09761496d91b = L.popup({maxWidth: '300'});
+
+            
+                var html_93213fe6e03f46e5b5ade9de3091dd38 = $('<div id="html_93213fe6e03f46e5b5ade9de3091dd38" style="width: 100.0%; height: 100.0%;">------------------------------bahamas----------------------------- -------------- moyenne de morts par cyclone : 506 -------------- nombre d article paru : 33</div>')[0];
+                popup_c4c9eedb134d43cb960e09761496d91b.setContent(html_93213fe6e03f46e5b5ade9de3091dd38);
+            
+
+            circle_marker_53211e875b9f4eb58e2e42d90f67922e.bindPopup(popup_c4c9eedb134d43cb960e09761496d91b);
+
+            
+        
+    
+            var circle_marker_e80996e7ed764d639ec53128b39064c2 = L.circleMarker(
+                [23.684994,90.356331],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 26.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_77b06541bb704fee99efa8d4f5f45ae8 = L.popup({maxWidth: '300'});
+
+            
+                var html_34811e0cfb4845c4ae6044ab1e38fbf0 = $('<div id="html_34811e0cfb4845c4ae6044ab1e38fbf0" style="width: 100.0%; height: 100.0%;">------------------------------bangladesh----------------------------- -------------- moyenne de morts par cyclone : 2266 -------------- nombre d article paru : 88</div>')[0];
+                popup_77b06541bb704fee99efa8d4f5f45ae8.setContent(html_34811e0cfb4845c4ae6044ab1e38fbf0);
+            
+
+            circle_marker_e80996e7ed764d639ec53128b39064c2.bindPopup(popup_77b06541bb704fee99efa8d4f5f45ae8);
+
+            
+        
+    
+            var circle_marker_8be8e949596b4c8586bb5cfd669b2d21 = L.circleMarker(
+                [50.503887,4.469936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_c2917cfc8c3d4587a213e5318c7dc70a = L.popup({maxWidth: '300'});
+
+            
+                var html_8923c5cc6169493eafa65497e34acac7 = $('<div id="html_8923c5cc6169493eafa65497e34acac7" style="width: 100.0%; height: 100.0%;">------------------------------belgique----------------------------- -------------- moyenne de morts par cyclone : 715 -------------- nombre d article paru : 8</div>')[0];
+                popup_c2917cfc8c3d4587a213e5318c7dc70a.setContent(html_8923c5cc6169493eafa65497e34acac7);
+            
+
+            circle_marker_8be8e949596b4c8586bb5cfd669b2d21.bindPopup(popup_c2917cfc8c3d4587a213e5318c7dc70a);
+
+            
+        
+    
+            var circle_marker_8f8d6fc50f1b44c1bcd071248a0f72bd = L.circleMarker(
+                [32.321384,-64.75737],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.8,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_53fc1e21537f4f90a08fe2831e156a83 = L.popup({maxWidth: '300'});
+
+            
+                var html_6dc86b1e403c404eb9233f0bfb9dcc1f = $('<div id="html_6dc86b1e403c404eb9233f0bfb9dcc1f" style="width: 100.0%; height: 100.0%;">------------------------------bermudes----------------------------- -------------- moyenne de morts par cyclone : 235 -------------- nombre d article paru : 16</div>')[0];
+                popup_53fc1e21537f4f90a08fe2831e156a83.setContent(html_6dc86b1e403c404eb9233f0bfb9dcc1f);
+            
+
+            circle_marker_8f8d6fc50f1b44c1bcd071248a0f72bd.bindPopup(popup_53fc1e21537f4f90a08fe2831e156a83);
+
+            
+        
+    
+            var circle_marker_460bdc4324534fe8ba98d622184a77f5 = L.circleMarker(
+                [-14.235004,-51.92528],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.1,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_c32af49261594335a1d0897a9726e907 = L.popup({maxWidth: '300'});
+
+            
+                var html_cdc09e448a79442e9f11f70ddbb25763 = $('<div id="html_cdc09e448a79442e9f11f70ddbb25763" style="width: 100.0%; height: 100.0%;">------------------------------bresil----------------------------- -------------- moyenne de morts par cyclone : 167 -------------- nombre d article paru : 17</div>')[0];
+                popup_c32af49261594335a1d0897a9726e907.setContent(html_cdc09e448a79442e9f11f70ddbb25763);
+            
+
+            circle_marker_460bdc4324534fe8ba98d622184a77f5.bindPopup(popup_c32af49261594335a1d0897a9726e907);
+
+            
+        
+    
+            var circle_marker_3297df6aff9d4904ad580e74c17af3b7 = L.circleMarker(
+                [12.565679,104.990963],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_b9127e7b4d784f84ba812e2b4680822c = L.popup({maxWidth: '300'});
+
+            
+                var html_5fe2ed473bee4e169fb0d922fcae8aaa = $('<div id="html_5fe2ed473bee4e169fb0d922fcae8aaa" style="width: 100.0%; height: 100.0%;">------------------------------cambodge----------------------------- -------------- moyenne de morts par cyclone : 191 -------------- nombre d article paru : 4</div>')[0];
+                popup_b9127e7b4d784f84ba812e2b4680822c.setContent(html_5fe2ed473bee4e169fb0d922fcae8aaa);
+            
+
+            circle_marker_3297df6aff9d4904ad580e74c17af3b7.bindPopup(popup_b9127e7b4d784f84ba812e2b4680822c);
+
+            
+        
+    
+            var circle_marker_e684ab92f75248ac8e9ab9db80131bcc = L.circleMarker(
+                [56.130366,-106.346771],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.299999999999999,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_2ef4542d4e7a470e994409272fce056a = L.popup({maxWidth: '300'});
+
+            
+                var html_584be66527d74799a58069b793ca9e3c = $('<div id="html_584be66527d74799a58069b793ca9e3c" style="width: 100.0%; height: 100.0%;">------------------------------canada----------------------------- -------------- moyenne de morts par cyclone : 931 -------------- nombre d article paru : 51</div>')[0];
+                popup_2ef4542d4e7a470e994409272fce056a.setContent(html_584be66527d74799a58069b793ca9e3c);
+            
+
+            circle_marker_e684ab92f75248ac8e9ab9db80131bcc.bindPopup(popup_2ef4542d4e7a470e994409272fce056a);
+
+            
+        
+    
+            var circle_marker_2a338d5426e647b890814ee0d5fd6e49 = L.circleMarker(
+                [-35.675147,-71.542969],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_482f66fbdb864c25a9f43f3c775766cb = L.popup({maxWidth: '300'});
+
+            
+                var html_350e58ca5f354af283750d59a05548a6 = $('<div id="html_350e58ca5f354af283750d59a05548a6" style="width: 100.0%; height: 100.0%;">------------------------------chili----------------------------- -------------- moyenne de morts par cyclone : 444 -------------- nombre d article paru : 5</div>')[0];
+                popup_482f66fbdb864c25a9f43f3c775766cb.setContent(html_350e58ca5f354af283750d59a05548a6);
+            
+
+            circle_marker_2a338d5426e647b890814ee0d5fd6e49.bindPopup(popup_482f66fbdb864c25a9f43f3c775766cb);
+
+            
+        
+    
+            var circle_marker_17db72d6186a44de9780212afcd3d5ba = L.circleMarker(
+                [35.86166,104.195397],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 32.1,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_4ac2264ec1554a5eb24ec170bd65e2f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_c22d291719734bb6a342687741a30dbe = $('<div id="html_c22d291719734bb6a342687741a30dbe" style="width: 100.0%; height: 100.0%;">------------------------------chine----------------------------- -------------- moyenne de morts par cyclone : 1029 -------------- nombre d article paru : 107</div>')[0];
+                popup_4ac2264ec1554a5eb24ec170bd65e2f3.setContent(html_c22d291719734bb6a342687741a30dbe);
+            
+
+            circle_marker_17db72d6186a44de9780212afcd3d5ba.bindPopup(popup_4ac2264ec1554a5eb24ec170bd65e2f3);
+
+            
+        
+    
+            var circle_marker_5f1b9468d5074f1b824de69eb03df230 = L.circleMarker(
+                [4.570868,-74.297333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.5999999999999996,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_13beaa5f5a0e45ef8da35297868f2554 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea158ad458e648c5955973fb474e0808 = $('<div id="html_ea158ad458e648c5955973fb474e0808" style="width: 100.0%; height: 100.0%;">------------------------------colombie----------------------------- -------------- moyenne de morts par cyclone : 4834 -------------- nombre d article paru : 12</div>')[0];
+                popup_13beaa5f5a0e45ef8da35297868f2554.setContent(html_ea158ad458e648c5955973fb474e0808);
+            
+
+            circle_marker_5f1b9468d5074f1b824de69eb03df230.bindPopup(popup_13beaa5f5a0e45ef8da35297868f2554);
+
+            
+        
+    
+            var circle_marker_557999f649174b05a69a0a590adbe763 = L.circleMarker(
+                [21.521757,-77.781167],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18.9,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_ee41849c2c9341369544abc5b2d7710d = L.popup({maxWidth: '300'});
+
+            
+                var html_9fb3090c38eb4d0095747e2f3786c384 = $('<div id="html_9fb3090c38eb4d0095747e2f3786c384" style="width: 100.0%; height: 100.0%;">------------------------------cuba----------------------------- -------------- moyenne de morts par cyclone : 872 -------------- nombre d article paru : 63</div>')[0];
+                popup_ee41849c2c9341369544abc5b2d7710d.setContent(html_9fb3090c38eb4d0095747e2f3786c384);
+            
+
+            circle_marker_557999f649174b05a69a0a590adbe763.bindPopup(popup_ee41849c2c9341369544abc5b2d7710d);
+
+            
+        
+    
+            var circle_marker_0b42f286b2194ac89334d70b333bd61f = L.circleMarker(
+                [15.414999,-61.370976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_f2172f4d57894c298f18857f568a97f2 = L.popup({maxWidth: '300'});
+
+            
+                var html_2bd67ae3a79f4e2a94de5c1bdd5e0864 = $('<div id="html_2bd67ae3a79f4e2a94de5c1bdd5e0864" style="width: 100.0%; height: 100.0%;">------------------------------dominique----------------------------- -------------- moyenne de morts par cyclone : 527 -------------- nombre d article paru : 30</div>')[0];
+                popup_f2172f4d57894c298f18857f568a97f2.setContent(html_2bd67ae3a79f4e2a94de5c1bdd5e0864);
+            
+
+            circle_marker_0b42f286b2194ac89334d70b333bd61f.bindPopup(popup_f2172f4d57894c298f18857f568a97f2);
+
+            
+        
+    
+            var circle_marker_08c30962a9cc4986bcc5cbd6f23962dd = L.circleMarker(
+                [26.820553,30.802498],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.1,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_325fa56281834680b83835d06f01bd2c = L.popup({maxWidth: '300'});
+
+            
+                var html_96fdda38f55c4893a2e78d7fa3aea336 = $('<div id="html_96fdda38f55c4893a2e78d7fa3aea336" style="width: 100.0%; height: 100.0%;">------------------------------egypte----------------------------- -------------- moyenne de morts par cyclone : 188 -------------- nombre d article paru : 7</div>')[0];
+                popup_325fa56281834680b83835d06f01bd2c.setContent(html_96fdda38f55c4893a2e78d7fa3aea336);
+            
+
+            circle_marker_08c30962a9cc4986bcc5cbd6f23962dd.bindPopup(popup_325fa56281834680b83835d06f01bd2c);
+
+            
+        
+    
+            var circle_marker_ab396eb85751466699d0691df101638c = L.circleMarker(
+                [-1.831239,-78.183406],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7999999999999998,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_f65aac74e388476d841fe4acbe42db2a = L.popup({maxWidth: '300'});
+
+            
+                var html_c7ec135aa9a3457c8b8633275bb3ffe9 = $('<div id="html_c7ec135aa9a3457c8b8633275bb3ffe9" style="width: 100.0%; height: 100.0%;">------------------------------equateur----------------------------- -------------- moyenne de morts par cyclone : 2210 -------------- nombre d article paru : 6</div>')[0];
+                popup_f65aac74e388476d841fe4acbe42db2a.setContent(html_c7ec135aa9a3457c8b8633275bb3ffe9);
+            
+
+            circle_marker_ab396eb85751466699d0691df101638c.bindPopup(popup_f65aac74e388476d841fe4acbe42db2a);
+
+            
+        
+    
+            var circle_marker_c57b8c6d6d374a4db0fcb22322b43266 = L.circleMarker(
+                [40.463667,-3.74922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_072e8cd5f2154790a48301382a7f4f9c = L.popup({maxWidth: '300'});
+
+            
+                var html_afdb8e0d13e043bbb1ecd8ce2cbde66a = $('<div id="html_afdb8e0d13e043bbb1ecd8ce2cbde66a" style="width: 100.0%; height: 100.0%;">------------------------------espagne----------------------------- -------------- moyenne de morts par cyclone : 1120 -------------- nombre d article paru : 35</div>')[0];
+                popup_072e8cd5f2154790a48301382a7f4f9c.setContent(html_afdb8e0d13e043bbb1ecd8ce2cbde66a);
+            
+
+            circle_marker_c57b8c6d6d374a4db0fcb22322b43266.bindPopup(popup_072e8cd5f2154790a48301382a7f4f9c);
+
+            
+        
+    
+            var circle_marker_28dd6ab9bcc14e069af24e7554d0b257 = L.circleMarker(
+                [37.09024,-95.712891],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 97.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_9ee060950ee94fe4a1c389acc6de7e62 = L.popup({maxWidth: '300'});
+
+            
+                var html_3ede6f9534a148c2a8c7ca7889ece65d = $('<div id="html_3ede6f9534a148c2a8c7ca7889ece65d" style="width: 100.0%; height: 100.0%;">------------------------------etatsunis----------------------------- -------------- moyenne de morts par cyclone : 1365 -------------- nombre d article paru : 325</div>')[0];
+                popup_9ee060950ee94fe4a1c389acc6de7e62.setContent(html_3ede6f9534a148c2a8c7ca7889ece65d);
+            
+
+            circle_marker_28dd6ab9bcc14e069af24e7554d0b257.bindPopup(popup_9ee060950ee94fe4a1c389acc6de7e62);
+
+            
+        
+    
+            var circle_marker_5dda7bb0879749e2b645e63477e2b2af = L.circleMarker(
+                [-16.578193,179.414413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14.7,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_d3e4afa3872a404d9a8df91a2fe06386 = L.popup({maxWidth: '300'});
+
+            
+                var html_e0fd794863474daeadc1cca261110d1f = $('<div id="html_e0fd794863474daeadc1cca261110d1f" style="width: 100.0%; height: 100.0%;">------------------------------fidji----------------------------- -------------- moyenne de morts par cyclone : 960 -------------- nombre d article paru : 49</div>')[0];
+                popup_d3e4afa3872a404d9a8df91a2fe06386.setContent(html_e0fd794863474daeadc1cca261110d1f);
+            
+
+            circle_marker_5dda7bb0879749e2b645e63477e2b2af.bindPopup(popup_d3e4afa3872a404d9a8df91a2fe06386);
+
+            
+        
+    
+            var circle_marker_ce1d417553ee496c840d852a34e0f4ad = L.circleMarker(
+                [46.227638,2.213749],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 150.9,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_9f7283f99bdc4a3a9db7df928acd4295 = L.popup({maxWidth: '300'});
+
+            
+                var html_8f5b3ee6284f4feca98e56979abe8790 = $('<div id="html_8f5b3ee6284f4feca98e56979abe8790" style="width: 100.0%; height: 100.0%;">------------------------------france----------------------------- -------------- moyenne de morts par cyclone : 955 -------------- nombre d article paru : 503</div>')[0];
+                popup_9f7283f99bdc4a3a9db7df928acd4295.setContent(html_8f5b3ee6284f4feca98e56979abe8790);
+            
+
+            circle_marker_ce1d417553ee496c840d852a34e0f4ad.bindPopup(popup_9f7283f99bdc4a3a9db7df928acd4295);
+
+            
+        
+    
+            var circle_marker_fe1bdff2e59c492d989680c6e50ae0e5 = L.circleMarker(
+                [42.315407,43.356892],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.5999999999999996,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_ac25ad5ccb634991beabb6fe78f9134b = L.popup({maxWidth: '300'});
+
+            
+                var html_bef0871748dd471480d850c44894f10c = $('<div id="html_bef0871748dd471480d850c44894f10c" style="width: 100.0%; height: 100.0%;">------------------------------georgie----------------------------- -------------- moyenne de morts par cyclone : 167 -------------- nombre d article paru : 12</div>')[0];
+                popup_ac25ad5ccb634991beabb6fe78f9134b.setContent(html_bef0871748dd471480d850c44894f10c);
+            
+
+            circle_marker_fe1bdff2e59c492d989680c6e50ae0e5.bindPopup(popup_ac25ad5ccb634991beabb6fe78f9134b);
+
+            
+        
+    
+            var circle_marker_ca63101fbf5c4defb47d3217a233647d = L.circleMarker(
+                [39.074208,21.824312],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_644ec44c1f08409fb41bbe0dccf57bc2 = L.popup({maxWidth: '300'});
+
+            
+                var html_28b76a09cfc840b69f8f24d3c86b3215 = $('<div id="html_28b76a09cfc840b69f8f24d3c86b3215" style="width: 100.0%; height: 100.0%;">------------------------------grece----------------------------- -------------- moyenne de morts par cyclone : 1282 -------------- nombre d article paru : 25</div>')[0];
+                popup_644ec44c1f08409fb41bbe0dccf57bc2.setContent(html_28b76a09cfc840b69f8f24d3c86b3215);
+            
+
+            circle_marker_ca63101fbf5c4defb47d3217a233647d.bindPopup(popup_644ec44c1f08409fb41bbe0dccf57bc2);
+
+            
+        
+    
+            var circle_marker_02cbdb40198f45deb76e91cf33885b2c = L.circleMarker(
+                [12.262776,-61.604171],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_156de2a1ec974d9bb2da7a946e7ae31c = L.popup({maxWidth: '300'});
+
+            
+                var html_631a044266a64111b4ffecd587f6c17f = $('<div id="html_631a044266a64111b4ffecd587f6c17f" style="width: 100.0%; height: 100.0%;">------------------------------grenade----------------------------- -------------- moyenne de morts par cyclone : 37 -------------- nombre d article paru : 4</div>')[0];
+                popup_156de2a1ec974d9bb2da7a946e7ae31c.setContent(html_631a044266a64111b4ffecd587f6c17f);
+            
+
+            circle_marker_02cbdb40198f45deb76e91cf33885b2c.bindPopup(popup_156de2a1ec974d9bb2da7a946e7ae31c);
+
+            
+        
+    
+            var circle_marker_5f02bd13705c40c79eee91969077125b = L.circleMarker(
+                [16.995971,-62.067641],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 29.7,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_771af61cdece413b99e0aa6b6fa2a2ee = L.popup({maxWidth: '300'});
+
+            
+                var html_21b64d8a699f40a59beaf587e901b575 = $('<div id="html_21b64d8a699f40a59beaf587e901b575" style="width: 100.0%; height: 100.0%;">------------------------------guadeloupe----------------------------- -------------- moyenne de morts par cyclone : 1643 -------------- nombre d article paru : 99</div>')[0];
+                popup_771af61cdece413b99e0aa6b6fa2a2ee.setContent(html_21b64d8a699f40a59beaf587e901b575);
+            
+
+            circle_marker_5f02bd13705c40c79eee91969077125b.bindPopup(popup_771af61cdece413b99e0aa6b6fa2a2ee);
+
+            
+        
+    
+            var circle_marker_0697b8c25bf94e9bad051b62b18f3f9f = L.circleMarker(
+                [15.783471,-90.230759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_7e0e51c88e1140af860b3ffc5b740136 = L.popup({maxWidth: '300'});
+
+            
+                var html_d818dc9efb4247d99b3a37062972ebe1 = $('<div id="html_d818dc9efb4247d99b3a37062972ebe1" style="width: 100.0%; height: 100.0%;">------------------------------guatemala----------------------------- -------------- moyenne de morts par cyclone : 1870 -------------- nombre d article paru : 28</div>')[0];
+                popup_7e0e51c88e1140af860b3ffc5b740136.setContent(html_d818dc9efb4247d99b3a37062972ebe1);
+            
+
+            circle_marker_0697b8c25bf94e9bad051b62b18f3f9f.bindPopup(popup_7e0e51c88e1140af860b3ffc5b740136);
+
+            
+        
+    
+            var circle_marker_c2e0e5dbd3a9460598ff05152695f4a7 = L.circleMarker(
+                [9.945587,-9.696645],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.9,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_3d12ed5205b54401b977334344f7d569 = L.popup({maxWidth: '300'});
+
+            
+                var html_ffd8bbb26a5b4776a50eee5e214ddc2e = $('<div id="html_ffd8bbb26a5b4776a50eee5e214ddc2e" style="width: 100.0%; height: 100.0%;">------------------------------guinee----------------------------- -------------- moyenne de morts par cyclone : 731 -------------- nombre d article paru : 13</div>')[0];
+                popup_3d12ed5205b54401b977334344f7d569.setContent(html_ffd8bbb26a5b4776a50eee5e214ddc2e);
+            
+
+            circle_marker_c2e0e5dbd3a9460598ff05152695f4a7.bindPopup(popup_3d12ed5205b54401b977334344f7d569);
+
+            
+        
+    
+            var circle_marker_c21f2fadb8ad4768b3ca9caf08b6cc80 = L.circleMarker(
+                [18.971187,-72.285215],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 27.3,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_52d8605c800e489b8d7d6072b2e43d23 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b7562f9ec4d4f19ab7b0bdd723c6f51 = $('<div id="html_8b7562f9ec4d4f19ab7b0bdd723c6f51" style="width: 100.0%; height: 100.0%;">------------------------------haiti----------------------------- -------------- moyenne de morts par cyclone : 1524 -------------- nombre d article paru : 91</div>')[0];
+                popup_52d8605c800e489b8d7d6072b2e43d23.setContent(html_8b7562f9ec4d4f19ab7b0bdd723c6f51);
+            
+
+            circle_marker_c21f2fadb8ad4768b3ca9caf08b6cc80.bindPopup(popup_52d8605c800e489b8d7d6072b2e43d23);
+
+            
+        
+    
+            var circle_marker_43c1be58e752436b81ae5545958691f2 = L.circleMarker(
+                [15.199999,-86.241905],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.199999999999999,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_f353b30cd402473a8231e74ca4281684 = L.popup({maxWidth: '300'});
+
+            
+                var html_1522677306df4a6897d03753fb151e73 = $('<div id="html_1522677306df4a6897d03753fb151e73" style="width: 100.0%; height: 100.0%;">------------------------------honduras----------------------------- -------------- moyenne de morts par cyclone : 1400 -------------- nombre d article paru : 24</div>')[0];
+                popup_f353b30cd402473a8231e74ca4281684.setContent(html_1522677306df4a6897d03753fb151e73);
+            
+
+            circle_marker_43c1be58e752436b81ae5545958691f2.bindPopup(popup_f353b30cd402473a8231e74ca4281684);
+
+            
+        
+    
+            var circle_marker_4c3394fba8784e538e4a0e3adbc153b4 = L.circleMarker(
+                [22.396428,114.109497],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.5999999999999996,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_a64cc803a2d8462fa3ba3e82e2ed6c3b = L.popup({maxWidth: '300'});
+
+            
+                var html_697250af8e844a6590a53b6b951a8f85 = $('<div id="html_697250af8e844a6590a53b6b951a8f85" style="width: 100.0%; height: 100.0%;">------------------------------hongkong----------------------------- -------------- moyenne de morts par cyclone : 1455 -------------- nombre d article paru : 12</div>')[0];
+                popup_a64cc803a2d8462fa3ba3e82e2ed6c3b.setContent(html_697250af8e844a6590a53b6b951a8f85);
+            
+
+            circle_marker_4c3394fba8784e538e4a0e3adbc153b4.bindPopup(popup_a64cc803a2d8462fa3ba3e82e2ed6c3b);
+
+            
+        
+    
+            var circle_marker_7a360948924c431d8eb59a0c9d08b0c4 = L.circleMarker(
+                [47.162494,19.503304],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.3,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_7cab3199c04144299f657d73bbf29ba4 = L.popup({maxWidth: '300'});
+
+            
+                var html_f64d9854b1454d4ab3467f7f06d0296a = $('<div id="html_f64d9854b1454d4ab3467f7f06d0296a" style="width: 100.0%; height: 100.0%;">------------------------------hongrie----------------------------- -------------- moyenne de morts par cyclone : 84 -------------- nombre d article paru : 1</div>')[0];
+                popup_7cab3199c04144299f657d73bbf29ba4.setContent(html_f64d9854b1454d4ab3467f7f06d0296a);
+            
+
+            circle_marker_7a360948924c431d8eb59a0c9d08b0c4.bindPopup(popup_7cab3199c04144299f657d73bbf29ba4);
+
+            
+        
+    
+            var circle_marker_0549f008f2b44db6b1ff37901a4a0448 = L.circleMarker(
+                [20.593684,78.96288],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 39.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_1ed74f469e0d4262b1aa16907841f2f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_d763fdacca4d4b74b65b32c722741016 = $('<div id="html_d763fdacca4d4b74b65b32c722741016" style="width: 100.0%; height: 100.0%;">------------------------------inde----------------------------- -------------- moyenne de morts par cyclone : 2131 -------------- nombre d article paru : 130</div>')[0];
+                popup_1ed74f469e0d4262b1aa16907841f2f3.setContent(html_d763fdacca4d4b74b65b32c722741016);
+            
+
+            circle_marker_0549f008f2b44db6b1ff37901a4a0448.bindPopup(popup_1ed74f469e0d4262b1aa16907841f2f3);
+
+            
+        
+    
+            var circle_marker_4fa159d947204eaa9cf49dd31d7d2aa0 = L.circleMarker(
+                [-0.789275,113.921327],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.1,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_e21caea3991448e2b0e105cdd5ad872a = L.popup({maxWidth: '300'});
+
+            
+                var html_b61437f86bad44d096c9b7560e24429d = $('<div id="html_b61437f86bad44d096c9b7560e24429d" style="width: 100.0%; height: 100.0%;">------------------------------indonesie----------------------------- -------------- moyenne de morts par cyclone : 3158 -------------- nombre d article paru : 27</div>')[0];
+                popup_e21caea3991448e2b0e105cdd5ad872a.setContent(html_b61437f86bad44d096c9b7560e24429d);
+            
+
+            circle_marker_4fa159d947204eaa9cf49dd31d7d2aa0.bindPopup(popup_e21caea3991448e2b0e105cdd5ad872a);
+
+            
+        
+    
+            var circle_marker_0b6f99eaf7c746a499ad7321bb30c780 = L.circleMarker(
+                [53.41291,-8.24389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_7012174fdd424e3383e1bf963e16bfb2 = L.popup({maxWidth: '300'});
+
+            
+                var html_a879d2b1ba7e4a21b5f9edf0716b0d21 = $('<div id="html_a879d2b1ba7e4a21b5f9edf0716b0d21" style="width: 100.0%; height: 100.0%;">------------------------------irlande----------------------------- -------------- moyenne de morts par cyclone : 459 -------------- nombre d article paru : 14</div>')[0];
+                popup_7012174fdd424e3383e1bf963e16bfb2.setContent(html_a879d2b1ba7e4a21b5f9edf0716b0d21);
+            
+
+            circle_marker_0b6f99eaf7c746a499ad7321bb30c780.bindPopup(popup_7012174fdd424e3383e1bf963e16bfb2);
+
+            
+        
+    
+            var circle_marker_364137990ca5459aaacaf34acbab57c3 = L.circleMarker(
+                [31.046051,34.851612],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.3,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_fc58b73b773349fe81597ebc8a77448b = L.popup({maxWidth: '300'});
+
+            
+                var html_736c02b305e64f79b248538016c9d799 = $('<div id="html_736c02b305e64f79b248538016c9d799" style="width: 100.0%; height: 100.0%;">------------------------------israel----------------------------- -------------- moyenne de morts par cyclone : 1927 -------------- nombre d article paru : 11</div>')[0];
+                popup_fc58b73b773349fe81597ebc8a77448b.setContent(html_736c02b305e64f79b248538016c9d799);
+            
+
+            circle_marker_364137990ca5459aaacaf34acbab57c3.bindPopup(popup_fc58b73b773349fe81597ebc8a77448b);
+
+            
+        
+    
+            var circle_marker_e23fbf95e4554b7aa79a5cd04449239b = L.circleMarker(
+                [41.87194,12.56738],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_8b575ec139944341b653a73d03fa775a = L.popup({maxWidth: '300'});
+
+            
+                var html_02e3102d6b164bf19c6a370214f56d14 = $('<div id="html_02e3102d6b164bf19c6a370214f56d14" style="width: 100.0%; height: 100.0%;">------------------------------italie----------------------------- -------------- moyenne de morts par cyclone : 1162 -------------- nombre d article paru : 32</div>')[0];
+                popup_8b575ec139944341b653a73d03fa775a.setContent(html_02e3102d6b164bf19c6a370214f56d14);
+            
+
+            circle_marker_e23fbf95e4554b7aa79a5cd04449239b.bindPopup(popup_8b575ec139944341b653a73d03fa775a);
+
+            
+        
+    
+            var circle_marker_4771d4f08925423f8e027b6f4887c663 = L.circleMarker(
+                [18.109581,-77.297508],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_2e4ab439edaf44d4a63251e2829e32a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_e880e6e9929d48c08fe3903a14b87b35 = $('<div id="html_e880e6e9929d48c08fe3903a14b87b35" style="width: 100.0%; height: 100.0%;">------------------------------jamaique----------------------------- -------------- moyenne de morts par cyclone : 390 -------------- nombre d article paru : 14</div>')[0];
+                popup_2e4ab439edaf44d4a63251e2829e32a2.setContent(html_e880e6e9929d48c08fe3903a14b87b35);
+            
+
+            circle_marker_4771d4f08925423f8e027b6f4887c663.bindPopup(popup_2e4ab439edaf44d4a63251e2829e32a2);
+
+            
+        
+    
+            var circle_marker_f26aba488e5142a58e38f90f303a9f71 = L.circleMarker(
+                [36.204824,138.252924],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 32.1,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_fa92d5d39fe7440ebb5d56068eae1bde = L.popup({maxWidth: '300'});
+
+            
+                var html_97af58f5bd5444299664a85bad7907ed = $('<div id="html_97af58f5bd5444299664a85bad7907ed" style="width: 100.0%; height: 100.0%;">------------------------------japon----------------------------- -------------- moyenne de morts par cyclone : 1068 -------------- nombre d article paru : 107</div>')[0];
+                popup_fa92d5d39fe7440ebb5d56068eae1bde.setContent(html_97af58f5bd5444299664a85bad7907ed);
+            
+
+            circle_marker_f26aba488e5142a58e38f90f303a9f71.bindPopup(popup_fa92d5d39fe7440ebb5d56068eae1bde);
+
+            
+        
+    
+            var circle_marker_cb2ae0730b944b298ddebf0190c20cb2 = L.circleMarker(
+                [49.815273,6.129583],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.5999999999999996,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_d1639aee5bab4dc189dd418e274737b1 = L.popup({maxWidth: '300'});
+
+            
+                var html_0b8f45a512954681bf5b62da8eb49026 = $('<div id="html_0b8f45a512954681bf5b62da8eb49026" style="width: 100.0%; height: 100.0%;">------------------------------luxembourg----------------------------- -------------- moyenne de morts par cyclone : 1587 -------------- nombre d article paru : 12</div>')[0];
+                popup_d1639aee5bab4dc189dd418e274737b1.setContent(html_0b8f45a512954681bf5b62da8eb49026);
+            
+
+            circle_marker_cb2ae0730b944b298ddebf0190c20cb2.bindPopup(popup_d1639aee5bab4dc189dd418e274737b1);
+
+            
+        
+    
+            var circle_marker_7d0d0d0bbad04b678cebbe34a273f797 = L.circleMarker(
+                [-18.766947,46.869107],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_9413ade83990483f8dface25367d9b8a = L.popup({maxWidth: '300'});
+
+            
+                var html_ee79faf62358448fbee535797cbeb42c = $('<div id="html_ee79faf62358448fbee535797cbeb42c" style="width: 100.0%; height: 100.0%;">------------------------------madagascar----------------------------- -------------- moyenne de morts par cyclone : 2172 -------------- nombre d article paru : 58</div>')[0];
+                popup_9413ade83990483f8dface25367d9b8a.setContent(html_ee79faf62358448fbee535797cbeb42c);
+            
+
+            circle_marker_7d0d0d0bbad04b678cebbe34a273f797.bindPopup(popup_9413ade83990483f8dface25367d9b8a);
+
+            
+        
+    
+            var circle_marker_fa70fdeecd8b489ca66cb509309641a5 = L.circleMarker(
+                [4.210484,101.975766],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.3,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_da78778a99dd4b80813afa4abb3597a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_7ec76850569b41eb9ef9acc85d91d5b5 = $('<div id="html_7ec76850569b41eb9ef9acc85d91d5b5" style="width: 100.0%; height: 100.0%;">------------------------------malaisie----------------------------- -------------- moyenne de morts par cyclone : 1062 -------------- nombre d article paru : 11</div>')[0];
+                popup_da78778a99dd4b80813afa4abb3597a2.setContent(html_7ec76850569b41eb9ef9acc85d91d5b5);
+            
+
+            circle_marker_fa70fdeecd8b489ca66cb509309641a5.bindPopup(popup_da78778a99dd4b80813afa4abb3597a2);
+
+            
+        
+    
+            var circle_marker_19b2271d03044c62826aeda3280ba451 = L.circleMarker(
+                [17.570692,-3.996166],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.1,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_eadf7dfd11c3423ba9315482528dcb3a = L.popup({maxWidth: '300'});
+
+            
+                var html_1fa8321f254c432aa49317e48c7ea777 = $('<div id="html_1fa8321f254c432aa49317e48c7ea777" style="width: 100.0%; height: 100.0%;">------------------------------mali----------------------------- -------------- moyenne de morts par cyclone : 947 -------------- nombre d article paru : 7</div>')[0];
+                popup_eadf7dfd11c3423ba9315482528dcb3a.setContent(html_1fa8321f254c432aa49317e48c7ea777);
+            
+
+            circle_marker_19b2271d03044c62826aeda3280ba451.bindPopup(popup_eadf7dfd11c3423ba9315482528dcb3a);
+
+            
+        
+    
+            var circle_marker_2e3d56ca6ee54f789008b276ddd15a5c = L.circleMarker(
+                [31.791702,-7.09262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.6999999999999997,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_4ca2d5738e1243468fefbb4286fb7f04 = L.popup({maxWidth: '300'});
+
+            
+                var html_3770e44dfe50451090eb33075edba721 = $('<div id="html_3770e44dfe50451090eb33075edba721" style="width: 100.0%; height: 100.0%;">------------------------------maroc----------------------------- -------------- moyenne de morts par cyclone : 695 -------------- nombre d article paru : 9</div>')[0];
+                popup_4ca2d5738e1243468fefbb4286fb7f04.setContent(html_3770e44dfe50451090eb33075edba721);
+            
+
+            circle_marker_2e3d56ca6ee54f789008b276ddd15a5c.bindPopup(popup_4ca2d5738e1243468fefbb4286fb7f04);
+
+            
+        
+    
+            var circle_marker_22db397c905745968e9cbc92ceccfbd4 = L.circleMarker(
+                [14.641528,-61.024174],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 22.8,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_a5d1f26b00674b38ab95ae8eb924b84b = L.popup({maxWidth: '300'});
+
+            
+                var html_0bc06a120afb4ffdbce5d603fb8e8e05 = $('<div id="html_0bc06a120afb4ffdbce5d603fb8e8e05" style="width: 100.0%; height: 100.0%;">------------------------------martinique----------------------------- -------------- moyenne de morts par cyclone : 1537 -------------- nombre d article paru : 76</div>')[0];
+                popup_a5d1f26b00674b38ab95ae8eb924b84b.setContent(html_0bc06a120afb4ffdbce5d603fb8e8e05);
+            
+
+            circle_marker_22db397c905745968e9cbc92ceccfbd4.bindPopup(popup_a5d1f26b00674b38ab95ae8eb924b84b);
+
+            
+        
+    
+            var circle_marker_6b6e99a908f44cbba73165c8977662ff = L.circleMarker(
+                [-20.348404,57.552152],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.3999999999999995,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_463f7eb21a4a476799085182d04ea09d = L.popup({maxWidth: '300'});
+
+            
+                var html_16155410963248e9b8bfccf71ee24b77 = $('<div id="html_16155410963248e9b8bfccf71ee24b77" style="width: 100.0%; height: 100.0%;">------------------------------maurice----------------------------- -------------- moyenne de morts par cyclone : 690 -------------- nombre d article paru : 18</div>')[0];
+                popup_463f7eb21a4a476799085182d04ea09d.setContent(html_16155410963248e9b8bfccf71ee24b77);
+            
+
+            circle_marker_6b6e99a908f44cbba73165c8977662ff.bindPopup(popup_463f7eb21a4a476799085182d04ea09d);
+
+            
+        
+    
+            var circle_marker_3d147600677e45cd9040de1a3b257073 = L.circleMarker(
+                [23.634501,-102.552784],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 32.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_d6291ccc03fa46808bbadb3b510b0044 = L.popup({maxWidth: '300'});
+
+            
+                var html_7ff46520999d4f4f85c68d427057ad5c = $('<div id="html_7ff46520999d4f4f85c68d427057ad5c" style="width: 100.0%; height: 100.0%;">------------------------------mexique----------------------------- -------------- moyenne de morts par cyclone : 1078 -------------- nombre d article paru : 108</div>')[0];
+                popup_d6291ccc03fa46808bbadb3b510b0044.setContent(html_7ff46520999d4f4f85c68d427057ad5c);
+            
+
+            circle_marker_3d147600677e45cd9040de1a3b257073.bindPopup(popup_d6291ccc03fa46808bbadb3b510b0044);
+
+            
+        
+    
+            var circle_marker_4321ba3218144570bd8818b796944314 = L.circleMarker(
+                [43.750298,7.412841],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7999999999999998,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_f5d1a04cb4d94058895f3ccc41b79e87 = L.popup({maxWidth: '300'});
+
+            
+                var html_6b2d5083ba4c4bd6be1d0cc26405a6f1 = $('<div id="html_6b2d5083ba4c4bd6be1d0cc26405a6f1" style="width: 100.0%; height: 100.0%;">------------------------------monaco----------------------------- -------------- moyenne de morts par cyclone : 297 -------------- nombre d article paru : 6</div>')[0];
+                popup_f5d1a04cb4d94058895f3ccc41b79e87.setContent(html_6b2d5083ba4c4bd6be1d0cc26405a6f1);
+            
+
+            circle_marker_4321ba3218144570bd8818b796944314.bindPopup(popup_f5d1a04cb4d94058895f3ccc41b79e87);
+
+            
+        
+    
+            var circle_marker_6f927222f43a43ff9666542356ac8592 = L.circleMarker(
+                [21.913965,95.956223],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.8,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_1b0115c99aeb4af58eed82a60d9d764e = L.popup({maxWidth: '300'});
+
+            
+                var html_a8e59e8631644fdb86bbdb349800a92b = $('<div id="html_a8e59e8631644fdb86bbdb349800a92b" style="width: 100.0%; height: 100.0%;">------------------------------myanmar----------------------------- -------------- moyenne de morts par cyclone : 1544 -------------- nombre d article paru : 16</div>')[0];
+                popup_1b0115c99aeb4af58eed82a60d9d764e.setContent(html_a8e59e8631644fdb86bbdb349800a92b);
+            
+
+            circle_marker_6f927222f43a43ff9666542356ac8592.bindPopup(popup_1b0115c99aeb4af58eed82a60d9d764e);
+
+            
+        
+    
+            var circle_marker_88a0856a66d54e2a9766deff1b0d44b3 = L.circleMarker(
+                [28.394857,84.124008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.3,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_5952a205ecf9441fb9ce3ddc3434e514 = L.popup({maxWidth: '300'});
+
+            
+                var html_4b70899329864ca5b860a5092ca008bc = $('<div id="html_4b70899329864ca5b860a5092ca008bc" style="width: 100.0%; height: 100.0%;">------------------------------nepal----------------------------- -------------- moyenne de morts par cyclone : 2270 -------------- nombre d article paru : 11</div>')[0];
+                popup_5952a205ecf9441fb9ce3ddc3434e514.setContent(html_4b70899329864ca5b860a5092ca008bc);
+            
+
+            circle_marker_88a0856a66d54e2a9766deff1b0d44b3.bindPopup(popup_5952a205ecf9441fb9ce3ddc3434e514);
+
+            
+        
+    
+            var circle_marker_89b6e90ac0664126a3f3774ac7692390 = L.circleMarker(
+                [12.865416,-85.207229],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.5999999999999996,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_836cf64787b64f7ea46dd27d106506b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_28cacf34951c42f388603494c7767d60 = $('<div id="html_28cacf34951c42f388603494c7767d60" style="width: 100.0%; height: 100.0%;">------------------------------nicaragua----------------------------- -------------- moyenne de morts par cyclone : 1245 -------------- nombre d article paru : 12</div>')[0];
+                popup_836cf64787b64f7ea46dd27d106506b8.setContent(html_28cacf34951c42f388603494c7767d60);
+            
+
+            circle_marker_89b6e90ac0664126a3f3774ac7692390.bindPopup(popup_836cf64787b64f7ea46dd27d106506b8);
+
+            
+        
+    
+            var circle_marker_27dbda9182ed4cf9bfb4f615a2af2619 = L.circleMarker(
+                [60.472024,8.468946],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7999999999999998,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_85029776625340a0b46a1d5dae098a81 = L.popup({maxWidth: '300'});
+
+            
+                var html_450d85949ae44303814db34e7dcce935 = $('<div id="html_450d85949ae44303814db34e7dcce935" style="width: 100.0%; height: 100.0%;">------------------------------norvege----------------------------- -------------- moyenne de morts par cyclone : 266 -------------- nombre d article paru : 6</div>')[0];
+                popup_85029776625340a0b46a1d5dae098a81.setContent(html_450d85949ae44303814db34e7dcce935);
+            
+
+            circle_marker_27dbda9182ed4cf9bfb4f615a2af2619.bindPopup(popup_85029776625340a0b46a1d5dae098a81);
+
+            
+        
+    
+            var circle_marker_f9061e09d9074ae7bc64e94c0ec2fcaa = L.circleMarker(
+                [-20.904305,165.618042],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20.099999999999998,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_957513593f8e4cd4a446e4beb5310698 = L.popup({maxWidth: '300'});
+
+            
+                var html_4989362819df4ca0a1749e0b27b2ba36 = $('<div id="html_4989362819df4ca0a1749e0b27b2ba36" style="width: 100.0%; height: 100.0%;">------------------------------nouvellecaledonie----------------------------- -------------- moyenne de morts par cyclone : 448 -------------- nombre d article paru : 67</div>')[0];
+                popup_957513593f8e4cd4a446e4beb5310698.setContent(html_4989362819df4ca0a1749e0b27b2ba36);
+            
+
+            circle_marker_f9061e09d9074ae7bc64e94c0ec2fcaa.bindPopup(popup_957513593f8e4cd4a446e4beb5310698);
+
+            
+        
+    
+            var circle_marker_d58dc2b1c7a941428fe0e91b08383bfe = L.circleMarker(
+                [-40.900557,174.885971],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17.099999999999998,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_a423a6764ee24bc7aeaa133d94b61739 = L.popup({maxWidth: '300'});
+
+            
+                var html_4181af7f0afe47c680b27b12b28a2b3b = $('<div id="html_4181af7f0afe47c680b27b12b28a2b3b" style="width: 100.0%; height: 100.0%;">------------------------------nouvellezelande----------------------------- -------------- moyenne de morts par cyclone : 712 -------------- nombre d article paru : 57</div>')[0];
+                popup_a423a6764ee24bc7aeaa133d94b61739.setContent(html_4181af7f0afe47c680b27b12b28a2b3b);
+            
+
+            circle_marker_d58dc2b1c7a941428fe0e91b08383bfe.bindPopup(popup_a423a6764ee24bc7aeaa133d94b61739);
+
+            
+        
+    
+            var circle_marker_1f2f25ada6b8486fb1612784de830d74 = L.circleMarker(
+                [30.375321,69.345116],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.1,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_36e1f1d2e411431cbd9ea87885c5400e = L.popup({maxWidth: '300'});
+
+            
+                var html_208af9af72fe443eb2033d047f096461 = $('<div id="html_208af9af72fe443eb2033d047f096461" style="width: 100.0%; height: 100.0%;">------------------------------pakistan----------------------------- -------------- moyenne de morts par cyclone : 1790 -------------- nombre d article paru : 27</div>')[0];
+                popup_36e1f1d2e411431cbd9ea87885c5400e.setContent(html_208af9af72fe443eb2033d047f096461);
+            
+
+            circle_marker_1f2f25ada6b8486fb1612784de830d74.bindPopup(popup_36e1f1d2e411431cbd9ea87885c5400e);
+
+            
+        
+    
+            var circle_marker_21b3aa9ccf42467a83d17026cf1c9db5 = L.circleMarker(
+                [8.537981,-80.782127],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_1b4df92e6aea4575a370caf76758e645 = L.popup({maxWidth: '300'});
+
+            
+                var html_a35da00d78224cd5875f00971c7f6588 = $('<div id="html_a35da00d78224cd5875f00971c7f6588" style="width: 100.0%; height: 100.0%;">------------------------------panama----------------------------- -------------- moyenne de morts par cyclone : 2317 -------------- nombre d article paru : 8</div>')[0];
+                popup_1b4df92e6aea4575a370caf76758e645.setContent(html_a35da00d78224cd5875f00971c7f6588);
+            
+
+            circle_marker_21b3aa9ccf42467a83d17026cf1c9db5.bindPopup(popup_1b4df92e6aea4575a370caf76758e645);
+
+            
+        
+    
+            var circle_marker_9c6d3bd7820c4ff9ae8306367a73fffc = L.circleMarker(
+                [52.132633,5.291266],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.7,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_9038f6c5042d46609a6dd60f2615372a = L.popup({maxWidth: '300'});
+
+            
+                var html_227548ff27fe4b75bc338858d8a95a49 = $('<div id="html_227548ff27fe4b75bc338858d8a95a49" style="width: 100.0%; height: 100.0%;">------------------------------paysbas----------------------------- -------------- moyenne de morts par cyclone : 1465 -------------- nombre d article paru : 19</div>')[0];
+                popup_9038f6c5042d46609a6dd60f2615372a.setContent(html_227548ff27fe4b75bc338858d8a95a49);
+            
+
+            circle_marker_9c6d3bd7820c4ff9ae8306367a73fffc.bindPopup(popup_9038f6c5042d46609a6dd60f2615372a);
+
+            
+        
+    
+            var circle_marker_c2af25e76eea4db2abdd446019f1e54d = L.circleMarker(
+                [-9.189967,-75.015152],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.1,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_7d92c372ad014b528687fd351294e3dc = L.popup({maxWidth: '300'});
+
+            
+                var html_336476e57d464a12b0f119e05bc30092 = $('<div id="html_336476e57d464a12b0f119e05bc30092" style="width: 100.0%; height: 100.0%;">------------------------------perou----------------------------- -------------- moyenne de morts par cyclone : 5032 -------------- nombre d article paru : 7</div>')[0];
+                popup_7d92c372ad014b528687fd351294e3dc.setContent(html_336476e57d464a12b0f119e05bc30092);
+            
+
+            circle_marker_c2af25e76eea4db2abdd446019f1e54d.bindPopup(popup_7d92c372ad014b528687fd351294e3dc);
+
+            
+        
+    
+            var circle_marker_bc833b54d9af43a78b355873e9416f58 = L.circleMarker(
+                [12.879721,121.774017],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20.7,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_2ccfc1d7a8b04a92a45d4a6cfa47bf12 = L.popup({maxWidth: '300'});
+
+            
+                var html_2ccf9609df50470abd2ef27e4be5540c = $('<div id="html_2ccf9609df50470abd2ef27e4be5540c" style="width: 100.0%; height: 100.0%;">------------------------------philippines----------------------------- -------------- moyenne de morts par cyclone : 1966 -------------- nombre d article paru : 69</div>')[0];
+                popup_2ccfc1d7a8b04a92a45d4a6cfa47bf12.setContent(html_2ccf9609df50470abd2ef27e4be5540c);
+            
+
+            circle_marker_bc833b54d9af43a78b355873e9416f58.bindPopup(popup_2ccfc1d7a8b04a92a45d4a6cfa47bf12);
+
+            
+        
+    
+            var circle_marker_e8970c0f56bc4910861e42fd9fd5b29d = L.circleMarker(
+                [51.919438,19.145136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_c923d5e511f14029abbe23e82506ca20 = L.popup({maxWidth: '300'});
+
+            
+                var html_e258e5c3cc08412194d0870771dda92c = $('<div id="html_e258e5c3cc08412194d0870771dda92c" style="width: 100.0%; height: 100.0%;">------------------------------pologne----------------------------- -------------- moyenne de morts par cyclone : 620 -------------- nombre d article paru : 2</div>')[0];
+                popup_c923d5e511f14029abbe23e82506ca20.setContent(html_e258e5c3cc08412194d0870771dda92c);
+            
+
+            circle_marker_e8970c0f56bc4910861e42fd9fd5b29d.bindPopup(popup_c923d5e511f14029abbe23e82506ca20);
+
+            
+        
+    
+            var circle_marker_87c7d87bd6984cdbb2839fd501c703d7 = L.circleMarker(
+                [39.399872,-8.224454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.1,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_29ac9dab494b490b9ef2bc08dad56c5a = L.popup({maxWidth: '300'});
+
+            
+                var html_58ef1725c8104fdfb7ebb3cb3c008abd = $('<div id="html_58ef1725c8104fdfb7ebb3cb3c008abd" style="width: 100.0%; height: 100.0%;">------------------------------portugal----------------------------- -------------- moyenne de morts par cyclone : 1987 -------------- nombre d article paru : 17</div>')[0];
+                popup_29ac9dab494b490b9ef2bc08dad56c5a.setContent(html_58ef1725c8104fdfb7ebb3cb3c008abd);
+            
+
+            circle_marker_87c7d87bd6984cdbb2839fd501c703d7.bindPopup(popup_29ac9dab494b490b9ef2bc08dad56c5a);
+
+            
+        
+    
+            var circle_marker_dbf5c838b7ab4da0b0fada808d7200fa = L.circleMarker(
+                [25.354826,51.183884],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_cc33ac97adb045278694a68df5e13cf1 = L.popup({maxWidth: '300'});
+
+            
+                var html_11fcb0aff97f437eacf3b352ca8b80ee = $('<div id="html_11fcb0aff97f437eacf3b352ca8b80ee" style="width: 100.0%; height: 100.0%;">------------------------------qatar----------------------------- -------------- moyenne de morts par cyclone : 146 -------------- nombre d article paru : 5</div>')[0];
+                popup_cc33ac97adb045278694a68df5e13cf1.setContent(html_11fcb0aff97f437eacf3b352ca8b80ee);
+            
+
+            circle_marker_dbf5c838b7ab4da0b0fada808d7200fa.bindPopup(popup_cc33ac97adb045278694a68df5e13cf1);
+
+            
+        
+    
+            var circle_marker_57e291df806e456ea5f089daf10e4e7c = L.circleMarker(
+                [-21.115141,55.536384],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 52.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_74bc656ae1cb47f4867c43f1284f4beb = L.popup({maxWidth: '300'});
+
+            
+                var html_4d88596c15e44588b9ce7035a828e990 = $('<div id="html_4d88596c15e44588b9ce7035a828e990" style="width: 100.0%; height: 100.0%;">------------------------------reunion----------------------------- -------------- moyenne de morts par cyclone : 640 -------------- nombre d article paru : 175</div>')[0];
+                popup_74bc656ae1cb47f4867c43f1284f4beb.setContent(html_4d88596c15e44588b9ce7035a828e990);
+            
+
+            circle_marker_57e291df806e456ea5f089daf10e4e7c.bindPopup(popup_74bc656ae1cb47f4867c43f1284f4beb);
+
+            
+        
+    
+            var circle_marker_4c699f3b7e274470b35c1437f610a519 = L.circleMarker(
+                [45.943161,24.96676],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_aa36add8dd5d44ccb4775997a54261f8 = L.popup({maxWidth: '300'});
+
+            
+                var html_c48db7c53e454b06a352529fa2a161e4 = $('<div id="html_c48db7c53e454b06a352529fa2a161e4" style="width: 100.0%; height: 100.0%;">------------------------------roumanie----------------------------- -------------- moyenne de morts par cyclone : 11299 -------------- nombre d article paru : 2</div>')[0];
+                popup_aa36add8dd5d44ccb4775997a54261f8.setContent(html_c48db7c53e454b06a352529fa2a161e4);
+            
+
+            circle_marker_4c699f3b7e274470b35c1437f610a519.bindPopup(popup_aa36add8dd5d44ccb4775997a54261f8);
+
+            
+        
+    
+            var circle_marker_c647d9e24c5445cc9c91d48c79428479 = L.circleMarker(
+                [55.378051,-3.435973],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_9e3098eabf9c4101b04f1f9709bc8c99 = L.popup({maxWidth: '300'});
+
+            
+                var html_c3651a4fa2534cbfbc660083df73601b = $('<div id="html_c3651a4fa2534cbfbc660083df73601b" style="width: 100.0%; height: 100.0%;">------------------------------royaumeuni----------------------------- -------------- moyenne de morts par cyclone : 981 -------------- nombre d article paru : 40</div>')[0];
+                popup_9e3098eabf9c4101b04f1f9709bc8c99.setContent(html_c3651a4fa2534cbfbc660083df73601b);
+            
+
+            circle_marker_c647d9e24c5445cc9c91d48c79428479.bindPopup(popup_9e3098eabf9c4101b04f1f9709bc8c99);
+
+            
+        
+    
+            var circle_marker_9b1b4170d40a45f5af7d7cc11b07bcd2 = L.circleMarker(
+                [1.352083,103.819836],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.5999999999999996,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_6012a431ebd7490ca6c63619c8dc1787 = L.popup({maxWidth: '300'});
+
+            
+                var html_6823f8a4903c46b499ff31a7fcb56682 = $('<div id="html_6823f8a4903c46b499ff31a7fcb56682" style="width: 100.0%; height: 100.0%;">------------------------------singapour----------------------------- -------------- moyenne de morts par cyclone : 886 -------------- nombre d article paru : 12</div>')[0];
+                popup_6012a431ebd7490ca6c63619c8dc1787.setContent(html_6823f8a4903c46b499ff31a7fcb56682);
+            
+
+            circle_marker_9b1b4170d40a45f5af7d7cc11b07bcd2.bindPopup(popup_6012a431ebd7490ca6c63619c8dc1787);
+
+            
+        
+    
+            var circle_marker_82eae765e60f42ecaff0024195e44fbf = L.circleMarker(
+                [46.818188,8.227512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_9d2238e1afd040d5bb3c38bdacadfacd = L.popup({maxWidth: '300'});
+
+            
+                var html_b8ce354f63204cc8bd0728df65917ad1 = $('<div id="html_b8ce354f63204cc8bd0728df65917ad1" style="width: 100.0%; height: 100.0%;">------------------------------suisse----------------------------- -------------- moyenne de morts par cyclone : 255 -------------- nombre d article paru : 38</div>')[0];
+                popup_9d2238e1afd040d5bb3c38bdacadfacd.setContent(html_b8ce354f63204cc8bd0728df65917ad1);
+            
+
+            circle_marker_82eae765e60f42ecaff0024195e44fbf.bindPopup(popup_9d2238e1afd040d5bb3c38bdacadfacd);
+
+            
+        
+    
+            var circle_marker_91aab3043dc840a6908e7be3657a5cff = L.circleMarker(
+                [23.69781,120.960515],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.3,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_a2dcc4de37854e9b93856e50808c58c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_54fcb054a5864defb9711d2bbc4d4afa = $('<div id="html_54fcb054a5864defb9711d2bbc4d4afa" style="width: 100.0%; height: 100.0%;">------------------------------taiwan----------------------------- -------------- moyenne de morts par cyclone : 596 -------------- nombre d article paru : 11</div>')[0];
+                popup_a2dcc4de37854e9b93856e50808c58c1.setContent(html_54fcb054a5864defb9711d2bbc4d4afa);
+            
+
+            circle_marker_91aab3043dc840a6908e7be3657a5cff.bindPopup(popup_a2dcc4de37854e9b93856e50808c58c1);
+
+            
+        
+    
+            var circle_marker_253d73a3c6994aa89aca8f000e2c4b0d = L.circleMarker(
+                [15.870032,100.992541],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_39707af0e1a5403fb62f53a94d2768b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_7738771e495448abb99c584b49f29d4c = $('<div id="html_7738771e495448abb99c584b49f29d4c" style="width: 100.0%; height: 100.0%;">------------------------------thailande----------------------------- -------------- moyenne de morts par cyclone : 1966 -------------- nombre d article paru : 30</div>')[0];
+                popup_39707af0e1a5403fb62f53a94d2768b6.setContent(html_7738771e495448abb99c584b49f29d4c);
+            
+
+            circle_marker_253d73a3c6994aa89aca8f000e2c4b0d.bindPopup(popup_39707af0e1a5403fb62f53a94d2768b6);
+
+            
+        
+    
+            var circle_marker_b989bdd542fe4e36a6164fd0aad35a48 = L.circleMarker(
+                [38.963745,35.243322],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7999999999999998,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_3ed5aec4befa4cf4ba08ba6e7f8a7713 = L.popup({maxWidth: '300'});
+
+            
+                var html_d946cac0a1f840f7b22aa531249f115e = $('<div id="html_d946cac0a1f840f7b22aa531249f115e" style="width: 100.0%; height: 100.0%;">------------------------------turquie----------------------------- -------------- moyenne de morts par cyclone : 62 -------------- nombre d article paru : 6</div>')[0];
+                popup_3ed5aec4befa4cf4ba08ba6e7f8a7713.setContent(html_d946cac0a1f840f7b22aa531249f115e);
+            
+
+            circle_marker_b989bdd542fe4e36a6164fd0aad35a48.bindPopup(popup_3ed5aec4befa4cf4ba08ba6e7f8a7713);
+
+            
+        
+    
+            var circle_marker_c8f61e8b77934732a5dd267aad7ef456 = L.circleMarker(
+                [48.379433,31.16558],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_a39d94afd83c4aaa952d74657801cd84 = L.popup({maxWidth: '300'});
+
+            
+                var html_6c8773f81c0b425fb069061b2593bc61 = $('<div id="html_6c8773f81c0b425fb069061b2593bc61" style="width: 100.0%; height: 100.0%;">------------------------------ukraine----------------------------- -------------- moyenne de morts par cyclone : 883 -------------- nombre d article paru : 8</div>')[0];
+                popup_a39d94afd83c4aaa952d74657801cd84.setContent(html_6c8773f81c0b425fb069061b2593bc61);
+            
+
+            circle_marker_c8f61e8b77934732a5dd267aad7ef456.bindPopup(popup_a39d94afd83c4aaa952d74657801cd84);
+
+            
+        
+    
+            var circle_marker_f2c48d33ab6f45299d3ed28df77345e4 = L.circleMarker(
+                [-15.376706,166.959158],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 22.8,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_f06f00fd540d41ba887582b121ba0f5d = L.popup({maxWidth: '300'});
+
+            
+                var html_a26c55f7d85340dba124bfe39ad6a6e4 = $('<div id="html_a26c55f7d85340dba124bfe39ad6a6e4" style="width: 100.0%; height: 100.0%;">------------------------------vanuatu----------------------------- -------------- moyenne de morts par cyclone : 882 -------------- nombre d article paru : 76</div>')[0];
+                popup_f06f00fd540d41ba887582b121ba0f5d.setContent(html_a26c55f7d85340dba124bfe39ad6a6e4);
+            
+
+            circle_marker_f2c48d33ab6f45299d3ed28df77345e4.bindPopup(popup_f06f00fd540d41ba887582b121ba0f5d);
+
+            
+        
+    
+            var circle_marker_8238fc758faa4c039da8f75ef605afc6 = L.circleMarker(
+                [6.42375,-66.58973],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_a1be01aac1574c34b31214e1b4c7ed69 = L.popup({maxWidth: '300'});
+
+            
+                var html_df4092a096a348ac9ccb6210911c9ed4 = $('<div id="html_df4092a096a348ac9ccb6210911c9ed4" style="width: 100.0%; height: 100.0%;">------------------------------venezuela----------------------------- -------------- moyenne de morts par cyclone : 1651 -------------- nombre d article paru : 5</div>')[0];
+                popup_a1be01aac1574c34b31214e1b4c7ed69.setContent(html_df4092a096a348ac9ccb6210911c9ed4);
+            
+
+            circle_marker_8238fc758faa4c039da8f75ef605afc6.bindPopup(popup_a1be01aac1574c34b31214e1b4c7ed69);
+
+            
+        
+    
+            var circle_marker_d222ae15e94e4436a4659bbdc59f1542 = L.circleMarker(
+                [-45.2,-98],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_077a51dbfbdb4e3586332f121670c497 = L.popup({maxWidth: '300'});
+
+            
+                var html_2446b9c0e3cf4a62a547f032df1c253f = $('<div id="html_2446b9c0e3cf4a62a547f032df1c253f" style="width: 100.0%; height: 100.0%;">17 articles "cyclone"</div>')[0];
+                popup_077a51dbfbdb4e3586332f121670c497.setContent(html_2446b9c0e3cf4a62a547f032df1c253f);
+            
+
+            circle_marker_d222ae15e94e4436a4659bbdc59f1542.bindPopup(popup_077a51dbfbdb4e3586332f121670c497);
+
+            
+        
+    
+            var circle_marker_8e42c840edab4a3291132abc4a08c601 = L.circleMarker(
+                [-44.4,-111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_177d2063f4c04de4b88b70cee086cf48 = L.popup({maxWidth: '300'});
+
+            
+                var html_961bb1fa6d2f45cf9dacc5d59d7e106e = $('<div id="html_961bb1fa6d2f45cf9dacc5d59d7e106e" style="width: 100.0%; height: 100.0%;">33 articles "cyclone"</div>')[0];
+                popup_177d2063f4c04de4b88b70cee086cf48.setContent(html_961bb1fa6d2f45cf9dacc5d59d7e106e);
+            
+
+            circle_marker_8e42c840edab4a3291132abc4a08c601.bindPopup(popup_177d2063f4c04de4b88b70cee086cf48);
+
+            
+        
+    
+            var circle_marker_853265bfd8ee44679186360c70071292 = L.circleMarker(
+                [-43.6,-124],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_d403a7dd0b5d41cbbe01613415f7dce9 = L.popup({maxWidth: '300'});
+
+            
+                var html_b44d21ae32b64f699f3d568e4ae95ac7 = $('<div id="html_b44d21ae32b64f699f3d568e4ae95ac7" style="width: 100.0%; height: 100.0%;">33 articles "cyclone"</div>')[0];
+                popup_d403a7dd0b5d41cbbe01613415f7dce9.setContent(html_b44d21ae32b64f699f3d568e4ae95ac7);
+            
+
+            circle_marker_853265bfd8ee44679186360c70071292.bindPopup(popup_d403a7dd0b5d41cbbe01613415f7dce9);
+
+            
+        
+    
+            var circle_marker_74fc865217b4423db09efa528b0f7cd9 = L.circleMarker(
+                [-42.8,-137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_bfdc9a6f59a941b280cfb26b077333f7 = L.popup({maxWidth: '300'});
+
+            
+                var html_a68957b8f1b842fcb5c80506763adcdd = $('<div id="html_a68957b8f1b842fcb5c80506763adcdd" style="width: 100.0%; height: 100.0%;">50 articles "cyclone"</div>')[0];
+                popup_bfdc9a6f59a941b280cfb26b077333f7.setContent(html_a68957b8f1b842fcb5c80506763adcdd);
+            
+
+            circle_marker_74fc865217b4423db09efa528b0f7cd9.bindPopup(popup_bfdc9a6f59a941b280cfb26b077333f7);
+
+            
+        
+    
+            var circle_marker_efd63304353044c9b6f8ca1a9f65f5b4 = L.circleMarker(
+                [-42,-150],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_62faee50917b41519e6e7a3c7faf1024 = L.popup({maxWidth: '300'});
+
+            
+                var html_fdba483c14e4415dbe10ed532229757c = $('<div id="html_fdba483c14e4415dbe10ed532229757c" style="width: 100.0%; height: 100.0%;">67 articles "cyclone"</div>')[0];
+                popup_62faee50917b41519e6e7a3c7faf1024.setContent(html_fdba483c14e4415dbe10ed532229757c);
+            
+
+            circle_marker_efd63304353044c9b6f8ca1a9f65f5b4.bindPopup(popup_62faee50917b41519e6e7a3c7faf1024);
+
+            
+        
+    
+            var circle_marker_773f19ed819d48d08bbd0842a2607f26 = L.circleMarker(
+                [-51,-150],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_a8f074bf28f5479d99a69d44900091de = L.popup({maxWidth: '300'});
+
+            
+                var html_642974c40277422990409086b2d25ada = $('<div id="html_642974c40277422990409086b2d25ada" style="width: 100.0%; height: 100.0%;">Inférieur à 500 morts par cyclone en moyenne</div>')[0];
+                popup_a8f074bf28f5479d99a69d44900091de.setContent(html_642974c40277422990409086b2d25ada);
+            
+
+            circle_marker_773f19ed819d48d08bbd0842a2607f26.bindPopup(popup_a8f074bf28f5479d99a69d44900091de);
+
+            
+        
+    
+            var circle_marker_76902084685640c2983612f09f6e140a = L.circleMarker(
+                [-51,-137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_16b9ee3f282e46848d9a7ef20df568b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_a9004103e9cb4a4394a50ed68708d7ad = $('<div id="html_a9004103e9cb4a4394a50ed68708d7ad" style="width: 100.0%; height: 100.0%;">Entre 500 et 1000 morts par cyclone en moyenne</div>')[0];
+                popup_16b9ee3f282e46848d9a7ef20df568b7.setContent(html_a9004103e9cb4a4394a50ed68708d7ad);
+            
+
+            circle_marker_76902084685640c2983612f09f6e140a.bindPopup(popup_16b9ee3f282e46848d9a7ef20df568b7);
+
+            
+        
+    
+            var circle_marker_88bab148efb64611b398621b0cffc127 = L.circleMarker(
+                [-51,-124],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_e415b63a555a4d2db68c976c5385c0a0 = L.popup({maxWidth: '300'});
+
+            
+                var html_13f780f933d44d4dba7b32a41cdf2f93 = $('<div id="html_13f780f933d44d4dba7b32a41cdf2f93" style="width: 100.0%; height: 100.0%;">Entre 1000 et 1500 morts par cyclone en moyenne</div>')[0];
+                popup_e415b63a555a4d2db68c976c5385c0a0.setContent(html_13f780f933d44d4dba7b32a41cdf2f93);
+            
+
+            circle_marker_88bab148efb64611b398621b0cffc127.bindPopup(popup_e415b63a555a4d2db68c976c5385c0a0);
+
+            
+        
+    
+            var circle_marker_102716e07f15465482de04534bf2a744 = L.circleMarker(
+                [-51,-111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_2dca5e04a6af492fa8c269bc67c565a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_7267767d4956473d9e0c63ce85d53f97 = $('<div id="html_7267767d4956473d9e0c63ce85d53f97" style="width: 100.0%; height: 100.0%;">Entre 1500 et 2000 morts par cyclone en moyenne</div>')[0];
+                popup_2dca5e04a6af492fa8c269bc67c565a7.setContent(html_7267767d4956473d9e0c63ce85d53f97);
+            
+
+            circle_marker_102716e07f15465482de04534bf2a744.bindPopup(popup_2dca5e04a6af492fa8c269bc67c565a7);
+
+            
+        
+    
+            var circle_marker_e6c6cf91a28e440993cde673503df464 = L.circleMarker(
+                [-51,-98],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_6a5bdf91f33644b69415d4e59ce3ff97);
+            
+    
+            var popup_c1869a5f11e949e9a531958b6f244192 = L.popup({maxWidth: '300'});
+
+            
+                var html_7bd2fcc3f82d414480231996e4eee9ea = $('<div id="html_7bd2fcc3f82d414480231996e4eee9ea" style="width: 100.0%; height: 100.0%;">Supérieur à 2000 morts par cyclone en moyenne</div>')[0];
+                popup_c1869a5f11e949e9a531958b6f244192.setContent(html_7bd2fcc3f82d414480231996e4eee9ea);
+            
+
+            circle_marker_e6c6cf91a28e440993cde673503df464.bindPopup(popup_c1869a5f11e949e9a531958b6f244192);
+
+            
+        
+</script>

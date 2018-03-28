@@ -1,0 +1,2902 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_5f7361e044034f60bd5cb267c0d5f102 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5f7361e044034f60bd5cb267c0d5f102" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_5f7361e044034f60bd5cb267c0d5f102 = L.map(
+                                  'map_5f7361e044034f60bd5cb267c0d5f102',
+                                  {center: [18,0],
+                                  zoom: 3,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_9d488ef68816461b8234daef073330c2 = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+        
+    
+            var circle_marker_8255713a71c448d59d2b65769ff72974 = L.circleMarker(
+                [33.93911,67.709953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.100000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_8fe9cec91e804da5bccefdea34d9b42b = L.popup({maxWidth: '300'});
+
+            
+                var html_77e99b3a5c604975b2dacbaee6aff383 = $('<div id="html_77e99b3a5c604975b2dacbaee6aff383" style="width: 100.0%; height: 100.0%;">------------------------------afghanistan----------------------------- -------------- moyenne de morts par catastrophe : 1349 -------------- nombre d article paru : 101</div>')[0];
+                popup_8fe9cec91e804da5bccefdea34d9b42b.setContent(html_77e99b3a5c604975b2dacbaee6aff383);
+            
+
+            circle_marker_8255713a71c448d59d2b65769ff72974.bindPopup(popup_8fe9cec91e804da5bccefdea34d9b42b);
+
+            
+        
+    
+            var circle_marker_ab759a688c684415a4c85b062d2b5577 = L.circleMarker(
+                [28.033886,1.659626],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_d95979ffede94d93bcbaaee0ea8e4a04 = L.popup({maxWidth: '300'});
+
+            
+                var html_ebc7c82e761f4e158517245892b446c8 = $('<div id="html_ebc7c82e761f4e158517245892b446c8" style="width: 100.0%; height: 100.0%;">------------------------------algerie----------------------------- -------------- moyenne de morts par catastrophe : 560 -------------- nombre d article paru : 26</div>')[0];
+                popup_d95979ffede94d93bcbaaee0ea8e4a04.setContent(html_ebc7c82e761f4e158517245892b446c8);
+            
+
+            circle_marker_ab759a688c684415a4c85b062d2b5577.bindPopup(popup_d95979ffede94d93bcbaaee0ea8e4a04);
+
+            
+        
+    
+            var circle_marker_683d7f4d3ada488787d781d8d37cbe64 = L.circleMarker(
+                [51.165691,10.451526],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 23.400000000000002,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_2d561d54cbb74bc4a71227cc7d57980d = L.popup({maxWidth: '300'});
+
+            
+                var html_380ff52fcb2b49cfa2ad85efcd3dab3e = $('<div id="html_380ff52fcb2b49cfa2ad85efcd3dab3e" style="width: 100.0%; height: 100.0%;">------------------------------allemagne----------------------------- -------------- moyenne de morts par catastrophe : 1563 -------------- nombre d article paru : 234</div>')[0];
+                popup_2d561d54cbb74bc4a71227cc7d57980d.setContent(html_380ff52fcb2b49cfa2ad85efcd3dab3e);
+            
+
+            circle_marker_683d7f4d3ada488787d781d8d37cbe64.bindPopup(popup_2d561d54cbb74bc4a71227cc7d57980d);
+
+            
+        
+    
+            var circle_marker_caa4a6c01744447db131196788a14701 = L.circleMarker(
+                [-38.416097,-63.616672],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_faa68e1fdcb74fa3834455ef9f688866 = L.popup({maxWidth: '300'});
+
+            
+                var html_d20828e326e747c9977133bfd780c668 = $('<div id="html_d20828e326e747c9977133bfd780c668" style="width: 100.0%; height: 100.0%;">------------------------------argentine----------------------------- -------------- moyenne de morts par catastrophe : 1394 -------------- nombre d article paru : 32</div>')[0];
+                popup_faa68e1fdcb74fa3834455ef9f688866.setContent(html_d20828e326e747c9977133bfd780c668);
+            
+
+            circle_marker_caa4a6c01744447db131196788a14701.bindPopup(popup_faa68e1fdcb74fa3834455ef9f688866);
+
+            
+        
+    
+            var circle_marker_f62acbcd068040ed829a0f8f23ce9260 = L.circleMarker(
+                [-25.274398,133.775136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 33.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_43c8833f5b864a058e7647f19db7fb2c = L.popup({maxWidth: '300'});
+
+            
+                var html_bc508e68f27d422d9cb58195d99f1802 = $('<div id="html_bc508e68f27d422d9cb58195d99f1802" style="width: 100.0%; height: 100.0%;">------------------------------australie----------------------------- -------------- moyenne de morts par catastrophe : 1308 -------------- nombre d article paru : 335</div>')[0];
+                popup_43c8833f5b864a058e7647f19db7fb2c.setContent(html_bc508e68f27d422d9cb58195d99f1802);
+            
+
+            circle_marker_f62acbcd068040ed829a0f8f23ce9260.bindPopup(popup_43c8833f5b864a058e7647f19db7fb2c);
+
+            
+        
+    
+            var circle_marker_08362aaa4a114cc48d6dcf275cedbffc = L.circleMarker(
+                [47.516231,14.550072],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_c09f216469bd49e391d13c975e4753e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_1bae92b748374b25a6134c201b3133ab = $('<div id="html_1bae92b748374b25a6134c201b3133ab" style="width: 100.0%; height: 100.0%;">------------------------------autriche----------------------------- -------------- moyenne de morts par catastrophe : 1744 -------------- nombre d article paru : 55</div>')[0];
+                popup_c09f216469bd49e391d13c975e4753e9.setContent(html_1bae92b748374b25a6134c201b3133ab);
+            
+
+            circle_marker_08362aaa4a114cc48d6dcf275cedbffc.bindPopup(popup_c09f216469bd49e391d13c975e4753e9);
+
+            
+        
+    
+            var circle_marker_d94b69fd15ab45d6aec72b89d0f88163 = L.circleMarker(
+                [25.03428,-77.39628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_a1869450bc0647cb866bf12fea680658 = L.popup({maxWidth: '300'});
+
+            
+                var html_3ed49848a16746a794f2bdb1a8f49d6f = $('<div id="html_3ed49848a16746a794f2bdb1a8f49d6f" style="width: 100.0%; height: 100.0%;">------------------------------bahamas----------------------------- -------------- moyenne de morts par catastrophe : 861 -------------- nombre d article paru : 182</div>')[0];
+                popup_a1869450bc0647cb866bf12fea680658.setContent(html_3ed49848a16746a794f2bdb1a8f49d6f);
+            
+
+            circle_marker_d94b69fd15ab45d6aec72b89d0f88163.bindPopup(popup_a1869450bc0647cb866bf12fea680658);
+
+            
+        
+    
+            var circle_marker_368676318dab407da90529ce86628e02 = L.circleMarker(
+                [23.684994,90.356331],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_6851d69c97b5444ea766c256e753dc99 = L.popup({maxWidth: '300'});
+
+            
+                var html_7891fe6fbc5245659c63554358f3677f = $('<div id="html_7891fe6fbc5245659c63554358f3677f" style="width: 100.0%; height: 100.0%;">------------------------------bangladesh----------------------------- -------------- moyenne de morts par catastrophe : 2029 -------------- nombre d article paru : 172</div>')[0];
+                popup_6851d69c97b5444ea766c256e753dc99.setContent(html_7891fe6fbc5245659c63554358f3677f);
+            
+
+            circle_marker_368676318dab407da90529ce86628e02.bindPopup(popup_6851d69c97b5444ea766c256e753dc99);
+
+            
+        
+    
+            var circle_marker_0fcfb44b46984ffab99b4f668359f348 = L.circleMarker(
+                [50.503887,4.469936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_b21ef503bf5e403a9010f156d5bd8922 = L.popup({maxWidth: '300'});
+
+            
+                var html_a7fe970a0de6416eaccabf6b96185c4c = $('<div id="html_a7fe970a0de6416eaccabf6b96185c4c" style="width: 100.0%; height: 100.0%;">------------------------------belgique----------------------------- -------------- moyenne de morts par catastrophe : 1649 -------------- nombre d article paru : 52</div>')[0];
+                popup_b21ef503bf5e403a9010f156d5bd8922.setContent(html_a7fe970a0de6416eaccabf6b96185c4c);
+            
+
+            circle_marker_0fcfb44b46984ffab99b4f668359f348.bindPopup(popup_b21ef503bf5e403a9010f156d5bd8922);
+
+            
+        
+    
+            var circle_marker_085baabeca5b45b3adca8d0246c1bc97 = L.circleMarker(
+                [32.321384,-64.75737],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_43b768c8bcf045f6bcf58ebaec16f6ea = L.popup({maxWidth: '300'});
+
+            
+                var html_d2d7bf5cc541494d947ec81cdfabfd6d = $('<div id="html_d2d7bf5cc541494d947ec81cdfabfd6d" style="width: 100.0%; height: 100.0%;">------------------------------bermudes----------------------------- -------------- moyenne de morts par catastrophe : 607 -------------- nombre d article paru : 55</div>')[0];
+                popup_43b768c8bcf045f6bcf58ebaec16f6ea.setContent(html_d2d7bf5cc541494d947ec81cdfabfd6d);
+            
+
+            circle_marker_085baabeca5b45b3adca8d0246c1bc97.bindPopup(popup_43b768c8bcf045f6bcf58ebaec16f6ea);
+
+            
+        
+    
+            var circle_marker_40aad1582e7147988e19c12f941aa0fe = L.circleMarker(
+                [-14.235004,-51.92528],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.600000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_f539ee45ede84515ad4c7fd7b821d964 = L.popup({maxWidth: '300'});
+
+            
+                var html_ef83c7c4074742cebc378c39523c8502 = $('<div id="html_ef83c7c4074742cebc378c39523c8502" style="width: 100.0%; height: 100.0%;">------------------------------bresil----------------------------- -------------- moyenne de morts par catastrophe : 819 -------------- nombre d article paru : 96</div>')[0];
+                popup_f539ee45ede84515ad4c7fd7b821d964.setContent(html_ef83c7c4074742cebc378c39523c8502);
+            
+
+            circle_marker_40aad1582e7147988e19c12f941aa0fe.bindPopup(popup_f539ee45ede84515ad4c7fd7b821d964);
+
+            
+        
+    
+            var circle_marker_ed1cf705dfa14d72abd8255722311f6a = L.circleMarker(
+                [12.565679,104.990963],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.4000000000000004,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_0596160ffcc64ef3bf5f4aac58f1286e = L.popup({maxWidth: '300'});
+
+            
+                var html_76dc230fdf5149b9a704bd0e77bd2f43 = $('<div id="html_76dc230fdf5149b9a704bd0e77bd2f43" style="width: 100.0%; height: 100.0%;">------------------------------cambodge----------------------------- -------------- moyenne de morts par catastrophe : 611 -------------- nombre d article paru : 34</div>')[0];
+                popup_0596160ffcc64ef3bf5f4aac58f1286e.setContent(html_76dc230fdf5149b9a704bd0e77bd2f43);
+            
+
+            circle_marker_ed1cf705dfa14d72abd8255722311f6a.bindPopup(popup_0596160ffcc64ef3bf5f4aac58f1286e);
+
+            
+        
+    
+            var circle_marker_7edf4921a1d34b58b5b958affe1e966a = L.circleMarker(
+                [56.130366,-106.346771],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 23.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_5329874dc77a4f3daa42f12da3f4b355 = L.popup({maxWidth: '300'});
+
+            
+                var html_b6a3c1b2d3ae4219954b704ae670468d = $('<div id="html_b6a3c1b2d3ae4219954b704ae670468d" style="width: 100.0%; height: 100.0%;">------------------------------canada----------------------------- -------------- moyenne de morts par catastrophe : 1117 -------------- nombre d article paru : 235</div>')[0];
+                popup_5329874dc77a4f3daa42f12da3f4b355.setContent(html_b6a3c1b2d3ae4219954b704ae670468d);
+            
+
+            circle_marker_7edf4921a1d34b58b5b958affe1e966a.bindPopup(popup_5329874dc77a4f3daa42f12da3f4b355);
+
+            
+        
+    
+            var circle_marker_d0bec65df8b84a34a17bf8ff36376f86 = L.circleMarker(
+                [-35.675147,-71.542969],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.7,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_aa3183525cd24a4f94eaee644f10e35b = L.popup({maxWidth: '300'});
+
+            
+                var html_a064dfe53ef548218276abeac4a9cea6 = $('<div id="html_a064dfe53ef548218276abeac4a9cea6" style="width: 100.0%; height: 100.0%;">------------------------------chili----------------------------- -------------- moyenne de morts par catastrophe : 613 -------------- nombre d article paru : 77</div>')[0];
+                popup_aa3183525cd24a4f94eaee644f10e35b.setContent(html_a064dfe53ef548218276abeac4a9cea6);
+            
+
+            circle_marker_d0bec65df8b84a34a17bf8ff36376f86.bindPopup(popup_aa3183525cd24a4f94eaee644f10e35b);
+
+            
+        
+    
+            var circle_marker_05527ff5bf844a7b98d319b5edada270 = L.circleMarker(
+                [35.86166,104.195397],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 76.60000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_50bc514d24c94888a7322c5102333b24 = L.popup({maxWidth: '300'});
+
+            
+                var html_517b43a3714b4163ab3a81a07bbd72a4 = $('<div id="html_517b43a3714b4163ab3a81a07bbd72a4" style="width: 100.0%; height: 100.0%;">------------------------------chine----------------------------- -------------- moyenne de morts par catastrophe : 1469 -------------- nombre d article paru : 766</div>')[0];
+                popup_50bc514d24c94888a7322c5102333b24.setContent(html_517b43a3714b4163ab3a81a07bbd72a4);
+            
+
+            circle_marker_05527ff5bf844a7b98d319b5edada270.bindPopup(popup_50bc514d24c94888a7322c5102333b24);
+
+            
+        
+    
+            var circle_marker_40a3133ca1dd4f55a07e3af10425250f = L.circleMarker(
+                [4.570868,-74.297333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.700000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_2bfdda30eede42458665e5e0d5c09178 = L.popup({maxWidth: '300'});
+
+            
+                var html_d02d8729fcaa46eb80663ef2d12fb8a9 = $('<div id="html_d02d8729fcaa46eb80663ef2d12fb8a9" style="width: 100.0%; height: 100.0%;">------------------------------colombie----------------------------- -------------- moyenne de morts par catastrophe : 1691 -------------- nombre d article paru : 97</div>')[0];
+                popup_2bfdda30eede42458665e5e0d5c09178.setContent(html_d02d8729fcaa46eb80663ef2d12fb8a9);
+            
+
+            circle_marker_40a3133ca1dd4f55a07e3af10425250f.bindPopup(popup_2bfdda30eede42458665e5e0d5c09178);
+
+            
+        
+    
+            var circle_marker_bee43394744b4e86849291e4bd7e7a58 = L.circleMarker(
+                [21.521757,-77.781167],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 33.1,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_26b1a2af494c438887b2462e88db1041 = L.popup({maxWidth: '300'});
+
+            
+                var html_ef46691ce98a474690f9cb96a40cc13c = $('<div id="html_ef46691ce98a474690f9cb96a40cc13c" style="width: 100.0%; height: 100.0%;">------------------------------cuba----------------------------- -------------- moyenne de morts par catastrophe : 687 -------------- nombre d article paru : 331</div>')[0];
+                popup_26b1a2af494c438887b2462e88db1041.setContent(html_ef46691ce98a474690f9cb96a40cc13c);
+            
+
+            circle_marker_bee43394744b4e86849291e4bd7e7a58.bindPopup(popup_26b1a2af494c438887b2462e88db1041);
+
+            
+        
+    
+            var circle_marker_3da1af1ecdc643a487ecfbd99fc5e3c6 = L.circleMarker(
+                [15.414999,-61.370976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_ef34840f15eb4ab48351641c40658981 = L.popup({maxWidth: '300'});
+
+            
+                var html_c5d76fe7059f48eb93ac7d8279d14479 = $('<div id="html_c5d76fe7059f48eb93ac7d8279d14479" style="width: 100.0%; height: 100.0%;">------------------------------dominique----------------------------- -------------- moyenne de morts par catastrophe : 582 -------------- nombre d article paru : 145</div>')[0];
+                popup_ef34840f15eb4ab48351641c40658981.setContent(html_c5d76fe7059f48eb93ac7d8279d14479);
+            
+
+            circle_marker_3da1af1ecdc643a487ecfbd99fc5e3c6.bindPopup(popup_ef34840f15eb4ab48351641c40658981);
+
+            
+        
+    
+            var circle_marker_370feda807874ce68b1f4608a6339b95 = L.circleMarker(
+                [26.820553,30.802498],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_34be6280a1854d95be0bec0596e6a593 = L.popup({maxWidth: '300'});
+
+            
+                var html_28be7eba1d2f4acd91eff976fbc5ae08 = $('<div id="html_28be7eba1d2f4acd91eff976fbc5ae08" style="width: 100.0%; height: 100.0%;">------------------------------egypte----------------------------- -------------- moyenne de morts par catastrophe : 366 -------------- nombre d article paru : 40</div>')[0];
+                popup_34be6280a1854d95be0bec0596e6a593.setContent(html_28be7eba1d2f4acd91eff976fbc5ae08);
+            
+
+            circle_marker_370feda807874ce68b1f4608a6339b95.bindPopup(popup_34be6280a1854d95be0bec0596e6a593);
+
+            
+        
+    
+            var circle_marker_afd73dc9972245b0b43ae1cae061e332 = L.circleMarker(
+                [-1.831239,-78.183406],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.200000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_e79e916229234c4a804768fa70118869 = L.popup({maxWidth: '300'});
+
+            
+                var html_2cde01925b1440438c4dc3d50ac1db7b = $('<div id="html_2cde01925b1440438c4dc3d50ac1db7b" style="width: 100.0%; height: 100.0%;">------------------------------equateur----------------------------- -------------- moyenne de morts par catastrophe : 817 -------------- nombre d article paru : 82</div>')[0];
+                popup_e79e916229234c4a804768fa70118869.setContent(html_2cde01925b1440438c4dc3d50ac1db7b);
+            
+
+            circle_marker_afd73dc9972245b0b43ae1cae061e332.bindPopup(popup_e79e916229234c4a804768fa70118869);
+
+            
+        
+    
+            var circle_marker_b1d5dbba20fa43e6997c1b88eb7fa81b = L.circleMarker(
+                [40.463667,-3.74922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_0a69f9b82c4042e6a18ffccf5ace3d24 = L.popup({maxWidth: '300'});
+
+            
+                var html_04a847fa99fb4828893ad5f096216400 = $('<div id="html_04a847fa99fb4828893ad5f096216400" style="width: 100.0%; height: 100.0%;">------------------------------espagne----------------------------- -------------- moyenne de morts par catastrophe : 830 -------------- nombre d article paru : 134</div>')[0];
+                popup_0a69f9b82c4042e6a18ffccf5ace3d24.setContent(html_04a847fa99fb4828893ad5f096216400);
+            
+
+            circle_marker_b1d5dbba20fa43e6997c1b88eb7fa81b.bindPopup(popup_0a69f9b82c4042e6a18ffccf5ace3d24);
+
+            
+        
+    
+            var circle_marker_b3a31fc7cf4441f4bba617e6650794fa = L.circleMarker(
+                [37.09024,-95.712891],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 177.9,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_fdf4e427a140487bae930a51921be7af = L.popup({maxWidth: '300'});
+
+            
+                var html_a0f1856b60c74b5e9bc033876eed7aa7 = $('<div id="html_a0f1856b60c74b5e9bc033876eed7aa7" style="width: 100.0%; height: 100.0%;">------------------------------etatsunis----------------------------- -------------- moyenne de morts par catastrophe : 1120 -------------- nombre d article paru : 1779</div>')[0];
+                popup_fdf4e427a140487bae930a51921be7af.setContent(html_a0f1856b60c74b5e9bc033876eed7aa7);
+            
+
+            circle_marker_b3a31fc7cf4441f4bba617e6650794fa.bindPopup(popup_fdf4e427a140487bae930a51921be7af);
+
+            
+        
+    
+            var circle_marker_61a98c590a65439892e9246fa441486d = L.circleMarker(
+                [-16.578193,179.414413],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_601c80dc54b147e4b2a656d2ecbeb889 = L.popup({maxWidth: '300'});
+
+            
+                var html_f0bd3cbc52ed4e1f82c9ae1b5a703e52 = $('<div id="html_f0bd3cbc52ed4e1f82c9ae1b5a703e52" style="width: 100.0%; height: 100.0%;">------------------------------fidji----------------------------- -------------- moyenne de morts par catastrophe : 1188 -------------- nombre d article paru : 65</div>')[0];
+                popup_601c80dc54b147e4b2a656d2ecbeb889.setContent(html_f0bd3cbc52ed4e1f82c9ae1b5a703e52);
+            
+
+            circle_marker_61a98c590a65439892e9246fa441486d.bindPopup(popup_601c80dc54b147e4b2a656d2ecbeb889);
+
+            
+        
+    
+            var circle_marker_9e3809610cbb481da1d2dcde81d0e55d = L.circleMarker(
+                [46.227638,2.213749],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 186.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_47f7d4226bb94f90a853ec1821e8503d = L.popup({maxWidth: '300'});
+
+            
+                var html_f650a57f7ba54f54a936a800f1385209 = $('<div id="html_f650a57f7ba54f54a936a800f1385209" style="width: 100.0%; height: 100.0%;">------------------------------france----------------------------- -------------- moyenne de morts par catastrophe : 980 -------------- nombre d article paru : 1864</div>')[0];
+                popup_47f7d4226bb94f90a853ec1821e8503d.setContent(html_f650a57f7ba54f54a936a800f1385209);
+            
+
+            circle_marker_9e3809610cbb481da1d2dcde81d0e55d.bindPopup(popup_47f7d4226bb94f90a853ec1821e8503d);
+
+            
+        
+    
+            var circle_marker_bf7161e4e5444df1b5b24db8f84a2a26 = L.circleMarker(
+                [42.315407,43.356892],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_808bdbb7a5784eb5b8f78a47b16f3d49 = L.popup({maxWidth: '300'});
+
+            
+                var html_6dbe31e760f846d0bb4df733ef7af1e1 = $('<div id="html_6dbe31e760f846d0bb4df733ef7af1e1" style="width: 100.0%; height: 100.0%;">------------------------------georgie----------------------------- -------------- moyenne de morts par catastrophe : 661 -------------- nombre d article paru : 114</div>')[0];
+                popup_808bdbb7a5784eb5b8f78a47b16f3d49.setContent(html_6dbe31e760f846d0bb4df733ef7af1e1);
+            
+
+            circle_marker_bf7161e4e5444df1b5b24db8f84a2a26.bindPopup(popup_808bdbb7a5784eb5b8f78a47b16f3d49);
+
+            
+        
+    
+            var circle_marker_68af159bb1ee4f488d58801ddd0faa96 = L.circleMarker(
+                [39.074208,21.824312],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.700000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_3d9749b4234c4e25b2a71166f7118cda = L.popup({maxWidth: '300'});
+
+            
+                var html_135722a89395478991fcb862939ea4ff = $('<div id="html_135722a89395478991fcb862939ea4ff" style="width: 100.0%; height: 100.0%;">------------------------------grece----------------------------- -------------- moyenne de morts par catastrophe : 610 -------------- nombre d article paru : 87</div>')[0];
+                popup_3d9749b4234c4e25b2a71166f7118cda.setContent(html_135722a89395478991fcb862939ea4ff);
+            
+
+            circle_marker_68af159bb1ee4f488d58801ddd0faa96.bindPopup(popup_3d9749b4234c4e25b2a71166f7118cda);
+
+            
+        
+    
+            var circle_marker_86d9abdb0fda4ff2881c9842fc2d97e9 = L.circleMarker(
+                [12.262776,-61.604171],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.6000000000000005,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_63a5a5e5f8b84fd79465d1e010224081 = L.popup({maxWidth: '300'});
+
+            
+                var html_57578765b2e54fba9b0d0a88fb725fc5 = $('<div id="html_57578765b2e54fba9b0d0a88fb725fc5" style="width: 100.0%; height: 100.0%;">------------------------------grenade----------------------------- -------------- moyenne de morts par catastrophe : 752 -------------- nombre d article paru : 46</div>')[0];
+                popup_63a5a5e5f8b84fd79465d1e010224081.setContent(html_57578765b2e54fba9b0d0a88fb725fc5);
+            
+
+            circle_marker_86d9abdb0fda4ff2881c9842fc2d97e9.bindPopup(popup_63a5a5e5f8b84fd79465d1e010224081);
+
+            
+        
+    
+            var circle_marker_fbff069812b544cd8f0a2f2ae3160b0f = L.circleMarker(
+                [16.995971,-62.067641],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 32.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_a4d85f3a63e246cb8f2dbace3682617b = L.popup({maxWidth: '300'});
+
+            
+                var html_935ed8bff2274e268f31efbad248a8ab = $('<div id="html_935ed8bff2274e268f31efbad248a8ab" style="width: 100.0%; height: 100.0%;">------------------------------guadeloupe----------------------------- -------------- moyenne de morts par catastrophe : 885 -------------- nombre d article paru : 325</div>')[0];
+                popup_a4d85f3a63e246cb8f2dbace3682617b.setContent(html_935ed8bff2274e268f31efbad248a8ab);
+            
+
+            circle_marker_fbff069812b544cd8f0a2f2ae3160b0f.bindPopup(popup_a4d85f3a63e246cb8f2dbace3682617b);
+
+            
+        
+    
+            var circle_marker_129308ec77d945aa8a30d423a1479bb8 = L.circleMarker(
+                [15.783471,-90.230759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_6cc421ff1940486b86fbe8d52d0d1929 = L.popup({maxWidth: '300'});
+
+            
+                var html_56b083ff8b09475696eb9d2a2dc0842b = $('<div id="html_56b083ff8b09475696eb9d2a2dc0842b" style="width: 100.0%; height: 100.0%;">------------------------------guatemala----------------------------- -------------- moyenne de morts par catastrophe : 1350 -------------- nombre d article paru : 80</div>')[0];
+                popup_6cc421ff1940486b86fbe8d52d0d1929.setContent(html_56b083ff8b09475696eb9d2a2dc0842b);
+            
+
+            circle_marker_129308ec77d945aa8a30d423a1479bb8.bindPopup(popup_6cc421ff1940486b86fbe8d52d0d1929);
+
+            
+        
+    
+            var circle_marker_af24253c854743fd96b4698eed74a2ae = L.circleMarker(
+                [9.945587,-9.696645],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.4000000000000004,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_d5d6a3f9b2e04df1a1fcf09e608dfcc0 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b8485dc5dec4f74ae5ea5b6e5fac950 = $('<div id="html_8b8485dc5dec4f74ae5ea5b6e5fac950" style="width: 100.0%; height: 100.0%;">------------------------------guinee----------------------------- -------------- moyenne de morts par catastrophe : 564 -------------- nombre d article paru : 34</div>')[0];
+                popup_d5d6a3f9b2e04df1a1fcf09e608dfcc0.setContent(html_8b8485dc5dec4f74ae5ea5b6e5fac950);
+            
+
+            circle_marker_af24253c854743fd96b4698eed74a2ae.bindPopup(popup_d5d6a3f9b2e04df1a1fcf09e608dfcc0);
+
+            
+        
+    
+            var circle_marker_096bca0a82a843c0af310d5a945620fe = L.circleMarker(
+                [18.971187,-72.285215],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 50.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_fb6248fba3044ca5ae502e994df4a93f = L.popup({maxWidth: '300'});
+
+            
+                var html_216b14cc1067450fa7ebbdf02c7be30b = $('<div id="html_216b14cc1067450fa7ebbdf02c7be30b" style="width: 100.0%; height: 100.0%;">------------------------------haiti----------------------------- -------------- moyenne de morts par catastrophe : 1211 -------------- nombre d article paru : 506</div>')[0];
+                popup_fb6248fba3044ca5ae502e994df4a93f.setContent(html_216b14cc1067450fa7ebbdf02c7be30b);
+            
+
+            circle_marker_096bca0a82a843c0af310d5a945620fe.bindPopup(popup_fb6248fba3044ca5ae502e994df4a93f);
+
+            
+        
+    
+            var circle_marker_d2ad26a5723d4d8ab4947465773c9305 = L.circleMarker(
+                [15.199999,-86.241905],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_edd40fbd3737429483694b228212df7e = L.popup({maxWidth: '300'});
+
+            
+                var html_50ee8c80e81f4c36ac25433dbdbc994a = $('<div id="html_50ee8c80e81f4c36ac25433dbdbc994a" style="width: 100.0%; height: 100.0%;">------------------------------honduras----------------------------- -------------- moyenne de morts par catastrophe : 1094 -------------- nombre d article paru : 72</div>')[0];
+                popup_edd40fbd3737429483694b228212df7e.setContent(html_50ee8c80e81f4c36ac25433dbdbc994a);
+            
+
+            circle_marker_d2ad26a5723d4d8ab4947465773c9305.bindPopup(popup_edd40fbd3737429483694b228212df7e);
+
+            
+        
+    
+            var circle_marker_5fe2fd02598c4a0eaff687c6666f0a74 = L.circleMarker(
+                [22.396428,114.109497],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.100000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_a07af1e109814db3ad648cb14df644d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_753b49b1116b4f0c8b9c250efa6579d0 = $('<div id="html_753b49b1116b4f0c8b9c250efa6579d0" style="width: 100.0%; height: 100.0%;">------------------------------hongkong----------------------------- -------------- moyenne de morts par catastrophe : 2605 -------------- nombre d article paru : 151</div>')[0];
+                popup_a07af1e109814db3ad648cb14df644d5.setContent(html_753b49b1116b4f0c8b9c250efa6579d0);
+            
+
+            circle_marker_5fe2fd02598c4a0eaff687c6666f0a74.bindPopup(popup_a07af1e109814db3ad648cb14df644d5);
+
+            
+        
+    
+            var circle_marker_e94cd65ca32342b28398da489af17ac7 = L.circleMarker(
+                [47.162494,19.503304],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.7,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_05a84faf6fcb49ca9d9a033891885be9 = L.popup({maxWidth: '300'});
+
+            
+                var html_5391946afbca406387894cee0c8693ed = $('<div id="html_5391946afbca406387894cee0c8693ed" style="width: 100.0%; height: 100.0%;">------------------------------hongrie----------------------------- -------------- moyenne de morts par catastrophe : 1356 -------------- nombre d article paru : 47</div>')[0];
+                popup_05a84faf6fcb49ca9d9a033891885be9.setContent(html_5391946afbca406387894cee0c8693ed);
+            
+
+            circle_marker_e94cd65ca32342b28398da489af17ac7.bindPopup(popup_05a84faf6fcb49ca9d9a033891885be9);
+
+            
+        
+    
+            var circle_marker_9d7c58d25dc744ef9a7cbc3bee0850f2 = L.circleMarker(
+                [20.593684,78.96288],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 36.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_bb907c4ef9774807b5c51d96024b049b = L.popup({maxWidth: '300'});
+
+            
+                var html_b93f60f1fa2046ceab122fad31ec918d = $('<div id="html_b93f60f1fa2046ceab122fad31ec918d" style="width: 100.0%; height: 100.0%;">------------------------------inde----------------------------- -------------- moyenne de morts par catastrophe : 1584 -------------- nombre d article paru : 365</div>')[0];
+                popup_bb907c4ef9774807b5c51d96024b049b.setContent(html_b93f60f1fa2046ceab122fad31ec918d);
+            
+
+            circle_marker_9d7c58d25dc744ef9a7cbc3bee0850f2.bindPopup(popup_bb907c4ef9774807b5c51d96024b049b);
+
+            
+        
+    
+            var circle_marker_9081b6970fdd4233863049554c596e8e = L.circleMarker(
+                [-0.789275,113.921327],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_4df370d357dc40c2b80c1e95aadc3417 = L.popup({maxWidth: '300'});
+
+            
+                var html_89214d73f91641a0b137b073939b7a7f = $('<div id="html_89214d73f91641a0b137b073939b7a7f" style="width: 100.0%; height: 100.0%;">------------------------------indonesie----------------------------- -------------- moyenne de morts par catastrophe : 1721 -------------- nombre d article paru : 144</div>')[0];
+                popup_4df370d357dc40c2b80c1e95aadc3417.setContent(html_89214d73f91641a0b137b073939b7a7f);
+            
+
+            circle_marker_9081b6970fdd4233863049554c596e8e.bindPopup(popup_4df370d357dc40c2b80c1e95aadc3417);
+
+            
+        
+    
+            var circle_marker_431a50f8dbc844589a19f97d1943a655 = L.circleMarker(
+                [53.41291,-8.24389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_48bb72b955694ffbb0d5e08f3301d69c = L.popup({maxWidth: '300'});
+
+            
+                var html_85fb1523408d45f0adf76595dd091e8b = $('<div id="html_85fb1523408d45f0adf76595dd091e8b" style="width: 100.0%; height: 100.0%;">------------------------------irlande----------------------------- -------------- moyenne de morts par catastrophe : 741 -------------- nombre d article paru : 44</div>')[0];
+                popup_48bb72b955694ffbb0d5e08f3301d69c.setContent(html_85fb1523408d45f0adf76595dd091e8b);
+            
+
+            circle_marker_431a50f8dbc844589a19f97d1943a655.bindPopup(popup_48bb72b955694ffbb0d5e08f3301d69c);
+
+            
+        
+    
+            var circle_marker_42ab915f1ae74cffac24f56adffd1219 = L.circleMarker(
+                [31.046051,34.851612],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.1000000000000005,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_1fccfc681bf84cadab65abbc36c6b6a1 = L.popup({maxWidth: '300'});
+
+            
+                var html_bf03b2400e8544f4b9d94b9a444a7c81 = $('<div id="html_bf03b2400e8544f4b9d94b9a444a7c81" style="width: 100.0%; height: 100.0%;">------------------------------israel----------------------------- -------------- moyenne de morts par catastrophe : 1450 -------------- nombre d article paru : 71</div>')[0];
+                popup_1fccfc681bf84cadab65abbc36c6b6a1.setContent(html_bf03b2400e8544f4b9d94b9a444a7c81);
+            
+
+            circle_marker_42ab915f1ae74cffac24f56adffd1219.bindPopup(popup_1fccfc681bf84cadab65abbc36c6b6a1);
+
+            
+        
+    
+            var circle_marker_108e8a9c458e4f978edc08fc0c3f3177 = L.circleMarker(
+                [41.87194,12.56738],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 26.3,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_e37a91f157f849f3b51025164f510cb1 = L.popup({maxWidth: '300'});
+
+            
+                var html_f48ee5120ac14bf4b54ccce782e72424 = $('<div id="html_f48ee5120ac14bf4b54ccce782e72424" style="width: 100.0%; height: 100.0%;">------------------------------italie----------------------------- -------------- moyenne de morts par catastrophe : 831 -------------- nombre d article paru : 263</div>')[0];
+                popup_e37a91f157f849f3b51025164f510cb1.setContent(html_f48ee5120ac14bf4b54ccce782e72424);
+            
+
+            circle_marker_108e8a9c458e4f978edc08fc0c3f3177.bindPopup(popup_e37a91f157f849f3b51025164f510cb1);
+
+            
+        
+    
+            var circle_marker_6fe2bc5b555a4889b2f585e99ec59276 = L.circleMarker(
+                [18.109581,-77.297508],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.200000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_5b6f454f4ca74014a122f6363f4bd6da = L.popup({maxWidth: '300'});
+
+            
+                var html_4e23fdba37cb47d3a3bfc4103a31c41a = $('<div id="html_4e23fdba37cb47d3a3bfc4103a31c41a" style="width: 100.0%; height: 100.0%;">------------------------------jamaique----------------------------- -------------- moyenne de morts par catastrophe : 538 -------------- nombre d article paru : 102</div>')[0];
+                popup_5b6f454f4ca74014a122f6363f4bd6da.setContent(html_4e23fdba37cb47d3a3bfc4103a31c41a);
+            
+
+            circle_marker_6fe2bc5b555a4889b2f585e99ec59276.bindPopup(popup_5b6f454f4ca74014a122f6363f4bd6da);
+
+            
+        
+    
+            var circle_marker_2d4270adb9394c09a09a88d772e48023 = L.circleMarker(
+                [36.204824,138.252924],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 88.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_f98f4a4019104c4397bf5fc35c40a224 = L.popup({maxWidth: '300'});
+
+            
+                var html_ed77f0cf426a43f7949ec77cbae2f786 = $('<div id="html_ed77f0cf426a43f7949ec77cbae2f786" style="width: 100.0%; height: 100.0%;">------------------------------japon----------------------------- -------------- moyenne de morts par catastrophe : 1095 -------------- nombre d article paru : 885</div>')[0];
+                popup_f98f4a4019104c4397bf5fc35c40a224.setContent(html_ed77f0cf426a43f7949ec77cbae2f786);
+            
+
+            circle_marker_2d4270adb9394c09a09a88d772e48023.bindPopup(popup_f98f4a4019104c4397bf5fc35c40a224);
+
+            
+        
+    
+            var circle_marker_85a6e2f6eb514ab89cf17e2c69939bd8 = L.circleMarker(
+                [29.31166,47.481766],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_7c4154b1be36451396dcd27a02e8755f = L.popup({maxWidth: '300'});
+
+            
+                var html_1ef87098657d490eaa8f16f4adf43e1b = $('<div id="html_1ef87098657d490eaa8f16f4adf43e1b" style="width: 100.0%; height: 100.0%;">------------------------------koweit----------------------------- -------------- moyenne de morts par catastrophe : 981 -------------- nombre d article paru : 32</div>')[0];
+                popup_7c4154b1be36451396dcd27a02e8755f.setContent(html_1ef87098657d490eaa8f16f4adf43e1b);
+            
+
+            circle_marker_85a6e2f6eb514ab89cf17e2c69939bd8.bindPopup(popup_7c4154b1be36451396dcd27a02e8755f);
+
+            
+        
+    
+            var circle_marker_4180cf6154ea4452a07c722accc8978c = L.circleMarker(
+                [49.815273,6.129583],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_3888b91ac6c94697bbcef0dc8edf56ee = L.popup({maxWidth: '300'});
+
+            
+                var html_b755dc71b28840539bc6b1e2b60b6f08 = $('<div id="html_b755dc71b28840539bc6b1e2b60b6f08" style="width: 100.0%; height: 100.0%;">------------------------------luxembourg----------------------------- -------------- moyenne de morts par catastrophe : 1048 -------------- nombre d article paru : 32</div>')[0];
+                popup_3888b91ac6c94697bbcef0dc8edf56ee.setContent(html_b755dc71b28840539bc6b1e2b60b6f08);
+            
+
+            circle_marker_4180cf6154ea4452a07c722accc8978c.bindPopup(popup_3888b91ac6c94697bbcef0dc8edf56ee);
+
+            
+        
+    
+            var circle_marker_b61cf6ed0df14c54a5d4d0382da601aa = L.circleMarker(
+                [-18.766947,46.869107],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.1000000000000005,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_04174fe29b4b42719a4015169c3d7f0b = L.popup({maxWidth: '300'});
+
+            
+                var html_65e2bb7482c5422a9ac83feef0ca86b9 = $('<div id="html_65e2bb7482c5422a9ac83feef0ca86b9" style="width: 100.0%; height: 100.0%;">------------------------------madagascar----------------------------- -------------- moyenne de morts par catastrophe : 1837 -------------- nombre d article paru : 71</div>')[0];
+                popup_04174fe29b4b42719a4015169c3d7f0b.setContent(html_65e2bb7482c5422a9ac83feef0ca86b9);
+            
+
+            circle_marker_b61cf6ed0df14c54a5d4d0382da601aa.bindPopup(popup_04174fe29b4b42719a4015169c3d7f0b);
+
+            
+        
+    
+            var circle_marker_c1e6ffafe6154aa6b530de477acf5b9c = L.circleMarker(
+                [4.210484,101.975766],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.9000000000000004,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_b525decd255740068116abb45ae3b71a = L.popup({maxWidth: '300'});
+
+            
+                var html_b9dfc204b1e64040bfb15eb00af4ede9 = $('<div id="html_b9dfc204b1e64040bfb15eb00af4ede9" style="width: 100.0%; height: 100.0%;">------------------------------malaisie----------------------------- -------------- moyenne de morts par catastrophe : 843 -------------- nombre d article paru : 39</div>')[0];
+                popup_b525decd255740068116abb45ae3b71a.setContent(html_b9dfc204b1e64040bfb15eb00af4ede9);
+            
+
+            circle_marker_c1e6ffafe6154aa6b530de477acf5b9c.bindPopup(popup_b525decd255740068116abb45ae3b71a);
+
+            
+        
+    
+            var circle_marker_9b5f8667e9434ef1800a13de46a03744 = L.circleMarker(
+                [17.570692,-3.996166],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.8000000000000003,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_2aed1a80deda45abba747f009c82c314 = L.popup({maxWidth: '300'});
+
+            
+                var html_54f454522aa34a22a02443d88ed8ed3f = $('<div id="html_54f454522aa34a22a02443d88ed8ed3f" style="width: 100.0%; height: 100.0%;">------------------------------mali----------------------------- -------------- moyenne de morts par catastrophe : 1060 -------------- nombre d article paru : 28</div>')[0];
+                popup_2aed1a80deda45abba747f009c82c314.setContent(html_54f454522aa34a22a02443d88ed8ed3f);
+            
+
+            circle_marker_9b5f8667e9434ef1800a13de46a03744.bindPopup(popup_2aed1a80deda45abba747f009c82c314);
+
+            
+        
+    
+            var circle_marker_5461052759a546fc838c4b70ce21cc1e = L.circleMarker(
+                [31.791702,-7.09262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_ad9ab9f9e1904a73b964e306718087d8 = L.popup({maxWidth: '300'});
+
+            
+                var html_eff05b620fc34fecb1db0d2505e3b79d = $('<div id="html_eff05b620fc34fecb1db0d2505e3b79d" style="width: 100.0%; height: 100.0%;">------------------------------maroc----------------------------- -------------- moyenne de morts par catastrophe : 750 -------------- nombre d article paru : 30</div>')[0];
+                popup_ad9ab9f9e1904a73b964e306718087d8.setContent(html_eff05b620fc34fecb1db0d2505e3b79d);
+            
+
+            circle_marker_5461052759a546fc838c4b70ce21cc1e.bindPopup(popup_ad9ab9f9e1904a73b964e306718087d8);
+
+            
+        
+    
+            var circle_marker_2c8d62917b924f6a9d6ae691fe3c2ed7 = L.circleMarker(
+                [14.641528,-61.024174],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_9cdfac99d3b3456dbb3e0126a8cc58cc = L.popup({maxWidth: '300'});
+
+            
+                var html_27eb59bf25c1410499ea3c95e8e0d0e7 = $('<div id="html_27eb59bf25c1410499ea3c95e8e0d0e7" style="width: 100.0%; height: 100.0%;">------------------------------martinique----------------------------- -------------- moyenne de morts par catastrophe : 1045 -------------- nombre d article paru : 215</div>')[0];
+                popup_9cdfac99d3b3456dbb3e0126a8cc58cc.setContent(html_27eb59bf25c1410499ea3c95e8e0d0e7);
+            
+
+            circle_marker_2c8d62917b924f6a9d6ae691fe3c2ed7.bindPopup(popup_9cdfac99d3b3456dbb3e0126a8cc58cc);
+
+            
+        
+    
+            var circle_marker_094e5644c7ae462b927e00bfe9f08c44 = L.circleMarker(
+                [-20.348404,57.552152],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.6000000000000005,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_5eca180f6f2d41d18aa30b424f14f636 = L.popup({maxWidth: '300'});
+
+            
+                var html_0958dffe4de84763bb54f4de5212e94b = $('<div id="html_0958dffe4de84763bb54f4de5212e94b" style="width: 100.0%; height: 100.0%;">------------------------------maurice----------------------------- -------------- moyenne de morts par catastrophe : 672 -------------- nombre d article paru : 46</div>')[0];
+                popup_5eca180f6f2d41d18aa30b424f14f636.setContent(html_0958dffe4de84763bb54f4de5212e94b);
+            
+
+            circle_marker_094e5644c7ae462b927e00bfe9f08c44.bindPopup(popup_5eca180f6f2d41d18aa30b424f14f636);
+
+            
+        
+    
+            var circle_marker_8886381512724914bb32a445f5e76e81 = L.circleMarker(
+                [23.634501,-102.552784],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 61.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_bea897e0b019410ab211ae63f08192f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_a7808d3bee0e494baf2a2d5506aefd20 = $('<div id="html_a7808d3bee0e494baf2a2d5506aefd20" style="width: 100.0%; height: 100.0%;">------------------------------mexique----------------------------- -------------- moyenne de morts par catastrophe : 925 -------------- nombre d article paru : 615</div>')[0];
+                popup_bea897e0b019410ab211ae63f08192f9.setContent(html_a7808d3bee0e494baf2a2d5506aefd20);
+            
+
+            circle_marker_8886381512724914bb32a445f5e76e81.bindPopup(popup_bea897e0b019410ab211ae63f08192f9);
+
+            
+        
+    
+            var circle_marker_8f6a923616454aeb9cdcdab8e12d9b98 = L.circleMarker(
+                [43.750298,7.412841],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.3,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_0e365b17751340629d958a77a8377d7b = L.popup({maxWidth: '300'});
+
+            
+                var html_bb238136b5b346a4817d57a5ee8da9a4 = $('<div id="html_bb238136b5b346a4817d57a5ee8da9a4" style="width: 100.0%; height: 100.0%;">------------------------------monaco----------------------------- -------------- moyenne de morts par catastrophe : 426 -------------- nombre d article paru : 43</div>')[0];
+                popup_0e365b17751340629d958a77a8377d7b.setContent(html_bb238136b5b346a4817d57a5ee8da9a4);
+            
+
+            circle_marker_8f6a923616454aeb9cdcdab8e12d9b98.bindPopup(popup_0e365b17751340629d958a77a8377d7b);
+
+            
+        
+    
+            var circle_marker_135ad777ec064cbfbfcf1212ba229a6d = L.circleMarker(
+                [21.913965,95.956223],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.9000000000000004,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_716c06bf1a484d708823222ce466b8e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_597814cca780428590c86db4eccb7f75 = $('<div id="html_597814cca780428590c86db4eccb7f75" style="width: 100.0%; height: 100.0%;">------------------------------myanmar----------------------------- -------------- moyenne de morts par catastrophe : 1003 -------------- nombre d article paru : 29</div>')[0];
+                popup_716c06bf1a484d708823222ce466b8e9.setContent(html_597814cca780428590c86db4eccb7f75);
+            
+
+            circle_marker_135ad777ec064cbfbfcf1212ba229a6d.bindPopup(popup_716c06bf1a484d708823222ce466b8e9);
+
+            
+        
+    
+            var circle_marker_9a176d4cfa3e45e68908291eef7cd5b1 = L.circleMarker(
+                [28.394857,84.124008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.700000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_6d1417d4a2454e0eb03c6760954104ab = L.popup({maxWidth: '300'});
+
+            
+                var html_3427be7e1d584f32a2ed2c5112f87f9d = $('<div id="html_3427be7e1d584f32a2ed2c5112f87f9d" style="width: 100.0%; height: 100.0%;">------------------------------nepal----------------------------- -------------- moyenne de morts par catastrophe : 1514 -------------- nombre d article paru : 107</div>')[0];
+                popup_6d1417d4a2454e0eb03c6760954104ab.setContent(html_3427be7e1d584f32a2ed2c5112f87f9d);
+            
+
+            circle_marker_9a176d4cfa3e45e68908291eef7cd5b1.bindPopup(popup_6d1417d4a2454e0eb03c6760954104ab);
+
+            
+        
+    
+            var circle_marker_691897dc6fd1401da69b34d706588b97 = L.circleMarker(
+                [12.865416,-85.207229],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.1000000000000005,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_c9e3952257fb4eda91c19aa61b48cf70 = L.popup({maxWidth: '300'});
+
+            
+                var html_4aa2e35f5eec42c39855688777bc3333 = $('<div id="html_4aa2e35f5eec42c39855688777bc3333" style="width: 100.0%; height: 100.0%;">------------------------------nicaragua----------------------------- -------------- moyenne de morts par catastrophe : 1563 -------------- nombre d article paru : 61</div>')[0];
+                popup_c9e3952257fb4eda91c19aa61b48cf70.setContent(html_4aa2e35f5eec42c39855688777bc3333);
+            
+
+            circle_marker_691897dc6fd1401da69b34d706588b97.bindPopup(popup_c9e3952257fb4eda91c19aa61b48cf70);
+
+            
+        
+    
+            var circle_marker_4c0a4e9f2b184c81ac798fc4f46f0c78 = L.circleMarker(
+                [60.472024,8.468946],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_9bda0f64322347799ca209994aa026f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_59006f7edba84d479cef37606f924be3 = $('<div id="html_59006f7edba84d479cef37606f924be3" style="width: 100.0%; height: 100.0%;">------------------------------norvege----------------------------- -------------- moyenne de morts par catastrophe : 836 -------------- nombre d article paru : 32</div>')[0];
+                popup_9bda0f64322347799ca209994aa026f9.setContent(html_59006f7edba84d479cef37606f924be3);
+            
+
+            circle_marker_4c0a4e9f2b184c81ac798fc4f46f0c78.bindPopup(popup_9bda0f64322347799ca209994aa026f9);
+
+            
+        
+    
+            var circle_marker_11ca25c7cfd4492db302e9702953c76e = L.circleMarker(
+                [-20.904305,165.618042],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_f7aa467799f3427087bf1fa72d3a93cd = L.popup({maxWidth: '300'});
+
+            
+                var html_818a021ffba54437b8bbeb6237dfe4c6 = $('<div id="html_818a021ffba54437b8bbeb6237dfe4c6" style="width: 100.0%; height: 100.0%;">------------------------------nouvellecaledonie----------------------------- -------------- moyenne de morts par catastrophe : 517 -------------- nombre d article paru : 86</div>')[0];
+                popup_f7aa467799f3427087bf1fa72d3a93cd.setContent(html_818a021ffba54437b8bbeb6237dfe4c6);
+            
+
+            circle_marker_11ca25c7cfd4492db302e9702953c76e.bindPopup(popup_f7aa467799f3427087bf1fa72d3a93cd);
+
+            
+        
+    
+            var circle_marker_a3dfb14bef98432983505a986bbcfd75 = L.circleMarker(
+                [-40.900557,174.885971],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 14.100000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_1328084e013b4398b0dcec86878270e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_7027983cc92c4a4da641e32850248759 = $('<div id="html_7027983cc92c4a4da641e32850248759" style="width: 100.0%; height: 100.0%;">------------------------------nouvellezelande----------------------------- -------------- moyenne de morts par catastrophe : 808 -------------- nombre d article paru : 141</div>')[0];
+                popup_1328084e013b4398b0dcec86878270e5.setContent(html_7027983cc92c4a4da641e32850248759);
+            
+
+            circle_marker_a3dfb14bef98432983505a986bbcfd75.bindPopup(popup_1328084e013b4398b0dcec86878270e5);
+
+            
+        
+    
+            var circle_marker_b8fd83371c13485fb5a4d07ce89b431b = L.circleMarker(
+                [30.375321,69.345116],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21.900000000000002,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_6485f63256a84d8c907d9197c02ccfe2 = L.popup({maxWidth: '300'});
+
+            
+                var html_539479c797ab48d5ac88b9ede7174ce1 = $('<div id="html_539479c797ab48d5ac88b9ede7174ce1" style="width: 100.0%; height: 100.0%;">------------------------------pakistan----------------------------- -------------- moyenne de morts par catastrophe : 1302 -------------- nombre d article paru : 219</div>')[0];
+                popup_6485f63256a84d8c907d9197c02ccfe2.setContent(html_539479c797ab48d5ac88b9ede7174ce1);
+            
+
+            circle_marker_b8fd83371c13485fb5a4d07ce89b431b.bindPopup(popup_6485f63256a84d8c907d9197c02ccfe2);
+
+            
+        
+    
+            var circle_marker_772f11a8e546447da8a8c019414d7894 = L.circleMarker(
+                [8.537981,-80.782127],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_a622e1a0521c44659b76b5c0bc1e1c94 = L.popup({maxWidth: '300'});
+
+            
+                var html_f0c2170c4e1d4771b40ba72a57f22b9d = $('<div id="html_f0c2170c4e1d4771b40ba72a57f22b9d" style="width: 100.0%; height: 100.0%;">------------------------------panama----------------------------- -------------- moyenne de morts par catastrophe : 1920 -------------- nombre d article paru : 36</div>')[0];
+                popup_a622e1a0521c44659b76b5c0bc1e1c94.setContent(html_f0c2170c4e1d4771b40ba72a57f22b9d);
+            
+
+            circle_marker_772f11a8e546447da8a8c019414d7894.bindPopup(popup_a622e1a0521c44659b76b5c0bc1e1c94);
+
+            
+        
+    
+            var circle_marker_36f32e5d897e4c08a0bea77096a9f921 = L.circleMarker(
+                [52.132633,5.291266],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_adcfd2a102d94d9f888350c888802285 = L.popup({maxWidth: '300'});
+
+            
+                var html_d75612ebe5de486c92994b60f7067a15 = $('<div id="html_d75612ebe5de486c92994b60f7067a15" style="width: 100.0%; height: 100.0%;">------------------------------paysbas----------------------------- -------------- moyenne de morts par catastrophe : 718 -------------- nombre d article paru : 84</div>')[0];
+                popup_adcfd2a102d94d9f888350c888802285.setContent(html_d75612ebe5de486c92994b60f7067a15);
+            
+
+            circle_marker_36f32e5d897e4c08a0bea77096a9f921.bindPopup(popup_adcfd2a102d94d9f888350c888802285);
+
+            
+        
+    
+            var circle_marker_b4c67331b36149728c279a7bdb3cc1b2 = L.circleMarker(
+                [-9.189967,-75.015152],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_776eef866f8140b4a91525489fef9b01 = L.popup({maxWidth: '300'});
+
+            
+                var html_aa99c668cfbf4a87b9d20dded4ddf6f8 = $('<div id="html_aa99c668cfbf4a87b9d20dded4ddf6f8" style="width: 100.0%; height: 100.0%;">------------------------------perou----------------------------- -------------- moyenne de morts par catastrophe : 2207 -------------- nombre d article paru : 54</div>')[0];
+                popup_776eef866f8140b4a91525489fef9b01.setContent(html_aa99c668cfbf4a87b9d20dded4ddf6f8);
+            
+
+            circle_marker_b4c67331b36149728c279a7bdb3cc1b2.bindPopup(popup_776eef866f8140b4a91525489fef9b01);
+
+            
+        
+    
+            var circle_marker_0a4701a21f69440a8b0cad78256f9802 = L.circleMarker(
+                [12.879721,121.774017],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 86.5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_c27ef349b49c445d81ab9122fcdd471e = L.popup({maxWidth: '300'});
+
+            
+                var html_7345b46970c04e538c494fa2bd18707f = $('<div id="html_7345b46970c04e538c494fa2bd18707f" style="width: 100.0%; height: 100.0%;">------------------------------philippines----------------------------- -------------- moyenne de morts par catastrophe : 1973 -------------- nombre d article paru : 865</div>')[0];
+                popup_c27ef349b49c445d81ab9122fcdd471e.setContent(html_7345b46970c04e538c494fa2bd18707f);
+            
+
+            circle_marker_0a4701a21f69440a8b0cad78256f9802.bindPopup(popup_c27ef349b49c445d81ab9122fcdd471e);
+
+            
+        
+    
+            var circle_marker_4d3512ddb16a40f785c1edc4ff7174ce = L.circleMarker(
+                [51.919438,19.145136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_58fdf536c843400fa1fc4dd5be09ac64 = L.popup({maxWidth: '300'});
+
+            
+                var html_c5c716bc425645739d15f7229ec6a0ff = $('<div id="html_c5c716bc425645739d15f7229ec6a0ff" style="width: 100.0%; height: 100.0%;">------------------------------pologne----------------------------- -------------- moyenne de morts par catastrophe : 1020 -------------- nombre d article paru : 40</div>')[0];
+                popup_58fdf536c843400fa1fc4dd5be09ac64.setContent(html_c5c716bc425645739d15f7229ec6a0ff);
+            
+
+            circle_marker_4d3512ddb16a40f785c1edc4ff7174ce.bindPopup(popup_58fdf536c843400fa1fc4dd5be09ac64);
+
+            
+        
+    
+            var circle_marker_b70e149bd3df40fcac03d80e134ac762 = L.circleMarker(
+                [39.399872,-8.224454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.1000000000000005,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_bb6df4dc542e4bfab5041a62c615c968 = L.popup({maxWidth: '300'});
+
+            
+                var html_f34f7d4eea694d05b4f6b1cbb8f9ae2a = $('<div id="html_f34f7d4eea694d05b4f6b1cbb8f9ae2a" style="width: 100.0%; height: 100.0%;">------------------------------portugal----------------------------- -------------- moyenne de morts par catastrophe : 1382 -------------- nombre d article paru : 41</div>')[0];
+                popup_bb6df4dc542e4bfab5041a62c615c968.setContent(html_f34f7d4eea694d05b4f6b1cbb8f9ae2a);
+            
+
+            circle_marker_b70e149bd3df40fcac03d80e134ac762.bindPopup(popup_bb6df4dc542e4bfab5041a62c615c968);
+
+            
+        
+    
+            var circle_marker_edc79c8594d44e228df4614a0672bc82 = L.circleMarker(
+                [25.354826,51.183884],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.1,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_d735e857b9ca4dfaa098c5f96a5cd974 = L.popup({maxWidth: '300'});
+
+            
+                var html_a964101b109b4b17a4206f05bee0fb8d = $('<div id="html_a964101b109b4b17a4206f05bee0fb8d" style="width: 100.0%; height: 100.0%;">------------------------------qatar----------------------------- -------------- moyenne de morts par catastrophe : 937 -------------- nombre d article paru : 31</div>')[0];
+                popup_d735e857b9ca4dfaa098c5f96a5cd974.setContent(html_a964101b109b4b17a4206f05bee0fb8d);
+            
+
+            circle_marker_edc79c8594d44e228df4614a0672bc82.bindPopup(popup_d735e857b9ca4dfaa098c5f96a5cd974);
+
+            
+        
+    
+            var circle_marker_c4fbb9f95ea342649cd1a0210dd2f2cb = L.circleMarker(
+                [-21.115141,55.536384],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 48.7,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_5a68cb7315a54e078aa3490372ab7e59 = L.popup({maxWidth: '300'});
+
+            
+                var html_b8ca37a244e74a4f8ce214ef7dee6e99 = $('<div id="html_b8ca37a244e74a4f8ce214ef7dee6e99" style="width: 100.0%; height: 100.0%;">------------------------------reunion----------------------------- -------------- moyenne de morts par catastrophe : 905 -------------- nombre d article paru : 487</div>')[0];
+                popup_5a68cb7315a54e078aa3490372ab7e59.setContent(html_b8ca37a244e74a4f8ce214ef7dee6e99);
+            
+
+            circle_marker_c4fbb9f95ea342649cd1a0210dd2f2cb.bindPopup(popup_5a68cb7315a54e078aa3490372ab7e59);
+
+            
+        
+    
+            var circle_marker_3b9232a8faf042e49e81f42c45fb418e = L.circleMarker(
+                [45.943161,24.96676],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.7,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_7cc03330ecd44933a5433ba6def2650b = L.popup({maxWidth: '300'});
+
+            
+                var html_6dd7e14ded574f379264569a94faffbf = $('<div id="html_6dd7e14ded574f379264569a94faffbf" style="width: 100.0%; height: 100.0%;">------------------------------roumanie----------------------------- -------------- moyenne de morts par catastrophe : 2076 -------------- nombre d article paru : 27</div>')[0];
+                popup_7cc03330ecd44933a5433ba6def2650b.setContent(html_6dd7e14ded574f379264569a94faffbf);
+            
+
+            circle_marker_3b9232a8faf042e49e81f42c45fb418e.bindPopup(popup_7cc03330ecd44933a5433ba6def2650b);
+
+            
+        
+    
+            var circle_marker_b9a718830875457eb9ab2d40f2f3c95a = L.circleMarker(
+                [55.378051,-3.435973],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_1d3d4a91270f48ca97ddfa17b6162fce = L.popup({maxWidth: '300'});
+
+            
+                var html_2d66778962a443539ad2c82b8496fbaf = $('<div id="html_2d66778962a443539ad2c82b8496fbaf" style="width: 100.0%; height: 100.0%;">------------------------------royaumeuni----------------------------- -------------- moyenne de morts par catastrophe : 735 -------------- nombre d article paru : 170</div>')[0];
+                popup_1d3d4a91270f48ca97ddfa17b6162fce.setContent(html_2d66778962a443539ad2c82b8496fbaf);
+            
+
+            circle_marker_b9a718830875457eb9ab2d40f2f3c95a.bindPopup(popup_1d3d4a91270f48ca97ddfa17b6162fce);
+
+            
+        
+    
+            var circle_marker_2be99b9bfdce49088633fc11f3cde4b7 = L.circleMarker(
+                [1.352083,103.819836],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.7,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_ff898a04182e4cb8b4c23fde189cd327 = L.popup({maxWidth: '300'});
+
+            
+                var html_3406025e0f0549e39dba579db972a0a1 = $('<div id="html_3406025e0f0549e39dba579db972a0a1" style="width: 100.0%; height: 100.0%;">------------------------------singapour----------------------------- -------------- moyenne de morts par catastrophe : 1060 -------------- nombre d article paru : 67</div>')[0];
+                popup_ff898a04182e4cb8b4c23fde189cd327.setContent(html_3406025e0f0549e39dba579db972a0a1);
+            
+
+            circle_marker_2be99b9bfdce49088633fc11f3cde4b7.bindPopup(popup_ff898a04182e4cb8b4c23fde189cd327);
+
+            
+        
+    
+            var circle_marker_0bd7a21c274b475e99a112444664b039 = L.circleMarker(
+                [46.818188,8.227512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.600000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_b2038012ec04463a86fde7b04e240dba = L.popup({maxWidth: '300'});
+
+            
+                var html_d3d25d2b153c4406b51bb924bc287778 = $('<div id="html_d3d25d2b153c4406b51bb924bc287778" style="width: 100.0%; height: 100.0%;">------------------------------suisse----------------------------- -------------- moyenne de morts par catastrophe : 674 -------------- nombre d article paru : 156</div>')[0];
+                popup_b2038012ec04463a86fde7b04e240dba.setContent(html_d3d25d2b153c4406b51bb924bc287778);
+            
+
+            circle_marker_0bd7a21c274b475e99a112444664b039.bindPopup(popup_b2038012ec04463a86fde7b04e240dba);
+
+            
+        
+    
+            var circle_marker_d7ad98e7f4524981bedaa57c0347b0df = L.circleMarker(
+                [23.69781,120.960515],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20.400000000000002,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_165d359cfe624d8094e5977789b8434d = L.popup({maxWidth: '300'});
+
+            
+                var html_f0c1da972dba46e798bb2f13752261c9 = $('<div id="html_f0c1da972dba46e798bb2f13752261c9" style="width: 100.0%; height: 100.0%;">------------------------------taiwan----------------------------- -------------- moyenne de morts par catastrophe : 1373 -------------- nombre d article paru : 204</div>')[0];
+                popup_165d359cfe624d8094e5977789b8434d.setContent(html_f0c1da972dba46e798bb2f13752261c9);
+            
+
+            circle_marker_d7ad98e7f4524981bedaa57c0347b0df.bindPopup(popup_165d359cfe624d8094e5977789b8434d);
+
+            
+        
+    
+            var circle_marker_f422532018574af5bcd3c6cd41cbe81d = L.circleMarker(
+                [15.870032,100.992541],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.200000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_58f35449de124cddaf30b36d212f5f0b = L.popup({maxWidth: '300'});
+
+            
+                var html_f8a2ffb636a74bb1b1db0c1501aba1fb = $('<div id="html_f8a2ffb636a74bb1b1db0c1501aba1fb" style="width: 100.0%; height: 100.0%;">------------------------------thailande----------------------------- -------------- moyenne de morts par catastrophe : 1129 -------------- nombre d article paru : 132</div>')[0];
+                popup_58f35449de124cddaf30b36d212f5f0b.setContent(html_f8a2ffb636a74bb1b1db0c1501aba1fb);
+            
+
+            circle_marker_f422532018574af5bcd3c6cd41cbe81d.bindPopup(popup_58f35449de124cddaf30b36d212f5f0b);
+
+            
+        
+    
+            var circle_marker_ef2e9dbc9ccf4ec1b7a47c9235190e42 = L.circleMarker(
+                [38.963745,35.243322],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.700000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_e9d4b310c6134422bf7986f1f3aedd76 = L.popup({maxWidth: '300'});
+
+            
+                var html_6cd168d116bb4f22b922b339819871b9 = $('<div id="html_6cd168d116bb4f22b922b339819871b9" style="width: 100.0%; height: 100.0%;">------------------------------turquie----------------------------- -------------- moyenne de morts par catastrophe : 1510 -------------- nombre d article paru : 97</div>')[0];
+                popup_e9d4b310c6134422bf7986f1f3aedd76.setContent(html_6cd168d116bb4f22b922b339819871b9);
+            
+
+            circle_marker_ef2e9dbc9ccf4ec1b7a47c9235190e42.bindPopup(popup_e9d4b310c6134422bf7986f1f3aedd76);
+
+            
+        
+    
+            var circle_marker_81bf76b26afb4bd2b05740fd41a6fcdd = L.circleMarker(
+                [48.379433,31.16558],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_b359395a16154cc1bb7cc7936dd2c78e = L.popup({maxWidth: '300'});
+
+            
+                var html_7514986956ad42a0ad658d1c3a7cc365 = $('<div id="html_7514986956ad42a0ad658d1c3a7cc365" style="width: 100.0%; height: 100.0%;">------------------------------ukraine----------------------------- -------------- moyenne de morts par catastrophe : 902 -------------- nombre d article paru : 52</div>')[0];
+                popup_b359395a16154cc1bb7cc7936dd2c78e.setContent(html_7514986956ad42a0ad658d1c3a7cc365);
+            
+
+            circle_marker_81bf76b26afb4bd2b05740fd41a6fcdd.bindPopup(popup_b359395a16154cc1bb7cc7936dd2c78e);
+
+            
+        
+    
+            var circle_marker_7cc29824d4fd43b5ab3a7773dfc1ef41 = L.circleMarker(
+                [-15.376706,166.959158],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.100000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_6b24bc8304e34f1c96685fda80d0ed77 = L.popup({maxWidth: '300'});
+
+            
+                var html_31c0cb8519d74885b39e4eca734e56c2 = $('<div id="html_31c0cb8519d74885b39e4eca734e56c2" style="width: 100.0%; height: 100.0%;">------------------------------vanuatu----------------------------- -------------- moyenne de morts par catastrophe : 785 -------------- nombre d article paru : 111</div>')[0];
+                popup_6b24bc8304e34f1c96685fda80d0ed77.setContent(html_31c0cb8519d74885b39e4eca734e56c2);
+            
+
+            circle_marker_7cc29824d4fd43b5ab3a7773dfc1ef41.bindPopup(popup_6b24bc8304e34f1c96685fda80d0ed77);
+
+            
+        
+    
+            var circle_marker_42ebfeee081e45919d05704cb840001b = L.circleMarker(
+                [6.42375,-66.58973],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.300000000000001,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_17905d6fc60347b08d08124056d58f2a = L.popup({maxWidth: '300'});
+
+            
+                var html_e5ea38e1b16f4a828b725e893b373ed1 = $('<div id="html_e5ea38e1b16f4a828b725e893b373ed1" style="width: 100.0%; height: 100.0%;">------------------------------venezuela----------------------------- -------------- moyenne de morts par catastrophe : 799 -------------- nombre d article paru : 73</div>')[0];
+                popup_17905d6fc60347b08d08124056d58f2a.setContent(html_e5ea38e1b16f4a828b725e893b373ed1);
+            
+
+            circle_marker_42ebfeee081e45919d05704cb840001b.bindPopup(popup_17905d6fc60347b08d08124056d58f2a);
+
+            
+        
+    
+            var circle_marker_1b8d5fe944fd497f9164232d20728a56 = L.circleMarker(
+                [-45.2,-98],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_bed34a7130214976aa2fd1bfce639a72 = L.popup({maxWidth: '300'});
+
+            
+                var html_bdcfd9808cf349d291927a4369b83f83 = $('<div id="html_bdcfd9808cf349d291927a4369b83f83" style="width: 100.0%; height: 100.0%;">50 articles "catastrophe"</div>')[0];
+                popup_bed34a7130214976aa2fd1bfce639a72.setContent(html_bdcfd9808cf349d291927a4369b83f83);
+            
+
+            circle_marker_1b8d5fe944fd497f9164232d20728a56.bindPopup(popup_bed34a7130214976aa2fd1bfce639a72);
+
+            
+        
+    
+            var circle_marker_88af8f01c47046ba8df31b09f478d192 = L.circleMarker(
+                [-44.4,-111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_a19798fb57ca4040b5d86137e0746c7e = L.popup({maxWidth: '300'});
+
+            
+                var html_f7c1b4e045e94cc4a81e90d8ff6d40b5 = $('<div id="html_f7c1b4e045e94cc4a81e90d8ff6d40b5" style="width: 100.0%; height: 100.0%;">100 articles "catastrophe"</div>')[0];
+                popup_a19798fb57ca4040b5d86137e0746c7e.setContent(html_f7c1b4e045e94cc4a81e90d8ff6d40b5);
+            
+
+            circle_marker_88af8f01c47046ba8df31b09f478d192.bindPopup(popup_a19798fb57ca4040b5d86137e0746c7e);
+
+            
+        
+    
+            var circle_marker_6cb1857c7a2146f69427562426aa47d5 = L.circleMarker(
+                [-43.6,-124],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_aa243aed987649fab402a28af6d70c40 = L.popup({maxWidth: '300'});
+
+            
+                var html_8cbe5bfe404d419fb8c2a7cd19348337 = $('<div id="html_8cbe5bfe404d419fb8c2a7cd19348337" style="width: 100.0%; height: 100.0%;">100 articles "catastrophe"</div>')[0];
+                popup_aa243aed987649fab402a28af6d70c40.setContent(html_8cbe5bfe404d419fb8c2a7cd19348337);
+            
+
+            circle_marker_6cb1857c7a2146f69427562426aa47d5.bindPopup(popup_aa243aed987649fab402a28af6d70c40);
+
+            
+        
+    
+            var circle_marker_45708534b0b84d3da2af4b4de9de5f45 = L.circleMarker(
+                [-42.8,-137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_226f26a361f546d384a61084ba82b58b = L.popup({maxWidth: '300'});
+
+            
+                var html_14b6292f59ef40279b874216fa37b145 = $('<div id="html_14b6292f59ef40279b874216fa37b145" style="width: 100.0%; height: 100.0%;">150 articles "catastrophe"</div>')[0];
+                popup_226f26a361f546d384a61084ba82b58b.setContent(html_14b6292f59ef40279b874216fa37b145);
+            
+
+            circle_marker_45708534b0b84d3da2af4b4de9de5f45.bindPopup(popup_226f26a361f546d384a61084ba82b58b);
+
+            
+        
+    
+            var circle_marker_2bf22791acf54d81855bdc580127f991 = L.circleMarker(
+                [-42,-150],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_189a9b0e83644c838ed2159151b6b227 = L.popup({maxWidth: '300'});
+
+            
+                var html_efd7437d77f44480ab2c7dda44b60adf = $('<div id="html_efd7437d77f44480ab2c7dda44b60adf" style="width: 100.0%; height: 100.0%;">200 articles "catastrophe"</div>')[0];
+                popup_189a9b0e83644c838ed2159151b6b227.setContent(html_efd7437d77f44480ab2c7dda44b60adf);
+            
+
+            circle_marker_2bf22791acf54d81855bdc580127f991.bindPopup(popup_189a9b0e83644c838ed2159151b6b227);
+
+            
+        
+    
+            var circle_marker_c260260545a84d40bd76f1181baa2c19 = L.circleMarker(
+                [-51,-150],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_07f2f9b068374d488cb13e428faed914 = L.popup({maxWidth: '300'});
+
+            
+                var html_b9487ac907be45ba946ce198a0a2dc04 = $('<div id="html_b9487ac907be45ba946ce198a0a2dc04" style="width: 100.0%; height: 100.0%;">Inférieur à 500 morts par catastrophe en moyenne</div>')[0];
+                popup_07f2f9b068374d488cb13e428faed914.setContent(html_b9487ac907be45ba946ce198a0a2dc04);
+            
+
+            circle_marker_c260260545a84d40bd76f1181baa2c19.bindPopup(popup_07f2f9b068374d488cb13e428faed914);
+
+            
+        
+    
+            var circle_marker_aeab16c024884b69b186d0e33452bb12 = L.circleMarker(
+                [-51,-137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_3d0a0b64e66d41c786995839414dc703 = L.popup({maxWidth: '300'});
+
+            
+                var html_79aba03997e4490d8bf58c3a091e2c18 = $('<div id="html_79aba03997e4490d8bf58c3a091e2c18" style="width: 100.0%; height: 100.0%;">Entre 500 et 1000 morts par catastrophe en moyenne</div>')[0];
+                popup_3d0a0b64e66d41c786995839414dc703.setContent(html_79aba03997e4490d8bf58c3a091e2c18);
+            
+
+            circle_marker_aeab16c024884b69b186d0e33452bb12.bindPopup(popup_3d0a0b64e66d41c786995839414dc703);
+
+            
+        
+    
+            var circle_marker_08d8e804a9af4b9481ddc80d50d1b762 = L.circleMarker(
+                [-51,-124],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_491c7aafa6f04dfe81147a662ef495ad = L.popup({maxWidth: '300'});
+
+            
+                var html_6165e63a850b4901861e09b7725a468f = $('<div id="html_6165e63a850b4901861e09b7725a468f" style="width: 100.0%; height: 100.0%;">Entre 1000 et 1500 morts par catastrophe en moyenne</div>')[0];
+                popup_491c7aafa6f04dfe81147a662ef495ad.setContent(html_6165e63a850b4901861e09b7725a468f);
+            
+
+            circle_marker_08d8e804a9af4b9481ddc80d50d1b762.bindPopup(popup_491c7aafa6f04dfe81147a662ef495ad);
+
+            
+        
+    
+            var circle_marker_9248b69aa1574841ae938eb887b13069 = L.circleMarker(
+                [-51,-111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_5c62e1dde4bc4bef8760194c75c3a599 = L.popup({maxWidth: '300'});
+
+            
+                var html_b065488708b24bb99b6c48e7084246d6 = $('<div id="html_b065488708b24bb99b6c48e7084246d6" style="width: 100.0%; height: 100.0%;">Entre 1500 et 2000 morts par catastrophe en moyenne</div>')[0];
+                popup_5c62e1dde4bc4bef8760194c75c3a599.setContent(html_b065488708b24bb99b6c48e7084246d6);
+            
+
+            circle_marker_9248b69aa1574841ae938eb887b13069.bindPopup(popup_5c62e1dde4bc4bef8760194c75c3a599);
+
+            
+        
+    
+            var circle_marker_6f861e75c62d4f7f91f078b76d72b0c3 = L.circleMarker(
+                [-51,-98],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_5f7361e044034f60bd5cb267c0d5f102);
+            
+    
+            var popup_30cbfa1b70c44c4b926cdbea7c091006 = L.popup({maxWidth: '300'});
+
+            
+                var html_b3ae851305404229a93c12530e2f2b68 = $('<div id="html_b3ae851305404229a93c12530e2f2b68" style="width: 100.0%; height: 100.0%;">Supérieur à 2000 morts par catastrophe en moyenne</div>')[0];
+                popup_30cbfa1b70c44c4b926cdbea7c091006.setContent(html_b3ae851305404229a93c12530e2f2b68);
+            
+
+            circle_marker_6f861e75c62d4f7f91f078b76d72b0c3.bindPopup(popup_30cbfa1b70c44c4b926cdbea7c091006);
+
+            
+        
+</script>

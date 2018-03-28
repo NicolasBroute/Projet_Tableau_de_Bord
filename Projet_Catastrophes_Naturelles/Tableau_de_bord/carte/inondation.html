@@ -1,0 +1,2572 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_7e946a6ed58f4c6b8ee8f6da4813e0fc {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7e946a6ed58f4c6b8ee8f6da4813e0fc" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_7e946a6ed58f4c6b8ee8f6da4813e0fc = L.map(
+                                  'map_7e946a6ed58f4c6b8ee8f6da4813e0fc',
+                                  {center: [18,0],
+                                  zoom: 3,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_efb1ca1293344f8c97cb38394f265634 = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+        
+    
+            var circle_marker_ac94a289d8b542ebbc9a64d24b5dae88 = L.circleMarker(
+                [33.93911,67.709953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.8,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_aacf824878964192bf700d393d0afc4e = L.popup({maxWidth: '300'});
+
+            
+                var html_06c36a7016af490888eb0b3306b32cfa = $('<div id="html_06c36a7016af490888eb0b3306b32cfa" style="width: 100.0%; height: 100.0%;">------------------------------afghanistan----------------------------- -------------- moyenne de morts par inondation : 1364 -------------- nombre d article paru : 13</div>')[0];
+                popup_aacf824878964192bf700d393d0afc4e.setContent(html_06c36a7016af490888eb0b3306b32cfa);
+            
+
+            circle_marker_ac94a289d8b542ebbc9a64d24b5dae88.bindPopup(popup_aacf824878964192bf700d393d0afc4e);
+
+            
+        
+    
+            var circle_marker_d3023730fbb1434b9bb477babe0bea05 = L.circleMarker(
+                [28.033886,1.659626],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_c77447a40c70435c93baeaf7dd1a4068 = L.popup({maxWidth: '300'});
+
+            
+                var html_6a981cf09a8e47329c8c397412536bda = $('<div id="html_6a981cf09a8e47329c8c397412536bda" style="width: 100.0%; height: 100.0%;">------------------------------algerie----------------------------- -------------- moyenne de morts par inondation : 670 -------------- nombre d article paru : 2</div>')[0];
+                popup_c77447a40c70435c93baeaf7dd1a4068.setContent(html_6a981cf09a8e47329c8c397412536bda);
+            
+
+            circle_marker_d3023730fbb1434b9bb477babe0bea05.bindPopup(popup_c77447a40c70435c93baeaf7dd1a4068);
+
+            
+        
+    
+            var circle_marker_cd6040f21b54495aa2f30bb741f5a087 = L.circleMarker(
+                [51.165691,10.451526],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 34.199999999999996,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_fc8bf89c507d413e8c4ce3b43ef294a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_aca8128c4a65446484ef266030a4bcad = $('<div id="html_aca8128c4a65446484ef266030a4bcad" style="width: 100.0%; height: 100.0%;">------------------------------allemagne----------------------------- -------------- moyenne de morts par inondation : 3318 -------------- nombre d article paru : 57</div>')[0];
+                popup_fc8bf89c507d413e8c4ce3b43ef294a4.setContent(html_aca8128c4a65446484ef266030a4bcad);
+            
+
+            circle_marker_cd6040f21b54495aa2f30bb741f5a087.bindPopup(popup_fc8bf89c507d413e8c4ce3b43ef294a4);
+
+            
+        
+    
+            var circle_marker_b3befdfec9ee405eb0db1026a7523305 = L.circleMarker(
+                [-38.416097,-63.616672],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_4b68427958594b0ea5af6112618592f2 = L.popup({maxWidth: '300'});
+
+            
+                var html_e6bfebb7f4284b31b3fb7e06b19bbf3b = $('<div id="html_e6bfebb7f4284b31b3fb7e06b19bbf3b" style="width: 100.0%; height: 100.0%;">------------------------------argentine----------------------------- -------------- moyenne de morts par inondation : 1762 -------------- nombre d article paru : 5</div>')[0];
+                popup_4b68427958594b0ea5af6112618592f2.setContent(html_e6bfebb7f4284b31b3fb7e06b19bbf3b);
+            
+
+            circle_marker_b3befdfec9ee405eb0db1026a7523305.bindPopup(popup_4b68427958594b0ea5af6112618592f2);
+
+            
+        
+    
+            var circle_marker_5678a59e827e44d689e39a3ac3ed74e6 = L.circleMarker(
+                [-25.274398,133.775136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 26.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_be84ae2210a64ea38a0c7c21924de00c = L.popup({maxWidth: '300'});
+
+            
+                var html_155e5bedc6604b3eb75cd077e35816b6 = $('<div id="html_155e5bedc6604b3eb75cd077e35816b6" style="width: 100.0%; height: 100.0%;">------------------------------australie----------------------------- -------------- moyenne de morts par inondation : 2489 -------------- nombre d article paru : 44</div>')[0];
+                popup_be84ae2210a64ea38a0c7c21924de00c.setContent(html_155e5bedc6604b3eb75cd077e35816b6);
+            
+
+            circle_marker_5678a59e827e44d689e39a3ac3ed74e6.bindPopup(popup_be84ae2210a64ea38a0c7c21924de00c);
+
+            
+        
+    
+            var circle_marker_8cdd365d612c42209c13ba8ac3e3e9f6 = L.circleMarker(
+                [47.516231,14.550072],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_57f356195ad44c2581a519b01d0ee82e = L.popup({maxWidth: '300'});
+
+            
+                var html_61aec8867e834a619dd7856ef5cecb8a = $('<div id="html_61aec8867e834a619dd7856ef5cecb8a" style="width: 100.0%; height: 100.0%;">------------------------------autriche----------------------------- -------------- moyenne de morts par inondation : 3084 -------------- nombre d article paru : 26</div>')[0];
+                popup_57f356195ad44c2581a519b01d0ee82e.setContent(html_61aec8867e834a619dd7856ef5cecb8a);
+            
+
+            circle_marker_8cdd365d612c42209c13ba8ac3e3e9f6.bindPopup(popup_57f356195ad44c2581a519b01d0ee82e);
+
+            
+        
+    
+            var circle_marker_93bb8f5d5dc6464bb00d4e696c670d9f = L.circleMarker(
+                [25.03428,-77.39628],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_d117b9eac6a74c678d627722b4f91a20 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6fbe627c4b943e29a62b7521979c3fa = $('<div id="html_f6fbe627c4b943e29a62b7521979c3fa" style="width: 100.0%; height: 100.0%;">------------------------------bahamas----------------------------- -------------- moyenne de morts par inondation : 969 -------------- nombre d article paru : 4</div>')[0];
+                popup_d117b9eac6a74c678d627722b4f91a20.setContent(html_f6fbe627c4b943e29a62b7521979c3fa);
+            
+
+            circle_marker_93bb8f5d5dc6464bb00d4e696c670d9f.bindPopup(popup_d117b9eac6a74c678d627722b4f91a20);
+
+            
+        
+    
+            var circle_marker_133ff1b5a8d6439ca21fdf6dcf32af3c = L.circleMarker(
+                [23.684994,90.356331],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_19be6b49f43c4797b0fdd0b2ecb18e98 = L.popup({maxWidth: '300'});
+
+            
+                var html_b7dc35b18b1748cdabc052984a91e3c3 = $('<div id="html_b7dc35b18b1748cdabc052984a91e3c3" style="width: 100.0%; height: 100.0%;">------------------------------bangladesh----------------------------- -------------- moyenne de morts par inondation : 2178 -------------- nombre d article paru : 21</div>')[0];
+                popup_19be6b49f43c4797b0fdd0b2ecb18e98.setContent(html_b7dc35b18b1748cdabc052984a91e3c3);
+            
+
+            circle_marker_133ff1b5a8d6439ca21fdf6dcf32af3c.bindPopup(popup_19be6b49f43c4797b0fdd0b2ecb18e98);
+
+            
+        
+    
+            var circle_marker_abb29a0bcab34892a7a47c66ff0831a9 = L.circleMarker(
+                [50.503887,4.469936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_f664177caa5342b590d390c737a708e3 = L.popup({maxWidth: '300'});
+
+            
+                var html_408295857f964a3eb0ba977a042a7058 = $('<div id="html_408295857f964a3eb0ba977a042a7058" style="width: 100.0%; height: 100.0%;">------------------------------belgique----------------------------- -------------- moyenne de morts par inondation : 36 -------------- nombre d article paru : 2</div>')[0];
+                popup_f664177caa5342b590d390c737a708e3.setContent(html_408295857f964a3eb0ba977a042a7058);
+            
+
+            circle_marker_abb29a0bcab34892a7a47c66ff0831a9.bindPopup(popup_f664177caa5342b590d390c737a708e3);
+
+            
+        
+    
+            var circle_marker_5147ae6df6654a3881c058187606a214 = L.circleMarker(
+                [32.321384,-64.75737],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_a076db0e56c14c57bfe1d333cc519c96 = L.popup({maxWidth: '300'});
+
+            
+                var html_4e9e20fa4ead4b0cb0cb6f8b1739d9f2 = $('<div id="html_4e9e20fa4ead4b0cb0cb6f8b1739d9f2" style="width: 100.0%; height: 100.0%;">------------------------------bermudes----------------------------- -------------- moyenne de morts par inondation : 64 -------------- nombre d article paru : 1</div>')[0];
+                popup_a076db0e56c14c57bfe1d333cc519c96.setContent(html_4e9e20fa4ead4b0cb0cb6f8b1739d9f2);
+            
+
+            circle_marker_5147ae6df6654a3881c058187606a214.bindPopup(popup_a076db0e56c14c57bfe1d333cc519c96);
+
+            
+        
+    
+            var circle_marker_fa1f50c2bebd4ea2ac892bb2bdf40502 = L.circleMarker(
+                [-14.235004,-51.92528],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_f491f2ea4640446187a90c8bda15d991 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a256e9268a046a3b57bb33b54732fdb = $('<div id="html_3a256e9268a046a3b57bb33b54732fdb" style="width: 100.0%; height: 100.0%;">------------------------------bresil----------------------------- -------------- moyenne de morts par inondation : 1968 -------------- nombre d article paru : 11</div>')[0];
+                popup_f491f2ea4640446187a90c8bda15d991.setContent(html_3a256e9268a046a3b57bb33b54732fdb);
+            
+
+            circle_marker_fa1f50c2bebd4ea2ac892bb2bdf40502.bindPopup(popup_f491f2ea4640446187a90c8bda15d991);
+
+            
+        
+    
+            var circle_marker_94621445446c4106b16a92d6a11e71b5 = L.circleMarker(
+                [12.565679,104.990963],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_516e24ccea6d4304b311c292f2e4500d = L.popup({maxWidth: '300'});
+
+            
+                var html_f12f23d12bc747f2beb3a02a4b83fcb9 = $('<div id="html_f12f23d12bc747f2beb3a02a4b83fcb9" style="width: 100.0%; height: 100.0%;">------------------------------cambodge----------------------------- -------------- moyenne de morts par inondation : 764 -------------- nombre d article paru : 7</div>')[0];
+                popup_516e24ccea6d4304b311c292f2e4500d.setContent(html_f12f23d12bc747f2beb3a02a4b83fcb9);
+            
+
+            circle_marker_94621445446c4106b16a92d6a11e71b5.bindPopup(popup_516e24ccea6d4304b311c292f2e4500d);
+
+            
+        
+    
+            var circle_marker_80e68b26c2ae403d8148f95ac8238fb3 = L.circleMarker(
+                [56.130366,-106.346771],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_106b89e9b5434817b3434a9191eca821 = L.popup({maxWidth: '300'});
+
+            
+                var html_c6155ca1fca546acade3f770bca5ba0c = $('<div id="html_c6155ca1fca546acade3f770bca5ba0c" style="width: 100.0%; height: 100.0%;">------------------------------canada----------------------------- -------------- moyenne de morts par inondation : 2644 -------------- nombre d article paru : 14</div>')[0];
+                popup_106b89e9b5434817b3434a9191eca821.setContent(html_c6155ca1fca546acade3f770bca5ba0c);
+            
+
+            circle_marker_80e68b26c2ae403d8148f95ac8238fb3.bindPopup(popup_106b89e9b5434817b3434a9191eca821);
+
+            
+        
+    
+            var circle_marker_4f38f67d9a12402cbab1a5ce9fd32704 = L.circleMarker(
+                [-35.675147,-71.542969],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_f93a4a53d23c4f63a1b3c74eb1c56282 = L.popup({maxWidth: '300'});
+
+            
+                var html_4bdc629beaa742ae828d01939cbc715b = $('<div id="html_4bdc629beaa742ae828d01939cbc715b" style="width: 100.0%; height: 100.0%;">------------------------------chili----------------------------- -------------- moyenne de morts par inondation : 37 -------------- nombre d article paru : 2</div>')[0];
+                popup_f93a4a53d23c4f63a1b3c74eb1c56282.setContent(html_4bdc629beaa742ae828d01939cbc715b);
+            
+
+            circle_marker_4f38f67d9a12402cbab1a5ce9fd32704.bindPopup(popup_f93a4a53d23c4f63a1b3c74eb1c56282);
+
+            
+        
+    
+            var circle_marker_e2d04861ad0b420bbff99b1369fe0de1 = L.circleMarker(
+                [35.86166,104.195397],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 37.8,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_c48c420ffc8948a19cc91340ccec86e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_489c239af3b84a47bdb2a7a50bc04410 = $('<div id="html_489c239af3b84a47bdb2a7a50bc04410" style="width: 100.0%; height: 100.0%;">------------------------------chine----------------------------- -------------- moyenne de morts par inondation : 1881 -------------- nombre d article paru : 63</div>')[0];
+                popup_c48c420ffc8948a19cc91340ccec86e2.setContent(html_489c239af3b84a47bdb2a7a50bc04410);
+            
+
+            circle_marker_e2d04861ad0b420bbff99b1369fe0de1.bindPopup(popup_c48c420ffc8948a19cc91340ccec86e2);
+
+            
+        
+    
+            var circle_marker_5b55f0de8467402cbb61b6dcefc1c5e3 = L.circleMarker(
+                [4.570868,-74.297333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.8,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_4bebd722dc9b443a8f351ff765a4bd5a = L.popup({maxWidth: '300'});
+
+            
+                var html_38b1f5991473456c91024429975d13b9 = $('<div id="html_38b1f5991473456c91024429975d13b9" style="width: 100.0%; height: 100.0%;">------------------------------colombie----------------------------- -------------- moyenne de morts par inondation : 4782 -------------- nombre d article paru : 8</div>')[0];
+                popup_4bebd722dc9b443a8f351ff765a4bd5a.setContent(html_38b1f5991473456c91024429975d13b9);
+            
+
+            circle_marker_5b55f0de8467402cbb61b6dcefc1c5e3.bindPopup(popup_4bebd722dc9b443a8f351ff765a4bd5a);
+
+            
+        
+    
+            var circle_marker_49a7e2c09d7747478a3c1ddf85eb6ebc = L.circleMarker(
+                [21.521757,-77.781167],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_4798abfa9bf242dfad81a7c1b064349c = L.popup({maxWidth: '300'});
+
+            
+                var html_49a292ef94d34837b9f1123a4c723590 = $('<div id="html_49a292ef94d34837b9f1123a4c723590" style="width: 100.0%; height: 100.0%;">------------------------------cuba----------------------------- -------------- moyenne de morts par inondation : 418 -------------- nombre d article paru : 11</div>')[0];
+                popup_4798abfa9bf242dfad81a7c1b064349c.setContent(html_49a292ef94d34837b9f1123a4c723590);
+            
+
+            circle_marker_49a7e2c09d7747478a3c1ddf85eb6ebc.bindPopup(popup_4798abfa9bf242dfad81a7c1b064349c);
+
+            
+        
+    
+            var circle_marker_09ecbdd49fc549409a98f64d74963f59 = L.circleMarker(
+                [15.414999,-61.370976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_8456278f7c9341ee8eac07e30e6d9401 = L.popup({maxWidth: '300'});
+
+            
+                var html_48ff0e8fa66f49d5ac555b1c78f2f745 = $('<div id="html_48ff0e8fa66f49d5ac555b1c78f2f745" style="width: 100.0%; height: 100.0%;">------------------------------dominique----------------------------- -------------- moyenne de morts par inondation : 500 -------------- nombre d article paru : 17</div>')[0];
+                popup_8456278f7c9341ee8eac07e30e6d9401.setContent(html_48ff0e8fa66f49d5ac555b1c78f2f745);
+            
+
+            circle_marker_09ecbdd49fc549409a98f64d74963f59.bindPopup(popup_8456278f7c9341ee8eac07e30e6d9401);
+
+            
+        
+    
+            var circle_marker_32790086bcd9483a9fe75f4fe2501d84 = L.circleMarker(
+                [26.820553,30.802498],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_2456b4ce8caa4edfb9396d87c06705b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_da5fd0f675a04919ba628ce0308745de = $('<div id="html_da5fd0f675a04919ba628ce0308745de" style="width: 100.0%; height: 100.0%;">------------------------------egypte----------------------------- -------------- moyenne de morts par inondation : 75 -------------- nombre d article paru : 1</div>')[0];
+                popup_2456b4ce8caa4edfb9396d87c06705b7.setContent(html_da5fd0f675a04919ba628ce0308745de);
+            
+
+            circle_marker_32790086bcd9483a9fe75f4fe2501d84.bindPopup(popup_2456b4ce8caa4edfb9396d87c06705b7);
+
+            
+        
+    
+            var circle_marker_68dbd0566dc744408c34907272a8391c = L.circleMarker(
+                [-1.831239,-78.183406],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_b746460a67d843f8a140341539b19e5e = L.popup({maxWidth: '300'});
+
+            
+                var html_63e0ac38ba90449cb08a020b6a327106 = $('<div id="html_63e0ac38ba90449cb08a020b6a327106" style="width: 100.0%; height: 100.0%;">------------------------------equateur----------------------------- -------------- moyenne de morts par inondation : 72 -------------- nombre d article paru : 2</div>')[0];
+                popup_b746460a67d843f8a140341539b19e5e.setContent(html_63e0ac38ba90449cb08a020b6a327106);
+            
+
+            circle_marker_68dbd0566dc744408c34907272a8391c.bindPopup(popup_b746460a67d843f8a140341539b19e5e);
+
+            
+        
+    
+            var circle_marker_9efed4d8de4546dc9113f7977b42df46 = L.circleMarker(
+                [40.463667,-3.74922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.8,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_de7d4e80de3845d39aaaa4e81ee7c89c = L.popup({maxWidth: '300'});
+
+            
+                var html_1bcdcc25ce3640e293c4ddefd3d7fa12 = $('<div id="html_1bcdcc25ce3640e293c4ddefd3d7fa12" style="width: 100.0%; height: 100.0%;">------------------------------espagne----------------------------- -------------- moyenne de morts par inondation : 933 -------------- nombre d article paru : 8</div>')[0];
+                popup_de7d4e80de3845d39aaaa4e81ee7c89c.setContent(html_1bcdcc25ce3640e293c4ddefd3d7fa12);
+            
+
+            circle_marker_9efed4d8de4546dc9113f7977b42df46.bindPopup(popup_de7d4e80de3845d39aaaa4e81ee7c89c);
+
+            
+        
+    
+            var circle_marker_727ccc90ce244240b75a5bd48d93289d = L.circleMarker(
+                [37.09024,-95.712891],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 52.8,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_9b1002aa076944d88899844d07846b1e = L.popup({maxWidth: '300'});
+
+            
+                var html_f0acc813efcc4d5ca2da56a733702828 = $('<div id="html_f0acc813efcc4d5ca2da56a733702828" style="width: 100.0%; height: 100.0%;">------------------------------etatsunis----------------------------- -------------- moyenne de morts par inondation : 1636 -------------- nombre d article paru : 88</div>')[0];
+                popup_9b1002aa076944d88899844d07846b1e.setContent(html_f0acc813efcc4d5ca2da56a733702828);
+            
+
+            circle_marker_727ccc90ce244240b75a5bd48d93289d.bindPopup(popup_9b1002aa076944d88899844d07846b1e);
+
+            
+        
+    
+            var circle_marker_5c1098f1cfff4a4d9a21b22545d5cbc9 = L.circleMarker(
+                [46.227638,2.213749],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 177.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_232bd1b15c1f44aeb3c54e32755a8096 = L.popup({maxWidth: '300'});
+
+            
+                var html_1ec060a801504337b39022bd8f92ffec = $('<div id="html_1ec060a801504337b39022bd8f92ffec" style="width: 100.0%; height: 100.0%;">------------------------------france----------------------------- -------------- moyenne de morts par inondation : 1321 -------------- nombre d article paru : 296</div>')[0];
+                popup_232bd1b15c1f44aeb3c54e32755a8096.setContent(html_1ec060a801504337b39022bd8f92ffec);
+            
+
+            circle_marker_5c1098f1cfff4a4d9a21b22545d5cbc9.bindPopup(popup_232bd1b15c1f44aeb3c54e32755a8096);
+
+            
+        
+    
+            var circle_marker_82000511c39448aebf72580575f09ffc = L.circleMarker(
+                [42.315407,43.356892],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.5999999999999996,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_2a4a49617e894c4ea00a1ec6881ac386 = L.popup({maxWidth: '300'});
+
+            
+                var html_43e49a0d5b594d1c900dbcb6280ba7ad = $('<div id="html_43e49a0d5b594d1c900dbcb6280ba7ad" style="width: 100.0%; height: 100.0%;">------------------------------georgie----------------------------- -------------- moyenne de morts par inondation : 760 -------------- nombre d article paru : 6</div>')[0];
+                popup_2a4a49617e894c4ea00a1ec6881ac386.setContent(html_43e49a0d5b594d1c900dbcb6280ba7ad);
+            
+
+            circle_marker_82000511c39448aebf72580575f09ffc.bindPopup(popup_2a4a49617e894c4ea00a1ec6881ac386);
+
+            
+        
+    
+            var circle_marker_e03920997a0c44a3875b6e5e38013a8b = L.circleMarker(
+                [39.074208,21.824312],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.5999999999999996,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_7dd36f1c9e424cb08aa26c974a2accaa = L.popup({maxWidth: '300'});
+
+            
+                var html_7789f0b1ed3c49128c3ace7d51e4af85 = $('<div id="html_7789f0b1ed3c49128c3ace7d51e4af85" style="width: 100.0%; height: 100.0%;">------------------------------grece----------------------------- -------------- moyenne de morts par inondation : 254 -------------- nombre d article paru : 6</div>')[0];
+                popup_7dd36f1c9e424cb08aa26c974a2accaa.setContent(html_7789f0b1ed3c49128c3ace7d51e4af85);
+            
+
+            circle_marker_e03920997a0c44a3875b6e5e38013a8b.bindPopup(popup_7dd36f1c9e424cb08aa26c974a2accaa);
+
+            
+        
+    
+            var circle_marker_2dfaf86707c44ac89d1e5ae311b2f34d = L.circleMarker(
+                [12.262776,-61.604171],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_247cf9196e284124967401de2c16ebaa = L.popup({maxWidth: '300'});
+
+            
+                var html_ca8b55446ed143d68613bdb43b6306c6 = $('<div id="html_ca8b55446ed143d68613bdb43b6306c6" style="width: 100.0%; height: 100.0%;">------------------------------grenade----------------------------- -------------- moyenne de morts par inondation : 27 -------------- nombre d article paru : 1</div>')[0];
+                popup_247cf9196e284124967401de2c16ebaa.setContent(html_ca8b55446ed143d68613bdb43b6306c6);
+            
+
+            circle_marker_2dfaf86707c44ac89d1e5ae311b2f34d.bindPopup(popup_247cf9196e284124967401de2c16ebaa);
+
+            
+        
+    
+            var circle_marker_ab1056f7c1f84f299edb3d0791c2e152 = L.circleMarker(
+                [16.995971,-62.067641],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.199999999999999,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_dd7d785b543d4ee5a79a2f8272c2db63 = L.popup({maxWidth: '300'});
+
+            
+                var html_f281d1d20150487cbacc2ef2446da13b = $('<div id="html_f281d1d20150487cbacc2ef2446da13b" style="width: 100.0%; height: 100.0%;">------------------------------guadeloupe----------------------------- -------------- moyenne de morts par inondation : 109 -------------- nombre d article paru : 12</div>')[0];
+                popup_dd7d785b543d4ee5a79a2f8272c2db63.setContent(html_f281d1d20150487cbacc2ef2446da13b);
+            
+
+            circle_marker_ab1056f7c1f84f299edb3d0791c2e152.bindPopup(popup_dd7d785b543d4ee5a79a2f8272c2db63);
+
+            
+        
+    
+            var circle_marker_02915e45fd8642f08de4071f62703529 = L.circleMarker(
+                [9.945587,-9.696645],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7999999999999998,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_c64af8907dd74674a195fe62208f5b8a = L.popup({maxWidth: '300'});
+
+            
+                var html_df3a93c4e90145adab86aeda9a76b752 = $('<div id="html_df3a93c4e90145adab86aeda9a76b752" style="width: 100.0%; height: 100.0%;">------------------------------guinee----------------------------- -------------- moyenne de morts par inondation : 1634 -------------- nombre d article paru : 3</div>')[0];
+                popup_c64af8907dd74674a195fe62208f5b8a.setContent(html_df3a93c4e90145adab86aeda9a76b752);
+            
+
+            circle_marker_02915e45fd8642f08de4071f62703529.bindPopup(popup_c64af8907dd74674a195fe62208f5b8a);
+
+            
+        
+    
+            var circle_marker_aab70213ce4f4d4097c10e53eb035e3f = L.circleMarker(
+                [18.971187,-72.285215],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_9d3475924a2a43ef932cf386e53ec50e = L.popup({maxWidth: '300'});
+
+            
+                var html_d1b21bbfe264415f8c14625a10cd0c22 = $('<div id="html_d1b21bbfe264415f8c14625a10cd0c22" style="width: 100.0%; height: 100.0%;">------------------------------haiti----------------------------- -------------- moyenne de morts par inondation : 623 -------------- nombre d article paru : 17</div>')[0];
+                popup_9d3475924a2a43ef932cf386e53ec50e.setContent(html_d1b21bbfe264415f8c14625a10cd0c22);
+            
+
+            circle_marker_aab70213ce4f4d4097c10e53eb035e3f.bindPopup(popup_9d3475924a2a43ef932cf386e53ec50e);
+
+            
+        
+    
+            var circle_marker_8fa3d02c67e54e6992846c9e856689e1 = L.circleMarker(
+                [22.396428,114.109497],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.5999999999999996,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_48d8a7b119d545479b429871303cf525 = L.popup({maxWidth: '300'});
+
+            
+                var html_c41d9ee069b8442d82b339cfff3a2875 = $('<div id="html_c41d9ee069b8442d82b339cfff3a2875" style="width: 100.0%; height: 100.0%;">------------------------------hongkong----------------------------- -------------- moyenne de morts par inondation : 3305 -------------- nombre d article paru : 6</div>')[0];
+                popup_48d8a7b119d545479b429871303cf525.setContent(html_c41d9ee069b8442d82b339cfff3a2875);
+            
+
+            circle_marker_8fa3d02c67e54e6992846c9e856689e1.bindPopup(popup_48d8a7b119d545479b429871303cf525);
+
+            
+        
+    
+            var circle_marker_8bbc33dfb55a44a78c078383a9228daa = L.circleMarker(
+                [47.162494,19.503304],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_464eccba15b64332854ef274473906dd = L.popup({maxWidth: '300'});
+
+            
+                var html_050238996341488d81b62c53edd8c948 = $('<div id="html_050238996341488d81b62c53edd8c948" style="width: 100.0%; height: 100.0%;">------------------------------hongrie----------------------------- -------------- moyenne de morts par inondation : 2150 -------------- nombre d article paru : 27</div>')[0];
+                popup_464eccba15b64332854ef274473906dd.setContent(html_050238996341488d81b62c53edd8c948);
+            
+
+            circle_marker_8bbc33dfb55a44a78c078383a9228daa.bindPopup(popup_464eccba15b64332854ef274473906dd);
+
+            
+        
+    
+            var circle_marker_17fe75b872ac4744914e08c35dbab6df = L.circleMarker(
+                [20.593684,78.96288],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 37.199999999999996,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_43d3dbf87c684e36aad5dcff887b46d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_cb9a97ea08224850b86086e948cad3a1 = $('<div id="html_cb9a97ea08224850b86086e948cad3a1" style="width: 100.0%; height: 100.0%;">------------------------------inde----------------------------- -------------- moyenne de morts par inondation : 1978 -------------- nombre d article paru : 62</div>')[0];
+                popup_43d3dbf87c684e36aad5dcff887b46d0.setContent(html_cb9a97ea08224850b86086e948cad3a1);
+            
+
+            circle_marker_17fe75b872ac4744914e08c35dbab6df.bindPopup(popup_43d3dbf87c684e36aad5dcff887b46d0);
+
+            
+        
+    
+            var circle_marker_bf5462d4c32f4f04961c1bd7285f1e1f = L.circleMarker(
+                [-0.789275,113.921327],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_7206e8fa40ee4da0b18e4329137d3eba = L.popup({maxWidth: '300'});
+
+            
+                var html_2d7605de4e0f4fc094ed40f8d9cdbc80 = $('<div id="html_2d7605de4e0f4fc094ed40f8d9cdbc80" style="width: 100.0%; height: 100.0%;">------------------------------indonesie----------------------------- -------------- moyenne de morts par inondation : 1066 -------------- nombre d article paru : 11</div>')[0];
+                popup_7206e8fa40ee4da0b18e4329137d3eba.setContent(html_2d7605de4e0f4fc094ed40f8d9cdbc80);
+            
+
+            circle_marker_bf5462d4c32f4f04961c1bd7285f1e1f.bindPopup(popup_7206e8fa40ee4da0b18e4329137d3eba);
+
+            
+        
+    
+            var circle_marker_36e15cb6d90842039d9a87d0c0118a83 = L.circleMarker(
+                [53.41291,-8.24389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_3f18c5c6efae4a24b1aab00c68061d7b = L.popup({maxWidth: '300'});
+
+            
+                var html_d08f75d1635847598c479a3b15c2f402 = $('<div id="html_d08f75d1635847598c479a3b15c2f402" style="width: 100.0%; height: 100.0%;">------------------------------irlande----------------------------- -------------- moyenne de morts par inondation : 1100 -------------- nombre d article paru : 1</div>')[0];
+                popup_3f18c5c6efae4a24b1aab00c68061d7b.setContent(html_d08f75d1635847598c479a3b15c2f402);
+            
+
+            circle_marker_36e15cb6d90842039d9a87d0c0118a83.bindPopup(popup_3f18c5c6efae4a24b1aab00c68061d7b);
+
+            
+        
+    
+            var circle_marker_13e92f4e2cda425997b628bec7005975 = L.circleMarker(
+                [31.046051,34.851612],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_ae8004e1c42348639d7223da1606cd16 = L.popup({maxWidth: '300'});
+
+            
+                var html_e3e1b936298a421aaf9a1bafb90d7354 = $('<div id="html_e3e1b936298a421aaf9a1bafb90d7354" style="width: 100.0%; height: 100.0%;">------------------------------israel----------------------------- -------------- moyenne de morts par inondation : 1454 -------------- nombre d article paru : 5</div>')[0];
+                popup_ae8004e1c42348639d7223da1606cd16.setContent(html_e3e1b936298a421aaf9a1bafb90d7354);
+            
+
+            circle_marker_13e92f4e2cda425997b628bec7005975.bindPopup(popup_ae8004e1c42348639d7223da1606cd16);
+
+            
+        
+    
+            var circle_marker_54ac486ded8d44a2abcb03ff64034e84 = L.circleMarker(
+                [41.87194,12.56738],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_121a4c4e7d584dff9b56abe46700153e = L.popup({maxWidth: '300'});
+
+            
+                var html_aa5404e6e0b64c6fb6ea4776bc3e0f6c = $('<div id="html_aa5404e6e0b64c6fb6ea4776bc3e0f6c" style="width: 100.0%; height: 100.0%;">------------------------------italie----------------------------- -------------- moyenne de morts par inondation : 2239 -------------- nombre d article paru : 15</div>')[0];
+                popup_121a4c4e7d584dff9b56abe46700153e.setContent(html_aa5404e6e0b64c6fb6ea4776bc3e0f6c);
+            
+
+            circle_marker_54ac486ded8d44a2abcb03ff64034e84.bindPopup(popup_121a4c4e7d584dff9b56abe46700153e);
+
+            
+        
+    
+            var circle_marker_55c4d8c507b247e5a5d19d35218bee98 = L.circleMarker(
+                [18.109581,-77.297508],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_1ec9cc70df8e4f94a984799ccb9b5591 = L.popup({maxWidth: '300'});
+
+            
+                var html_0eaa7a276cce4fdb94f4ea4574ce6e93 = $('<div id="html_0eaa7a276cce4fdb94f4ea4574ce6e93" style="width: 100.0%; height: 100.0%;">------------------------------jamaique----------------------------- -------------- moyenne de morts par inondation : 1883 -------------- nombre d article paru : 2</div>')[0];
+                popup_1ec9cc70df8e4f94a984799ccb9b5591.setContent(html_0eaa7a276cce4fdb94f4ea4574ce6e93);
+            
+
+            circle_marker_55c4d8c507b247e5a5d19d35218bee98.bindPopup(popup_1ec9cc70df8e4f94a984799ccb9b5591);
+
+            
+        
+    
+            var circle_marker_72a5e366ee2a47b7a7860e282c83aaa1 = L.circleMarker(
+                [36.204824,138.252924],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_3ece3212383c468baa1440e2a0357c38 = L.popup({maxWidth: '300'});
+
+            
+                var html_5be0c6efd9724acd9edd96624492d2b7 = $('<div id="html_5be0c6efd9724acd9edd96624492d2b7" style="width: 100.0%; height: 100.0%;">------------------------------japon----------------------------- -------------- moyenne de morts par inondation : 1676 -------------- nombre d article paru : 29</div>')[0];
+                popup_3ece3212383c468baa1440e2a0357c38.setContent(html_5be0c6efd9724acd9edd96624492d2b7);
+            
+
+            circle_marker_72a5e366ee2a47b7a7860e282c83aaa1.bindPopup(popup_3ece3212383c468baa1440e2a0357c38);
+
+            
+        
+    
+            var circle_marker_41011fd81fbb4f56bcede4c8c1a2c88a = L.circleMarker(
+                [49.815273,6.129583],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7999999999999998,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_66c143b29bbb45628db95d1e151dca09 = L.popup({maxWidth: '300'});
+
+            
+                var html_203667cd48894b16ab9b05aa548c9948 = $('<div id="html_203667cd48894b16ab9b05aa548c9948" style="width: 100.0%; height: 100.0%;">------------------------------luxembourg----------------------------- -------------- moyenne de morts par inondation : 146 -------------- nombre d article paru : 3</div>')[0];
+                popup_66c143b29bbb45628db95d1e151dca09.setContent(html_203667cd48894b16ab9b05aa548c9948);
+            
+
+            circle_marker_41011fd81fbb4f56bcede4c8c1a2c88a.bindPopup(popup_66c143b29bbb45628db95d1e151dca09);
+
+            
+        
+    
+            var circle_marker_ae4f46537b174c068fbe2e38113377c5 = L.circleMarker(
+                [-18.766947,46.869107],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_1d2448f2052244199a8e1a27f9a5a626 = L.popup({maxWidth: '300'});
+
+            
+                var html_afd707d771a04b0f91c45001d86321e2 = $('<div id="html_afd707d771a04b0f91c45001d86321e2" style="width: 100.0%; height: 100.0%;">------------------------------madagascar----------------------------- -------------- moyenne de morts par inondation : 42 -------------- nombre d article paru : 2</div>')[0];
+                popup_1d2448f2052244199a8e1a27f9a5a626.setContent(html_afd707d771a04b0f91c45001d86321e2);
+            
+
+            circle_marker_ae4f46537b174c068fbe2e38113377c5.bindPopup(popup_1d2448f2052244199a8e1a27f9a5a626);
+
+            
+        
+    
+            var circle_marker_9d8264f1c21e413181c494631e63f292 = L.circleMarker(
+                [4.210484,101.975766],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_7901cdaacd844598b48b25bcedc73595 = L.popup({maxWidth: '300'});
+
+            
+                var html_6d1e3fbd5a334c4bb52273129c1366f1 = $('<div id="html_6d1e3fbd5a334c4bb52273129c1366f1" style="width: 100.0%; height: 100.0%;">------------------------------malaisie----------------------------- -------------- moyenne de morts par inondation : 33 -------------- nombre d article paru : 7</div>')[0];
+                popup_7901cdaacd844598b48b25bcedc73595.setContent(html_6d1e3fbd5a334c4bb52273129c1366f1);
+            
+
+            circle_marker_9d8264f1c21e413181c494631e63f292.bindPopup(popup_7901cdaacd844598b48b25bcedc73595);
+
+            
+        
+    
+            var circle_marker_549d5c6157234863b76ad810e5f08ecf = L.circleMarker(
+                [17.570692,-3.996166],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.199999999999999,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_7847893b02984e8fb1c2a1a11721df8b = L.popup({maxWidth: '300'});
+
+            
+                var html_e8f81215dcb6434b93ad259c1805d302 = $('<div id="html_e8f81215dcb6434b93ad259c1805d302" style="width: 100.0%; height: 100.0%;">------------------------------mali----------------------------- -------------- moyenne de morts par inondation : 553 -------------- nombre d article paru : 12</div>')[0];
+                popup_7847893b02984e8fb1c2a1a11721df8b.setContent(html_e8f81215dcb6434b93ad259c1805d302);
+            
+
+            circle_marker_549d5c6157234863b76ad810e5f08ecf.bindPopup(popup_7847893b02984e8fb1c2a1a11721df8b);
+
+            
+        
+    
+            var circle_marker_a926a24f7caf4f8eb69014dd9e33ebc8 = L.circleMarker(
+                [31.791702,-7.09262],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_0c4066625b8b4935a312c0d2de499d6c = L.popup({maxWidth: '300'});
+
+            
+                var html_d86d33faae954f91bdef0da6d6293877 = $('<div id="html_d86d33faae954f91bdef0da6d6293877" style="width: 100.0%; height: 100.0%;">------------------------------maroc----------------------------- -------------- moyenne de morts par inondation : 99 -------------- nombre d article paru : 4</div>')[0];
+                popup_0c4066625b8b4935a312c0d2de499d6c.setContent(html_d86d33faae954f91bdef0da6d6293877);
+            
+
+            circle_marker_a926a24f7caf4f8eb69014dd9e33ebc8.bindPopup(popup_0c4066625b8b4935a312c0d2de499d6c);
+
+            
+        
+    
+            var circle_marker_956965568ff24d418301bcff243d4f7e = L.circleMarker(
+                [14.641528,-61.024174],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.5999999999999996,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_7e72b27fb76d4be4bc6f02bb26a027f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_69d94a4f3ee64e0da760c4a4bbfeeccf = $('<div id="html_69d94a4f3ee64e0da760c4a4bbfeeccf" style="width: 100.0%; height: 100.0%;">------------------------------martinique----------------------------- -------------- moyenne de morts par inondation : 77 -------------- nombre d article paru : 6</div>')[0];
+                popup_7e72b27fb76d4be4bc6f02bb26a027f4.setContent(html_69d94a4f3ee64e0da760c4a4bbfeeccf);
+            
+
+            circle_marker_956965568ff24d418301bcff243d4f7e.bindPopup(popup_7e72b27fb76d4be4bc6f02bb26a027f4);
+
+            
+        
+    
+            var circle_marker_a562d5380cf44d8cbe4090593bc7be3b = L.circleMarker(
+                [-20.348404,57.552152],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_ff1deb39248944f9aeed87cec8257772 = L.popup({maxWidth: '300'});
+
+            
+                var html_cf8cc13103ff4b68ba8ad01b8cf244b9 = $('<div id="html_cf8cc13103ff4b68ba8ad01b8cf244b9" style="width: 100.0%; height: 100.0%;">------------------------------maurice----------------------------- -------------- moyenne de morts par inondation : 309 -------------- nombre d article paru : 7</div>')[0];
+                popup_ff1deb39248944f9aeed87cec8257772.setContent(html_cf8cc13103ff4b68ba8ad01b8cf244b9);
+            
+
+            circle_marker_a562d5380cf44d8cbe4090593bc7be3b.bindPopup(popup_ff1deb39248944f9aeed87cec8257772);
+
+            
+        
+    
+            var circle_marker_d028de38aefb4cd3ac14df1141fef5ce = L.circleMarker(
+                [23.634501,-102.552784],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.799999999999999,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_45520d7247ad46848839b91564c6e9b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_dc9413325c0f425b8c9db2e11e61fcb0 = $('<div id="html_dc9413325c0f425b8c9db2e11e61fcb0" style="width: 100.0%; height: 100.0%;">------------------------------mexique----------------------------- -------------- moyenne de morts par inondation : 715 -------------- nombre d article paru : 18</div>')[0];
+                popup_45520d7247ad46848839b91564c6e9b8.setContent(html_dc9413325c0f425b8c9db2e11e61fcb0);
+            
+
+            circle_marker_d028de38aefb4cd3ac14df1141fef5ce.bindPopup(popup_45520d7247ad46848839b91564c6e9b8);
+
+            
+        
+    
+            var circle_marker_95436098646044509b4210e0ac47e69f = L.circleMarker(
+                [21.913965,95.956223],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7999999999999998,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_958c24ca4b1a400787e095e0c2c70a26 = L.popup({maxWidth: '300'});
+
+            
+                var html_d896a20c16b248d7ae9325f7fa850c43 = $('<div id="html_d896a20c16b248d7ae9325f7fa850c43" style="width: 100.0%; height: 100.0%;">------------------------------myanmar----------------------------- -------------- moyenne de morts par inondation : 36 -------------- nombre d article paru : 3</div>')[0];
+                popup_958c24ca4b1a400787e095e0c2c70a26.setContent(html_d896a20c16b248d7ae9325f7fa850c43);
+            
+
+            circle_marker_95436098646044509b4210e0ac47e69f.bindPopup(popup_958c24ca4b1a400787e095e0c2c70a26);
+
+            
+        
+    
+            var circle_marker_c039017254b74cb3885abcaee5ec03b1 = L.circleMarker(
+                [28.394857,84.124008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_a891d8e86cc44f78ba4ba5b1b5cf4c5f = L.popup({maxWidth: '300'});
+
+            
+                var html_01d7a8fc28a3494c9431c15aa64db552 = $('<div id="html_01d7a8fc28a3494c9431c15aa64db552" style="width: 100.0%; height: 100.0%;">------------------------------nepal----------------------------- -------------- moyenne de morts par inondation : 1022 -------------- nombre d article paru : 14</div>')[0];
+                popup_a891d8e86cc44f78ba4ba5b1b5cf4c5f.setContent(html_01d7a8fc28a3494c9431c15aa64db552);
+            
+
+            circle_marker_c039017254b74cb3885abcaee5ec03b1.bindPopup(popup_a891d8e86cc44f78ba4ba5b1b5cf4c5f);
+
+            
+        
+    
+            var circle_marker_6483aa7bb12e41ac993c2368c18f570e = L.circleMarker(
+                [30.375321,69.345116],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 43.8,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_a84749a14d01414eb20e38f0aa9323a8 = L.popup({maxWidth: '300'});
+
+            
+                var html_952bab79f48044149ccbb5173e292846 = $('<div id="html_952bab79f48044149ccbb5173e292846" style="width: 100.0%; height: 100.0%;">------------------------------pakistan----------------------------- -------------- moyenne de morts par inondation : 1745 -------------- nombre d article paru : 73</div>')[0];
+                popup_a84749a14d01414eb20e38f0aa9323a8.setContent(html_952bab79f48044149ccbb5173e292846);
+            
+
+            circle_marker_6483aa7bb12e41ac993c2368c18f570e.bindPopup(popup_a84749a14d01414eb20e38f0aa9323a8);
+
+            
+        
+    
+            var circle_marker_a0db974316bc44a5a3dae9f26ec81764 = L.circleMarker(
+                [8.537981,-80.782127],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_3d48153a491a4f3983a04cba275d9fdf = L.popup({maxWidth: '300'});
+
+            
+                var html_7b8da2102fe14985bce8b82796a3e11a = $('<div id="html_7b8da2102fe14985bce8b82796a3e11a" style="width: 100.0%; height: 100.0%;">------------------------------panama----------------------------- -------------- moyenne de morts par inondation : 79 -------------- nombre d article paru : 1</div>')[0];
+                popup_3d48153a491a4f3983a04cba275d9fdf.setContent(html_7b8da2102fe14985bce8b82796a3e11a);
+            
+
+            circle_marker_a0db974316bc44a5a3dae9f26ec81764.bindPopup(popup_3d48153a491a4f3983a04cba275d9fdf);
+
+            
+        
+    
+            var circle_marker_dd8fd847677c4784917e44a4d1c53283 = L.circleMarker(
+                [52.132633,5.291266],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_5dc244633ec54cf79e7d3f7a5408d696 = L.popup({maxWidth: '300'});
+
+            
+                var html_eaeb832b047b484a9a09019e57a8dda7 = $('<div id="html_eaeb832b047b484a9a09019e57a8dda7" style="width: 100.0%; height: 100.0%;">------------------------------paysbas----------------------------- -------------- moyenne de morts par inondation : 979 -------------- nombre d article paru : 11</div>')[0];
+                popup_5dc244633ec54cf79e7d3f7a5408d696.setContent(html_eaeb832b047b484a9a09019e57a8dda7);
+            
+
+            circle_marker_dd8fd847677c4784917e44a4d1c53283.bindPopup(popup_5dc244633ec54cf79e7d3f7a5408d696);
+
+            
+        
+    
+            var circle_marker_cfc2a6e01e6044eeaa77c95600d68dac = L.circleMarker(
+                [-9.189967,-75.015152],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_64fce6ef836147f49bcef5928606a06a = L.popup({maxWidth: '300'});
+
+            
+                var html_d01708181f0e4d5298687c05e95cce7d = $('<div id="html_d01708181f0e4d5298687c05e95cce7d" style="width: 100.0%; height: 100.0%;">------------------------------perou----------------------------- -------------- moyenne de morts par inondation : 8450 -------------- nombre d article paru : 4</div>')[0];
+                popup_64fce6ef836147f49bcef5928606a06a.setContent(html_d01708181f0e4d5298687c05e95cce7d);
+            
+
+            circle_marker_cfc2a6e01e6044eeaa77c95600d68dac.bindPopup(popup_64fce6ef836147f49bcef5928606a06a);
+
+            
+        
+    
+            var circle_marker_05f78bbbb19d41c9a3e401f1762833be = L.circleMarker(
+                [12.879721,121.774017],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_6f2d573d963d4a07bf4ccb899d7e84bc = L.popup({maxWidth: '300'});
+
+            
+                var html_02be3e670f974723b66520785dc6043f = $('<div id="html_02be3e670f974723b66520785dc6043f" style="width: 100.0%; height: 100.0%;">------------------------------philippines----------------------------- -------------- moyenne de morts par inondation : 1038 -------------- nombre d article paru : 25</div>')[0];
+                popup_6f2d573d963d4a07bf4ccb899d7e84bc.setContent(html_02be3e670f974723b66520785dc6043f);
+            
+
+            circle_marker_05f78bbbb19d41c9a3e401f1762833be.bindPopup(popup_6f2d573d963d4a07bf4ccb899d7e84bc);
+
+            
+        
+    
+            var circle_marker_27f605c3b6a844d8b53d741dae91fb33 = L.circleMarker(
+                [51.919438,19.145136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.8,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_c9103d1a0d184349a75a5000f0d8ef28 = L.popup({maxWidth: '300'});
+
+            
+                var html_46f8358622c84b8da54a2fff4b2eb1b5 = $('<div id="html_46f8358622c84b8da54a2fff4b2eb1b5" style="width: 100.0%; height: 100.0%;">------------------------------pologne----------------------------- -------------- moyenne de morts par inondation : 3304 -------------- nombre d article paru : 8</div>')[0];
+                popup_c9103d1a0d184349a75a5000f0d8ef28.setContent(html_46f8358622c84b8da54a2fff4b2eb1b5);
+            
+
+            circle_marker_27f605c3b6a844d8b53d741dae91fb33.bindPopup(popup_c9103d1a0d184349a75a5000f0d8ef28);
+
+            
+        
+    
+            var circle_marker_9697c3b67d0d4f389e36890c740b39bc = L.circleMarker(
+                [39.399872,-8.224454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.7999999999999998,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_44df96f77a0049a08caee08440b31c41 = L.popup({maxWidth: '300'});
+
+            
+                var html_3022cf59ded14e3a8afd7a8dd0f4d845 = $('<div id="html_3022cf59ded14e3a8afd7a8dd0f4d845" style="width: 100.0%; height: 100.0%;">------------------------------portugal----------------------------- -------------- moyenne de morts par inondation : 2003 -------------- nombre d article paru : 3</div>')[0];
+                popup_44df96f77a0049a08caee08440b31c41.setContent(html_3022cf59ded14e3a8afd7a8dd0f4d845);
+            
+
+            circle_marker_9697c3b67d0d4f389e36890c740b39bc.bindPopup(popup_44df96f77a0049a08caee08440b31c41);
+
+            
+        
+    
+            var circle_marker_af8aeb90723e44f1aee5bb3bfad7103f = L.circleMarker(
+                [25.354826,51.183884],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_53ab96a631ea42b1b83ed56f244f72ff = L.popup({maxWidth: '300'});
+
+            
+                var html_c904b1d8eef94b2daf243ca26396d0eb = $('<div id="html_c904b1d8eef94b2daf243ca26396d0eb" style="width: 100.0%; height: 100.0%;">------------------------------qatar----------------------------- -------------- moyenne de morts par inondation : 28 -------------- nombre d article paru : 1</div>')[0];
+                popup_53ab96a631ea42b1b83ed56f244f72ff.setContent(html_c904b1d8eef94b2daf243ca26396d0eb);
+            
+
+            circle_marker_af8aeb90723e44f1aee5bb3bfad7103f.bindPopup(popup_53ab96a631ea42b1b83ed56f244f72ff);
+
+            
+        
+    
+            var circle_marker_6e9d74b24f8045afac2a1d64ccaae493 = L.circleMarker(
+                [-21.115141,55.536384],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 33.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_5afa5d58b0534a8c98976195213cb720 = L.popup({maxWidth: '300'});
+
+            
+                var html_61661f3ea2d34a389ebf6b95ecbf75e3 = $('<div id="html_61661f3ea2d34a389ebf6b95ecbf75e3" style="width: 100.0%; height: 100.0%;">------------------------------reunion----------------------------- -------------- moyenne de morts par inondation : 1671 -------------- nombre d article paru : 56</div>')[0];
+                popup_5afa5d58b0534a8c98976195213cb720.setContent(html_61661f3ea2d34a389ebf6b95ecbf75e3);
+            
+
+            circle_marker_6e9d74b24f8045afac2a1d64ccaae493.bindPopup(popup_5afa5d58b0534a8c98976195213cb720);
+
+            
+        
+    
+            var circle_marker_e7af6a3903d14a2abb8208ca9a77c906 = L.circleMarker(
+                [45.943161,24.96676],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_9da430e9bce54887a35d62e1f16fc99f = L.popup({maxWidth: '300'});
+
+            
+                var html_03dcad3a9da840cf8dce45c80dcf123a = $('<div id="html_03dcad3a9da840cf8dce45c80dcf123a" style="width: 100.0%; height: 100.0%;">------------------------------roumanie----------------------------- -------------- moyenne de morts par inondation : 2182 -------------- nombre d article paru : 11</div>')[0];
+                popup_9da430e9bce54887a35d62e1f16fc99f.setContent(html_03dcad3a9da840cf8dce45c80dcf123a);
+            
+
+            circle_marker_e7af6a3903d14a2abb8208ca9a77c906.bindPopup(popup_9da430e9bce54887a35d62e1f16fc99f);
+
+            
+        
+    
+            var circle_marker_07f82d13285045788809650a6372a6d5 = L.circleMarker(
+                [55.378051,-3.435973],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_ca546b72e7434374b3a976b77ed6f752 = L.popup({maxWidth: '300'});
+
+            
+                var html_365c6ed1c9e44a1a8f5ecc7d5c073026 = $('<div id="html_365c6ed1c9e44a1a8f5ecc7d5c073026" style="width: 100.0%; height: 100.0%;">------------------------------royaumeuni----------------------------- -------------- moyenne de morts par inondation : 631 -------------- nombre d article paru : 17</div>')[0];
+                popup_ca546b72e7434374b3a976b77ed6f752.setContent(html_365c6ed1c9e44a1a8f5ecc7d5c073026);
+            
+
+            circle_marker_07f82d13285045788809650a6372a6d5.bindPopup(popup_ca546b72e7434374b3a976b77ed6f752);
+
+            
+        
+    
+            var circle_marker_154cc43f97274127a39f47596a7b4f7d = L.circleMarker(
+                [1.352083,103.819836],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_57c3b128169a4880af5b25e2c0d15033 = L.popup({maxWidth: '300'});
+
+            
+                var html_9d6432d1a71646499171062595df2a67 = $('<div id="html_9d6432d1a71646499171062595df2a67" style="width: 100.0%; height: 100.0%;">------------------------------singapour----------------------------- -------------- moyenne de morts par inondation : 92 -------------- nombre d article paru : 2</div>')[0];
+                popup_57c3b128169a4880af5b25e2c0d15033.setContent(html_9d6432d1a71646499171062595df2a67);
+            
+
+            circle_marker_154cc43f97274127a39f47596a7b4f7d.bindPopup(popup_57c3b128169a4880af5b25e2c0d15033);
+
+            
+        
+    
+            var circle_marker_7f21cde7ab034448aa539c1a0768deef = L.circleMarker(
+                [46.818188,8.227512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_8efe7e0a96fa41d9a6f58c2388afd31b = L.popup({maxWidth: '300'});
+
+            
+                var html_7e8db5ae77ff4e77b60e6431a9021a5e = $('<div id="html_7e8db5ae77ff4e77b60e6431a9021a5e" style="width: 100.0%; height: 100.0%;">------------------------------suisse----------------------------- -------------- moyenne de morts par inondation : 875 -------------- nombre d article paru : 20</div>')[0];
+                popup_8efe7e0a96fa41d9a6f58c2388afd31b.setContent(html_7e8db5ae77ff4e77b60e6431a9021a5e);
+            
+
+            circle_marker_7f21cde7ab034448aa539c1a0768deef.bindPopup(popup_8efe7e0a96fa41d9a6f58c2388afd31b);
+
+            
+        
+    
+            var circle_marker_3a394005007641a2b1c51e6964df38ec = L.circleMarker(
+                [23.69781,120.960515],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.4,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_ad077ecc15674ddd9158680e9cfad019 = L.popup({maxWidth: '300'});
+
+            
+                var html_0ef47e63a27d4de5bcd68ffaaee245e3 = $('<div id="html_0ef47e63a27d4de5bcd68ffaaee245e3" style="width: 100.0%; height: 100.0%;">------------------------------taiwan----------------------------- -------------- moyenne de morts par inondation : 156 -------------- nombre d article paru : 4</div>')[0];
+                popup_ad077ecc15674ddd9158680e9cfad019.setContent(html_0ef47e63a27d4de5bcd68ffaaee245e3);
+            
+
+            circle_marker_3a394005007641a2b1c51e6964df38ec.bindPopup(popup_ad077ecc15674ddd9158680e9cfad019);
+
+            
+        
+    
+            var circle_marker_54eb4717b8424c4e886a006c624249d3 = L.circleMarker(
+                [15.870032,100.992541],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_a49a6b887f334b0d876e69f141953018 = L.popup({maxWidth: '300'});
+
+            
+                var html_26ef20e2555f41d69b18b15e8d91d68c = $('<div id="html_26ef20e2555f41d69b18b15e8d91d68c" style="width: 100.0%; height: 100.0%;">------------------------------thailande----------------------------- -------------- moyenne de morts par inondation : 885 -------------- nombre d article paru : 35</div>')[0];
+                popup_a49a6b887f334b0d876e69f141953018.setContent(html_26ef20e2555f41d69b18b15e8d91d68c);
+            
+
+            circle_marker_54eb4717b8424c4e886a006c624249d3.bindPopup(popup_a49a6b887f334b0d876e69f141953018);
+
+            
+        
+    
+            var circle_marker_af8fd836aaaa4ad5ba5800b6b3861a95 = L.circleMarker(
+                [38.963745,35.243322],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_192994b62b1145199ab815603d8fffb5 = L.popup({maxWidth: '300'});
+
+            
+                var html_703655170fd74995b0b4c5eed983c912 = $('<div id="html_703655170fd74995b0b4c5eed983c912" style="width: 100.0%; height: 100.0%;">------------------------------turquie----------------------------- -------------- moyenne de morts par inondation : 694 -------------- nombre d article paru : 10</div>')[0];
+                popup_192994b62b1145199ab815603d8fffb5.setContent(html_703655170fd74995b0b4c5eed983c912);
+            
+
+            circle_marker_af8fd836aaaa4ad5ba5800b6b3861a95.bindPopup(popup_192994b62b1145199ab815603d8fffb5);
+
+            
+        
+    
+            var circle_marker_41696191d95143389b4be2eb122d7247 = L.circleMarker(
+                [48.379433,31.16558],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.6,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_095fce8a626b41a5bf7741ba5f6fcba4 = L.popup({maxWidth: '300'});
+
+            
+                var html_26c7bc309be34421a18add8d4200ab5f = $('<div id="html_26c7bc309be34421a18add8d4200ab5f" style="width: 100.0%; height: 100.0%;">------------------------------ukraine----------------------------- -------------- moyenne de morts par inondation : 12014 -------------- nombre d article paru : 1</div>')[0];
+                popup_095fce8a626b41a5bf7741ba5f6fcba4.setContent(html_26c7bc309be34421a18add8d4200ab5f);
+            
+
+            circle_marker_41696191d95143389b4be2eb122d7247.bindPopup(popup_095fce8a626b41a5bf7741ba5f6fcba4);
+
+            
+        
+    
+            var circle_marker_752b0687ca95401f9d48beb5c8cfe73b = L.circleMarker(
+                [-15.376706,166.959158],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_2ed928cc213e4311a694f8da1c2c4100 = L.popup({maxWidth: '300'});
+
+            
+                var html_d718dfb413e44cb79845d05c2426c2c2 = $('<div id="html_d718dfb413e44cb79845d05c2426c2c2" style="width: 100.0%; height: 100.0%;">------------------------------vanuatu----------------------------- -------------- moyenne de morts par inondation : 38 -------------- nombre d article paru : 2</div>')[0];
+                popup_2ed928cc213e4311a694f8da1c2c4100.setContent(html_d718dfb413e44cb79845d05c2426c2c2);
+            
+
+            circle_marker_752b0687ca95401f9d48beb5c8cfe73b.bindPopup(popup_2ed928cc213e4311a694f8da1c2c4100);
+
+            
+        
+    
+            var circle_marker_9430584f5e0744e1bdf861118f5417f4 = L.circleMarker(
+                [-45.2,-98],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_daa817dafed74bbeb5d9e4f846ef94b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_dbc290cca23e4d49b4fcd5b531674bd0 = $('<div id="html_dbc290cca23e4d49b4fcd5b531674bd0" style="width: 100.0%; height: 100.0%;">8 articles "inondation"</div>')[0];
+                popup_daa817dafed74bbeb5d9e4f846ef94b7.setContent(html_dbc290cca23e4d49b4fcd5b531674bd0);
+            
+
+            circle_marker_9430584f5e0744e1bdf861118f5417f4.bindPopup(popup_daa817dafed74bbeb5d9e4f846ef94b7);
+
+            
+        
+    
+            var circle_marker_fbc374c888474b15a6dc4d9dd1b7ce9f = L.circleMarker(
+                [-44.4,-111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_6d6b99b9ce1a4f0b849e06257f3e9d06 = L.popup({maxWidth: '300'});
+
+            
+                var html_f607179598f1477e89cb27407b793d90 = $('<div id="html_f607179598f1477e89cb27407b793d90" style="width: 100.0%; height: 100.0%;">17 articles "inondation"</div>')[0];
+                popup_6d6b99b9ce1a4f0b849e06257f3e9d06.setContent(html_f607179598f1477e89cb27407b793d90);
+            
+
+            circle_marker_fbc374c888474b15a6dc4d9dd1b7ce9f.bindPopup(popup_6d6b99b9ce1a4f0b849e06257f3e9d06);
+
+            
+        
+    
+            var circle_marker_20f95e774b444ca6a6141b5ec7f21e0f = L.circleMarker(
+                [-43.6,-124],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_7a360ca6a9cc48aab65a2c9014c220f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_45406adee4ae46b599f13288e8b19b0d = $('<div id="html_45406adee4ae46b599f13288e8b19b0d" style="width: 100.0%; height: 100.0%;">17 articles "inondation"</div>')[0];
+                popup_7a360ca6a9cc48aab65a2c9014c220f9.setContent(html_45406adee4ae46b599f13288e8b19b0d);
+            
+
+            circle_marker_20f95e774b444ca6a6141b5ec7f21e0f.bindPopup(popup_7a360ca6a9cc48aab65a2c9014c220f9);
+
+            
+        
+    
+            var circle_marker_77f1c7246d5945519ada0a12f648397d = L.circleMarker(
+                [-42.8,-137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_09644598d4434598a170148f7a03b3a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_c2cf21e807ce459b93c98cff23d58456 = $('<div id="html_c2cf21e807ce459b93c98cff23d58456" style="width: 100.0%; height: 100.0%;">25 articles "inondation"</div>')[0];
+                popup_09644598d4434598a170148f7a03b3a9.setContent(html_c2cf21e807ce459b93c98cff23d58456);
+            
+
+            circle_marker_77f1c7246d5945519ada0a12f648397d.bindPopup(popup_09644598d4434598a170148f7a03b3a9);
+
+            
+        
+    
+            var circle_marker_0b45c2b6684b401ea5cd2749f82ecce9 = L.circleMarker(
+                [-42,-150],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_8f2c8f9ee7c843ed8c2916b740e13eb9 = L.popup({maxWidth: '300'});
+
+            
+                var html_268c73ada2c74aefbaed311c49a653a6 = $('<div id="html_268c73ada2c74aefbaed311c49a653a6" style="width: 100.0%; height: 100.0%;">33 articles "inondation"</div>')[0];
+                popup_8f2c8f9ee7c843ed8c2916b740e13eb9.setContent(html_268c73ada2c74aefbaed311c49a653a6);
+            
+
+            circle_marker_0b45c2b6684b401ea5cd2749f82ecce9.bindPopup(popup_8f2c8f9ee7c843ed8c2916b740e13eb9);
+
+            
+        
+    
+            var circle_marker_7c4b200139394823ab56364af5a812d1 = L.circleMarker(
+                [-51,-150],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_11fe35a477f2492892ff70c3e295b734 = L.popup({maxWidth: '300'});
+
+            
+                var html_ffe6197b05db4fa89c2c216acd5d5215 = $('<div id="html_ffe6197b05db4fa89c2c216acd5d5215" style="width: 100.0%; height: 100.0%;">Inférieur à 500 morts par inondation en moyenne</div>')[0];
+                popup_11fe35a477f2492892ff70c3e295b734.setContent(html_ffe6197b05db4fa89c2c216acd5d5215);
+            
+
+            circle_marker_7c4b200139394823ab56364af5a812d1.bindPopup(popup_11fe35a477f2492892ff70c3e295b734);
+
+            
+        
+    
+            var circle_marker_0ad0c637c1fc45a384b2f6d3c65094be = L.circleMarker(
+                [-51,-137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_b0e33e627ce245a9b966d827c275f31a = L.popup({maxWidth: '300'});
+
+            
+                var html_61e6405060404a4b80ab3ece6557970c = $('<div id="html_61e6405060404a4b80ab3ece6557970c" style="width: 100.0%; height: 100.0%;">Entre 500 et 1000 morts par inondation en moyenne</div>')[0];
+                popup_b0e33e627ce245a9b966d827c275f31a.setContent(html_61e6405060404a4b80ab3ece6557970c);
+            
+
+            circle_marker_0ad0c637c1fc45a384b2f6d3c65094be.bindPopup(popup_b0e33e627ce245a9b966d827c275f31a);
+
+            
+        
+    
+            var circle_marker_01d40e84cdd84bd493351196f8014b96 = L.circleMarker(
+                [-51,-124],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_693813e7116a4cb292e7bd38ac0567e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_9874a2125baf44fd80215dbaee7042d6 = $('<div id="html_9874a2125baf44fd80215dbaee7042d6" style="width: 100.0%; height: 100.0%;">Entre 1000 et 1500 morts par inondation en moyenne</div>')[0];
+                popup_693813e7116a4cb292e7bd38ac0567e8.setContent(html_9874a2125baf44fd80215dbaee7042d6);
+            
+
+            circle_marker_01d40e84cdd84bd493351196f8014b96.bindPopup(popup_693813e7116a4cb292e7bd38ac0567e8);
+
+            
+        
+    
+            var circle_marker_356777f6665f41778a40f7f02d71ca3d = L.circleMarker(
+                [-51,-111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_db101b80f4d4456eba07964235339f96 = L.popup({maxWidth: '300'});
+
+            
+                var html_48fa968bb5174aff8bda80e0ba41159c = $('<div id="html_48fa968bb5174aff8bda80e0ba41159c" style="width: 100.0%; height: 100.0%;">Entre 1500 et 2000 morts par inondation en moyenne</div>')[0];
+                popup_db101b80f4d4456eba07964235339f96.setContent(html_48fa968bb5174aff8bda80e0ba41159c);
+            
+
+            circle_marker_356777f6665f41778a40f7f02d71ca3d.bindPopup(popup_db101b80f4d4456eba07964235339f96);
+
+            
+        
+    
+            var circle_marker_30e1706246ca406e80b454ea1df86997 = L.circleMarker(
+                [-51,-98],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_7e946a6ed58f4c6b8ee8f6da4813e0fc);
+            
+    
+            var popup_fb54cb46bf064754bab4f5bfee1db8bd = L.popup({maxWidth: '300'});
+
+            
+                var html_a3ac1c3af67a41a78f2d4f94cfbe3358 = $('<div id="html_a3ac1c3af67a41a78f2d4f94cfbe3358" style="width: 100.0%; height: 100.0%;">Supérieur à 2000 morts par inondation en moyenne</div>')[0];
+                popup_fb54cb46bf064754bab4f5bfee1db8bd.setContent(html_a3ac1c3af67a41a78f2d4f94cfbe3358);
+            
+
+            circle_marker_30e1706246ca406e80b454ea1df86997.bindPopup(popup_fb54cb46bf064754bab4f5bfee1db8bd);
+
+            
+        
+</script>

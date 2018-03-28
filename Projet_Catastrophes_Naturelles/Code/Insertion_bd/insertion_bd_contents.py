@@ -17,7 +17,8 @@ cursor = conn.cursor()
 f = open('Fichier_csv_insertion/contenu_mots_cles.csv', 'r', encoding="utf8")
 file_content = csv.reader(f, delimiter=',', quotechar='"')
 
-# Pour chaque mot clé du contenu on insère les informations dans la  base de données
+# Pour chaque mot clé du contenu on insère les informations
+# dans la  base de données
 for content in file_content:
     cursor.execute("exec dbo.INSERTION_CONTENU_MOTS_CLES @pid_contenu = " +
                    content[0] + ", @pposition_mot = " + content[1] +

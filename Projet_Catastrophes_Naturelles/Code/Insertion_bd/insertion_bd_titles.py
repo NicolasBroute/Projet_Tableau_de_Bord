@@ -13,11 +13,13 @@ conn = pyodbc.connect("DRIVER={SQL Server}; SERVER=" + host +
 # Création du curseur
 cursor = conn.cursor()
 
-# Ouverture et lecture du fichier csv contenant les mots clés des titres des articles
+# Ouverture et lecture du fichier csv contenant les mots clés
+# des titres des articles
 f = open('Fichier_csv_insertion/titres.csv', 'r', encoding="utf8")
 file_titles = csv.reader(f, delimiter=',', quotechar='"')
 
-# Pour chaque mot clé du titre on insère les informations dans la  base de données
+# Pour chaque mot clé du titre on insère les informations
+# dans la  base de données
 for title in file_titles:
     cursor.execute("exec dbo.INSERTION_TITRE @pid_titre = " + title[0] +
                    ", @pposition_mot = " + title[1] + ", @pscore_tf_idf = " +

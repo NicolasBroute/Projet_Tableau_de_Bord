@@ -13,7 +13,8 @@ conn = pyodbc.connect("DRIVER={SQL Server}; SERVER=" + host +
 # Création du curseur
 cursor = conn.cursor()
 
-# Ouverture et lecture du fichier csv contenant tous les différents nombres présents dans les articles
+# Ouverture et lecture du fichier csv contenant tous les différents nombres
+# présents dans les articles
 f = open('Fichier_csv_insertion/nombres.csv', 'r', encoding="utf8")
 file_numbers = csv.reader(f, delimiter=',', quotechar='"')
 

@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_19ba4ed746c64ad68817fd3bd192b1ba {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_19ba4ed746c64ad68817fd3bd192b1ba" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_19ba4ed746c64ad68817fd3bd192b1ba = L.map(
+                                  'map_19ba4ed746c64ad68817fd3bd192b1ba',
+                                  {center: [18,0],
+                                  zoom: 3,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_eff100bd8f8c4f2cb4071baa1d337311 = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+        
+    
+            var circle_marker_0b2388ffbcfd459e9b0037f4f4bcaff6 = L.circleMarker(
+                [51.165691,10.451526],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_a8bfc503a9024f9f9c213a5e77fa7eb2 = L.popup({maxWidth: '300'});
+
+            
+                var html_968bb62d30584af28d2e68dd7634f273 = $('<div id="html_968bb62d30584af28d2e68dd7634f273" style="width: 100.0%; height: 100.0%;">------------------------------allemagne----------------------------- -------------- moyenne de morts par tremblement de terre : 4827 -------------- nombre d article paru : 2</div>')[0];
+                popup_a8bfc503a9024f9f9c213a5e77fa7eb2.setContent(html_968bb62d30584af28d2e68dd7634f273);
+            
+
+            circle_marker_0b2388ffbcfd459e9b0037f4f4bcaff6.bindPopup(popup_a8bfc503a9024f9f9c213a5e77fa7eb2);
+
+            
+        
+    
+            var circle_marker_9247995ff75b4e9c867a5d1d5af2133c = L.circleMarker(
+                [-25.274398,133.775136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_787070624ecb4758a170976690d7351e = L.popup({maxWidth: '300'});
+
+            
+                var html_42ae244f32e34ee1a9ace2c012e70085 = $('<div id="html_42ae244f32e34ee1a9ace2c012e70085" style="width: 100.0%; height: 100.0%;">------------------------------australie----------------------------- -------------- moyenne de morts par tremblement de terre : 4827 -------------- nombre d article paru : 2</div>')[0];
+                popup_787070624ecb4758a170976690d7351e.setContent(html_42ae244f32e34ee1a9ace2c012e70085);
+            
+
+            circle_marker_9247995ff75b4e9c867a5d1d5af2133c.bindPopup(popup_787070624ecb4758a170976690d7351e);
+
+            
+        
+    
+            var circle_marker_7d1066c400174e1ebb7ed6793b170beb = L.circleMarker(
+                [-14.235004,-51.92528],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_b03ce36b6cd548da9afd85a0741e096a = L.popup({maxWidth: '300'});
+
+            
+                var html_a969085ea06f4d2e978531c21117f3a9 = $('<div id="html_a969085ea06f4d2e978531c21117f3a9" style="width: 100.0%; height: 100.0%;">------------------------------bresil----------------------------- -------------- moyenne de morts par tremblement de terre : 9629 -------------- nombre d article paru : 1</div>')[0];
+                popup_b03ce36b6cd548da9afd85a0741e096a.setContent(html_a969085ea06f4d2e978531c21117f3a9);
+            
+
+            circle_marker_7d1066c400174e1ebb7ed6793b170beb.bindPopup(popup_b03ce36b6cd548da9afd85a0741e096a);
+
+            
+        
+    
+            var circle_marker_846c5a61d3674dccafed74fca76bcb3d = L.circleMarker(
+                [12.565679,104.990963],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_93073dd926b045dd9b41e5aacf7bb734 = L.popup({maxWidth: '300'});
+
+            
+                var html_659d17d4b03a41f6b46ee72e2fc1822c = $('<div id="html_659d17d4b03a41f6b46ee72e2fc1822c" style="width: 100.0%; height: 100.0%;">------------------------------cambodge----------------------------- -------------- moyenne de morts par tremblement de terre : 202 -------------- nombre d article paru : 1</div>')[0];
+                popup_93073dd926b045dd9b41e5aacf7bb734.setContent(html_659d17d4b03a41f6b46ee72e2fc1822c);
+            
+
+            circle_marker_846c5a61d3674dccafed74fca76bcb3d.bindPopup(popup_93073dd926b045dd9b41e5aacf7bb734);
+
+            
+        
+    
+            var circle_marker_18b139552b5f42a18f969613a27c1263 = L.circleMarker(
+                [56.130366,-106.346771],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_96748736d9974b96a5d092d56e6479c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_02c8b737539948b6bfd5aa99d37ef1d2 = $('<div id="html_02c8b737539948b6bfd5aa99d37ef1d2" style="width: 100.0%; height: 100.0%;">------------------------------canada----------------------------- -------------- moyenne de morts par tremblement de terre : 435 -------------- nombre d article paru : 1</div>')[0];
+                popup_96748736d9974b96a5d092d56e6479c0.setContent(html_02c8b737539948b6bfd5aa99d37ef1d2);
+            
+
+            circle_marker_18b139552b5f42a18f969613a27c1263.bindPopup(popup_96748736d9974b96a5d092d56e6479c0);
+
+            
+        
+    
+            var circle_marker_78d70330018d4286be240c10ccbcef51 = L.circleMarker(
+                [35.86166,104.195397],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 45.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_9de40e84a74d4ee6a3cb687408035b7b = L.popup({maxWidth: '300'});
+
+            
+                var html_246eda68ec1f401abebcf24678a93d80 = $('<div id="html_246eda68ec1f401abebcf24678a93d80" style="width: 100.0%; height: 100.0%;">------------------------------chine----------------------------- -------------- moyenne de morts par tremblement de terre : 3285 -------------- nombre d article paru : 3</div>')[0];
+                popup_9de40e84a74d4ee6a3cb687408035b7b.setContent(html_246eda68ec1f401abebcf24678a93d80);
+            
+
+            circle_marker_78d70330018d4286be240c10ccbcef51.bindPopup(popup_9de40e84a74d4ee6a3cb687408035b7b);
+
+            
+        
+    
+            var circle_marker_2c0b1c080d8e4a19898f558548574477 = L.circleMarker(
+                [-1.831239,-78.183406],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_78d4e9de7b614b2e8ae48c78ada5ba80 = L.popup({maxWidth: '300'});
+
+            
+                var html_40d48c88757e44b4992de35f729b10f4 = $('<div id="html_40d48c88757e44b4992de35f729b10f4" style="width: 100.0%; height: 100.0%;">------------------------------equateur----------------------------- -------------- moyenne de morts par tremblement de terre : 202 -------------- nombre d article paru : 1</div>')[0];
+                popup_78d4e9de7b614b2e8ae48c78ada5ba80.setContent(html_40d48c88757e44b4992de35f729b10f4);
+            
+
+            circle_marker_2c0b1c080d8e4a19898f558548574477.bindPopup(popup_78d4e9de7b614b2e8ae48c78ada5ba80);
+
+            
+        
+    
+            var circle_marker_43acc04f81c94626b7133a3ea5bc7cf1 = L.circleMarker(
+                [37.09024,-95.712891],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 45.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_6b3a822c05b14c7a9e606044f705f0dc = L.popup({maxWidth: '300'});
+
+            
+                var html_5aa7450e7f5544e1925db17b538bc7f4 = $('<div id="html_5aa7450e7f5544e1925db17b538bc7f4" style="width: 100.0%; height: 100.0%;">------------------------------etatsunis----------------------------- -------------- moyenne de morts par tremblement de terre : 163 -------------- nombre d article paru : 3</div>')[0];
+                popup_6b3a822c05b14c7a9e606044f705f0dc.setContent(html_5aa7450e7f5544e1925db17b538bc7f4);
+            
+
+            circle_marker_43acc04f81c94626b7133a3ea5bc7cf1.bindPopup(popup_6b3a822c05b14c7a9e606044f705f0dc);
+
+            
+        
+    
+            var circle_marker_36f9948aabdf4cde9d5f99ee12dd561b = L.circleMarker(
+                [46.227638,2.213749],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 60.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_6d5c5c4ae2a7493eac461b3a6f1deeef = L.popup({maxWidth: '300'});
+
+            
+                var html_3f6e713c5755442db047ccd01e9615a9 = $('<div id="html_3f6e713c5755442db047ccd01e9615a9" style="width: 100.0%; height: 100.0%;">------------------------------france----------------------------- -------------- moyenne de morts par tremblement de terre : 177 -------------- nombre d article paru : 4</div>')[0];
+                popup_6d5c5c4ae2a7493eac461b3a6f1deeef.setContent(html_3f6e713c5755442db047ccd01e9615a9);
+            
+
+            circle_marker_36f9948aabdf4cde9d5f99ee12dd561b.bindPopup(popup_6d5c5c4ae2a7493eac461b3a6f1deeef);
+
+            
+        
+    
+            var circle_marker_9c1ed4f93ea9448f9e01ba84ed883280 = L.circleMarker(
+                [39.074208,21.824312],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_9e3f36cd82534fe289cdc6a31bb321b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_7130320916eb42b3b1513d9634e90f80 = $('<div id="html_7130320916eb42b3b1513d9634e90f80" style="width: 100.0%; height: 100.0%;">------------------------------grece----------------------------- -------------- moyenne de morts par tremblement de terre : 435 -------------- nombre d article paru : 1</div>')[0];
+                popup_9e3f36cd82534fe289cdc6a31bb321b5.setContent(html_7130320916eb42b3b1513d9634e90f80);
+            
+
+            circle_marker_9c1ed4f93ea9448f9e01ba84ed883280.bindPopup(popup_9e3f36cd82534fe289cdc6a31bb321b5);
+
+            
+        
+    
+            var circle_marker_1c6f0aa60ba7471da300ce65fb566187 = L.circleMarker(
+                [9.945587,-9.696645],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_a99acdc13b1b49538b40469eff5f0c7e = L.popup({maxWidth: '300'});
+
+            
+                var html_25891a429b074e529a089a2d22e0688f = $('<div id="html_25891a429b074e529a089a2d22e0688f" style="width: 100.0%; height: 100.0%;">------------------------------guinee----------------------------- -------------- moyenne de morts par tremblement de terre : 202 -------------- nombre d article paru : 1</div>')[0];
+                popup_a99acdc13b1b49538b40469eff5f0c7e.setContent(html_25891a429b074e529a089a2d22e0688f);
+            
+
+            circle_marker_1c6f0aa60ba7471da300ce65fb566187.bindPopup(popup_a99acdc13b1b49538b40469eff5f0c7e);
+
+            
+        
+    
+            var circle_marker_fd9ded4e35c345169756595f5bda847f = L.circleMarker(
+                [18.971187,-72.285215],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_f4ca224a670e4845a3b6c9190e2f33b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_64a401816dd34c269bf613b8744d3ae2 = $('<div id="html_64a401816dd34c269bf613b8744d3ae2" style="width: 100.0%; height: 100.0%;">------------------------------haiti----------------------------- -------------- moyenne de morts par tremblement de terre : 175 -------------- nombre d article paru : 1</div>')[0];
+                popup_f4ca224a670e4845a3b6c9190e2f33b8.setContent(html_64a401816dd34c269bf613b8744d3ae2);
+            
+
+            circle_marker_fd9ded4e35c345169756595f5bda847f.bindPopup(popup_f4ca224a670e4845a3b6c9190e2f33b8);
+
+            
+        
+    
+            var circle_marker_4900223d951142c686af11f00e06d505 = L.circleMarker(
+                [-0.789275,113.921327],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_667bc756bf214721b4b575b0b73d7920 = L.popup({maxWidth: '300'});
+
+            
+                var html_f97280a810074253af3b83735e67b2d4 = $('<div id="html_f97280a810074253af3b83735e67b2d4" style="width: 100.0%; height: 100.0%;">------------------------------indonesie----------------------------- -------------- moyenne de morts par tremblement de terre : 827 -------------- nombre d article paru : 1</div>')[0];
+                popup_667bc756bf214721b4b575b0b73d7920.setContent(html_f97280a810074253af3b83735e67b2d4);
+            
+
+            circle_marker_4900223d951142c686af11f00e06d505.bindPopup(popup_667bc756bf214721b4b575b0b73d7920);
+
+            
+        
+    
+            var circle_marker_b28fa27f49044716be55b10b74f75122 = L.circleMarker(
+                [36.204824,138.252924],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_e79f1ffa423c4cf8899b8dfa394cd420 = L.popup({maxWidth: '300'});
+
+            
+                var html_ad59c0e8fbf44f3e8e3696a517d7259c = $('<div id="html_ad59c0e8fbf44f3e8e3696a517d7259c" style="width: 100.0%; height: 100.0%;">------------------------------japon----------------------------- -------------- moyenne de morts par tremblement de terre : 24 -------------- nombre d article paru : 1</div>')[0];
+                popup_e79f1ffa423c4cf8899b8dfa394cd420.setContent(html_ad59c0e8fbf44f3e8e3696a517d7259c);
+            
+
+            circle_marker_b28fa27f49044716be55b10b74f75122.bindPopup(popup_e79f1ffa423c4cf8899b8dfa394cd420);
+
+            
+        
+    
+            var circle_marker_c47a3237b7e14dd895ba549171602f8d = L.circleMarker(
+                [60.472024,8.468946],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_58a6697ad570434b8034cbf7882c15d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_a6245bce80ec4640a57d4fdf816350db = $('<div id="html_a6245bce80ec4640a57d4fdf816350db" style="width: 100.0%; height: 100.0%;">------------------------------norvege----------------------------- -------------- moyenne de morts par tremblement de terre : 24 -------------- nombre d article paru : 1</div>')[0];
+                popup_58a6697ad570434b8034cbf7882c15d0.setContent(html_a6245bce80ec4640a57d4fdf816350db);
+            
+
+            circle_marker_c47a3237b7e14dd895ba549171602f8d.bindPopup(popup_58a6697ad570434b8034cbf7882c15d0);
+
+            
+        
+    
+            var circle_marker_0d4750ada5c14fc59106c7bac9cfedeb = L.circleMarker(
+                [-40.900557,174.885971],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_2ea9001d95954127be8498c22277f7f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_3593d33f0e9941b5ace9ab2b375691aa = $('<div id="html_3593d33f0e9941b5ace9ab2b375691aa" style="width: 100.0%; height: 100.0%;">------------------------------nouvellezelande----------------------------- -------------- moyenne de morts par tremblement de terre : 24 -------------- nombre d article paru : 1</div>')[0];
+                popup_2ea9001d95954127be8498c22277f7f5.setContent(html_3593d33f0e9941b5ace9ab2b375691aa);
+            
+
+            circle_marker_0d4750ada5c14fc59106c7bac9cfedeb.bindPopup(popup_2ea9001d95954127be8498c22277f7f5);
+
+            
+        
+    
+            var circle_marker_a1fa4050953a4475ad762fda190ec06b = L.circleMarker(
+                [-9.189967,-75.015152],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_d420f1b2470846fc807ef4718c96eba3 = L.popup({maxWidth: '300'});
+
+            
+                var html_1dd692f075d64fb18145697a11e8b8c3 = $('<div id="html_1dd692f075d64fb18145697a11e8b8c3" style="width: 100.0%; height: 100.0%;">------------------------------perou----------------------------- -------------- moyenne de morts par tremblement de terre : 202 -------------- nombre d article paru : 1</div>')[0];
+                popup_d420f1b2470846fc807ef4718c96eba3.setContent(html_1dd692f075d64fb18145697a11e8b8c3);
+            
+
+            circle_marker_a1fa4050953a4475ad762fda190ec06b.bindPopup(popup_d420f1b2470846fc807ef4718c96eba3);
+
+            
+        
+    
+            var circle_marker_72ac6937de3b4b999d2674eda7b01463 = L.circleMarker(
+                [51.919438,19.145136],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_1509c86e80fb4f22b7028092b15952bc = L.popup({maxWidth: '300'});
+
+            
+                var html_4f5502514ed44ec0a1519bdcc594687c = $('<div id="html_4f5502514ed44ec0a1519bdcc594687c" style="width: 100.0%; height: 100.0%;">------------------------------pologne----------------------------- -------------- moyenne de morts par tremblement de terre : 230 -------------- nombre d article paru : 2</div>')[0];
+                popup_1509c86e80fb4f22b7028092b15952bc.setContent(html_4f5502514ed44ec0a1519bdcc594687c);
+            
+
+            circle_marker_72ac6937de3b4b999d2674eda7b01463.bindPopup(popup_1509c86e80fb4f22b7028092b15952bc);
+
+            
+        
+    
+            var circle_marker_d47ed67ec1a64f83acb06188b678cfcc = L.circleMarker(
+                [-21.115141,55.536384],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_96f3fb63eddb46458099bbd0d8780490 = L.popup({maxWidth: '300'});
+
+            
+                var html_91e764f8fcca414aa6930de63d39391f = $('<div id="html_91e764f8fcca414aa6930de63d39391f" style="width: 100.0%; height: 100.0%;">------------------------------reunion----------------------------- -------------- moyenne de morts par tremblement de terre : 435 -------------- nombre d article paru : 1</div>')[0];
+                popup_96f3fb63eddb46458099bbd0d8780490.setContent(html_91e764f8fcca414aa6930de63d39391f);
+            
+
+            circle_marker_d47ed67ec1a64f83acb06188b678cfcc.bindPopup(popup_96f3fb63eddb46458099bbd0d8780490);
+
+            
+        
+    
+            var circle_marker_c376420c2b3446f5a47fc50d68492d41 = L.circleMarker(
+                [55.378051,-3.435973],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_7bd03e6470e64c1f805481eec209edd6 = L.popup({maxWidth: '300'});
+
+            
+                var html_d6a01f5fdf574736b5a50f9166c826cf = $('<div id="html_d6a01f5fdf574736b5a50f9166c826cf" style="width: 100.0%; height: 100.0%;">------------------------------royaumeuni----------------------------- -------------- moyenne de morts par tremblement de terre : 30 -------------- nombre d article paru : 1</div>')[0];
+                popup_7bd03e6470e64c1f805481eec209edd6.setContent(html_d6a01f5fdf574736b5a50f9166c826cf);
+            
+
+            circle_marker_c376420c2b3446f5a47fc50d68492d41.bindPopup(popup_7bd03e6470e64c1f805481eec209edd6);
+
+            
+        
+    
+            var circle_marker_8b6466537d934aad83ab3b2545fb7587 = L.circleMarker(
+                [48.379433,31.16558],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 30.0,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_48406c1ebaac415c9fab1d6a63b11c9f = L.popup({maxWidth: '300'});
+
+            
+                var html_3581c01e7a4340b9ba929705ad6ccac3 = $('<div id="html_3581c01e7a4340b9ba929705ad6ccac3" style="width: 100.0%; height: 100.0%;">------------------------------ukraine----------------------------- -------------- moyenne de morts par tremblement de terre : 2520 -------------- nombre d article paru : 2</div>')[0];
+                popup_48406c1ebaac415c9fab1d6a63b11c9f.setContent(html_3581c01e7a4340b9ba929705ad6ccac3);
+            
+
+            circle_marker_8b6466537d934aad83ab3b2545fb7587.bindPopup(popup_48406c1ebaac415c9fab1d6a63b11c9f);
+
+            
+        
+    
+            var circle_marker_85d57ca813b84447923947b4db1da085 = L.circleMarker(
+                [-45.2,-98],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_c25354f25d5a45a3bc743d24869f2266 = L.popup({maxWidth: '300'});
+
+            
+                var html_66a350cffdae4626969d1d4ff275fdcc = $('<div id="html_66a350cffdae4626969d1d4ff275fdcc" style="width: 100.0%; height: 100.0%;">0 articles "tremblement de terre"</div>')[0];
+                popup_c25354f25d5a45a3bc743d24869f2266.setContent(html_66a350cffdae4626969d1d4ff275fdcc);
+            
+
+            circle_marker_85d57ca813b84447923947b4db1da085.bindPopup(popup_c25354f25d5a45a3bc743d24869f2266);
+
+            
+        
+    
+            var circle_marker_865893c4d331421a9e9ea5c65edd99ac = L.circleMarker(
+                [-44.4,-111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_0734b35340744426987f7e094ed98891 = L.popup({maxWidth: '300'});
+
+            
+                var html_a3830b88538c4eb794a8f724ac428ca0 = $('<div id="html_a3830b88538c4eb794a8f724ac428ca0" style="width: 100.0%; height: 100.0%;">1 articles "tremblement de terre"</div>')[0];
+                popup_0734b35340744426987f7e094ed98891.setContent(html_a3830b88538c4eb794a8f724ac428ca0);
+            
+
+            circle_marker_865893c4d331421a9e9ea5c65edd99ac.bindPopup(popup_0734b35340744426987f7e094ed98891);
+
+            
+        
+    
+            var circle_marker_540f37ce277b46c2a929679d79317cb5 = L.circleMarker(
+                [-43.6,-124],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_87b9b45359684dc684fde3a29b272da4 = L.popup({maxWidth: '300'});
+
+            
+                var html_17bb597b49c74b47ad70bcdf8c29991d = $('<div id="html_17bb597b49c74b47ad70bcdf8c29991d" style="width: 100.0%; height: 100.0%;">1 articles "tremblement de terre"</div>')[0];
+                popup_87b9b45359684dc684fde3a29b272da4.setContent(html_17bb597b49c74b47ad70bcdf8c29991d);
+            
+
+            circle_marker_540f37ce277b46c2a929679d79317cb5.bindPopup(popup_87b9b45359684dc684fde3a29b272da4);
+
+            
+        
+    
+            var circle_marker_a0850cb221664f1192bc0f46926dcd90 = L.circleMarker(
+                [-42.8,-137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_e2cc916c80584761871250c9ff5ec643 = L.popup({maxWidth: '300'});
+
+            
+                var html_ebdf23e3ecbd4f60a360102c1f435f71 = $('<div id="html_ebdf23e3ecbd4f60a360102c1f435f71" style="width: 100.0%; height: 100.0%;">1 articles "tremblement de terre"</div>')[0];
+                popup_e2cc916c80584761871250c9ff5ec643.setContent(html_ebdf23e3ecbd4f60a360102c1f435f71);
+            
+
+            circle_marker_a0850cb221664f1192bc0f46926dcd90.bindPopup(popup_e2cc916c80584761871250c9ff5ec643);
+
+            
+        
+    
+            var circle_marker_c54b2a2990b347008af50f4bb1d63d9d = L.circleMarker(
+                [-42,-150],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#FFFFFF",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#FFFFFF",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_5c79fc62bf984354b2b35c3b4c7a3f1c = L.popup({maxWidth: '300'});
+
+            
+                var html_a72f2b10cc424e8680d59401081f70c8 = $('<div id="html_a72f2b10cc424e8680d59401081f70c8" style="width: 100.0%; height: 100.0%;">1 articles "tremblement de terre"</div>')[0];
+                popup_5c79fc62bf984354b2b35c3b4c7a3f1c.setContent(html_a72f2b10cc424e8680d59401081f70c8);
+            
+
+            circle_marker_c54b2a2990b347008af50f4bb1d63d9d.bindPopup(popup_5c79fc62bf984354b2b35c3b4c7a3f1c);
+
+            
+        
+    
+            var circle_marker_42346ec2a4574db08e02624bb7e23870 = L.circleMarker(
+                [-51,-150],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC66",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC66",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_53d6e704abc94aa7acc39b4e71b1623d = L.popup({maxWidth: '300'});
+
+            
+                var html_dca10e242a504899963ef78326db2a56 = $('<div id="html_dca10e242a504899963ef78326db2a56" style="width: 100.0%; height: 100.0%;">Inférieur à 500 morts par tremblement de terre en moyenne</div>')[0];
+                popup_53d6e704abc94aa7acc39b4e71b1623d.setContent(html_dca10e242a504899963ef78326db2a56);
+            
+
+            circle_marker_42346ec2a4574db08e02624bb7e23870.bindPopup(popup_53d6e704abc94aa7acc39b4e71b1623d);
+
+            
+        
+    
+            var circle_marker_8c94937497044c9fa6104bca3636315c = L.circleMarker(
+                [-51,-137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00CC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00CC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_2be379b64b2e43ff92cb1be0e422063d = L.popup({maxWidth: '300'});
+
+            
+                var html_17497fc6bf364d0d931553a835051bcb = $('<div id="html_17497fc6bf364d0d931553a835051bcb" style="width: 100.0%; height: 100.0%;">Entre 500 et 1000 morts par tremblement de terre en moyenne</div>')[0];
+                popup_2be379b64b2e43ff92cb1be0e422063d.setContent(html_17497fc6bf364d0d931553a835051bcb);
+            
+
+            circle_marker_8c94937497044c9fa6104bca3636315c.bindPopup(popup_2be379b64b2e43ff92cb1be0e422063d);
+
+            
+        
+    
+            var circle_marker_64bd3fb2ea424575b747100f4e899c08 = L.circleMarker(
+                [-51,-124],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CCCC00",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CCCC00",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_46473f7868e44a4893fd4a64ffa8912e = L.popup({maxWidth: '300'});
+
+            
+                var html_4b8d6033cc024e1ba9233d2f38be668a = $('<div id="html_4b8d6033cc024e1ba9233d2f38be668a" style="width: 100.0%; height: 100.0%;">Entre 1000 et 1500 morts par tremblement de terre en moyenne</div>')[0];
+                popup_46473f7868e44a4893fd4a64ffa8912e.setContent(html_4b8d6033cc024e1ba9233d2f38be668a);
+            
+
+            circle_marker_64bd3fb2ea424575b747100f4e899c08.bindPopup(popup_46473f7868e44a4893fd4a64ffa8912e);
+
+            
+        
+    
+            var circle_marker_96be56438bc043019d2a0f5a20cee19e = L.circleMarker(
+                [-51,-111],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC6600",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC6600",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_d11cd252e87e4c5cbe1886ef4cfa2174 = L.popup({maxWidth: '300'});
+
+            
+                var html_5667429473e343dcb77bc419ea5f68d4 = $('<div id="html_5667429473e343dcb77bc419ea5f68d4" style="width: 100.0%; height: 100.0%;">Entre 1500 et 2000 morts par tremblement de terre en moyenne</div>')[0];
+                popup_d11cd252e87e4c5cbe1886ef4cfa2174.setContent(html_5667429473e343dcb77bc419ea5f68d4);
+            
+
+            circle_marker_96be56438bc043019d2a0f5a20cee19e.bindPopup(popup_d11cd252e87e4c5cbe1886ef4cfa2174);
+
+            
+        
+    
+            var circle_marker_6c8e47c4727143a8b2c798a4f8f843c6 = L.circleMarker(
+                [-51,-98],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#CC0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#CC0000",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25,
+  "stroke": true,
+  "weight": 5
+}
+                ).addTo(map_19ba4ed746c64ad68817fd3bd192b1ba);
+            
+    
+            var popup_66ec72676c4e4ee48c2bebfd3f081bdf = L.popup({maxWidth: '300'});
+
+            
+                var html_1a85700eba52461d8f0e957af6d03eee = $('<div id="html_1a85700eba52461d8f0e957af6d03eee" style="width: 100.0%; height: 100.0%;">Supérieur à 2000 morts par tremblement de terre en moyenne</div>')[0];
+                popup_66ec72676c4e4ee48c2bebfd3f081bdf.setContent(html_1a85700eba52461d8f0e957af6d03eee);
+            
+
+            circle_marker_6c8e47c4727143a8b2c798a4f8f843c6.bindPopup(popup_66ec72676c4e4ee48c2bebfd3f081bdf);
+
+            
+        
+</script>
