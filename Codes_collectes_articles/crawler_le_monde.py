@@ -7,10 +7,7 @@ Created on Fri Feb 16 10:37:23 2018
 
 import os
 import datetime as date
-from bs4 import BeautifulSoup
-import requests
 import re
-from unidecode import unidecode
 import utils_v40 as utils
 import time
 
