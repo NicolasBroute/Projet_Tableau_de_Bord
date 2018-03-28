@@ -37,9 +37,9 @@ for article in file_articles:
         theme = "'" + theme + "'"
     else:
         theme = "'" + article[4] + "'"
-    
+
     newspaper = "'" + article[1] + "'"
-    
+
     if article[3] == '':
         article[3] = 'NULL'
 
