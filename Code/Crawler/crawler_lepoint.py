@@ -85,7 +85,8 @@ def collect_articles():
         # Récupération de la date de publication de l'article
         date_publi = ""
         for div in soup.find_all('div'):
-            if div.get("class") == ['reset-text', 'art-date-infos', 'mts', 'list-view']:
+            if div.get("class") == ['reset-text', 'art-date-infos', 'mts',
+                                    'list-view']:
                 for balise_time in div.find_all('time'):
                     date = balise_time.get("datetime")
                     date_publi = date[0:10]
